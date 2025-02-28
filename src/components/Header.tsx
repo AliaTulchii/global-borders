@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/logo/logo.svg'
 import MultiLang from './MultiLang'
 import PhoneBtn from './PhoneBtn'
+import NavLink from './NavLink'
 
 const Header = () => {
   return (
@@ -13,10 +14,10 @@ const Header = () => {
         </Link>
 
         <nav className='header__nav'>
-            <Link className='header__nav-item' to={'/'}>Home</Link>
-            <Link className='header__nav-item' to={'/directions'}>Services <div className='header__nav-circle'></div></Link>
-            <Link className='header__nav-item' to={'/directions'}>Directions <div className='header__nav-circle'></div></Link>
-            <Link className='header__nav-item' to={'/contacts'}>Contacts</Link>
+            <NavLink className='header__nav-item' to={'/'}><p>Home</p></NavLink>
+            <NavLink className='header__nav-item' to={'/directions'}> <p>Services</p> <div className='header__nav-circle'></div></NavLink>
+            <NavLink className='header__nav-item' to={'/directions'}><p>Directions</p> <div className='header__nav-circle'></div></NavLink>
+            <NavLink className='header__nav-item' to={'/contacts'}><p>Contacts</p></NavLink>
         </nav>
         
         <div className='header__btns'>
