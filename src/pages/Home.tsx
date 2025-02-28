@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Btn from '../components/Btn'
 import '../styles/main.scss'
 
