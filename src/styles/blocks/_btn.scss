@@ -1,0 +1,62 @@
+.phone-btn{
+    padding: 10px 20px;
+width: 174px;
+height: 40px;
+    border: 1px solid var(--accent);
+border-radius: 12px;
+background-color: var(--white);
+
+
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0em;
+text-transform: uppercase;
+text-align: center;
+color: var(--accent);
+
+&:hover,:focus{
+    border: 1px solid var(--white);
+background-color: var(--accent);
+color: var(--white);
+transition: all 0.5s ease-in-out;
+}
+}
+
+.btn{
+    border: 1px solid var(--white);
+    background-color: var(--white);
+border-radius: 12px;
+padding: 10.5px 20px;
+color: var(--accent);
+
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0em;
+
+&:hover, :focus{
+    border: 1px solid var(--accent);
+    background-color: var(--accent);
+color: var(--white);
+transition: all 0.5s ease-in-out;
+}
+
+
+}
+
+.btn__anchor{
+    margin-right: 16px;
+}
+
+.btn__services{
+    border: none;
+    background-color: var(--hero-btn);
+color: var(--white);
+
+&:hover, :focus{
+    border: none;
+}
+}

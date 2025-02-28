@@ -1,25 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo/logo.png'
+import logo from '../assets/logo/logo.svg'
 import MultiLang from './MultiLang'
 import PhoneBtn from './PhoneBtn'
 
 const Header = () => {
   return (
-    <header>
-      <div>
-        <Link to={'/'}>
-        <img src={logo} alt="logo" />
+    <header className='header container'>
+      <div className='header__wrapper'>
+        <Link className='logo' to={'/'}>
+        <img className='logo__img' src={logo} alt="logo" />
         </Link>
 
-        <nav>
-            <Link to={'/'}>Home</Link>
-            <Link to={'/'}>Services</Link>
-            <Link to={'/directions'}>Directions</Link>
-            <Link to={'/contacts'}>Contacts</Link>
+        <nav className='header__nav'>
+            <Link className='header__nav-item' to={'/'}>Home</Link>
+            <Link className='header__nav-item' to={'/directions'}>Services <div className='header__nav-circle'></div></Link>
+            <Link className='header__nav-item' to={'/directions'}>Directions <div className='header__nav-circle'></div></Link>
+            <Link className='header__nav-item' to={'/contacts'}>Contacts</Link>
         </nav>
         
-        <div>
+        <div className='header__btns'>
             <MultiLang/>
             <PhoneBtn/>
         </div>

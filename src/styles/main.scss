@@ -1,1 +1,13 @@
-@import './blocks/home'
+/* Base */
+@import './base/reset';
+@import './base/fonts';
+@import './base/vars';
+@import './base/base';
+@import './base/utils'; 
+@import './base/containers';
+@import './base/sticky-footer';
+
+@import './blocks/header';
+@import './blocks/logo';
+@import './blocks/home';
+@import './blocks/btn';
