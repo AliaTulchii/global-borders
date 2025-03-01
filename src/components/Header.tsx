@@ -5,7 +5,12 @@ import MultiLang from './MultiLang'
 import PhoneBtn from './PhoneBtn'
 import NavLink from './NavLink'
 
+import { useTranslation } from "react-i18next";
+
+
 const Header = () => {
+  const [t] = useTranslation("global");
+
   return (
     <header className='header container'>
       <div className='header__wrapper'>
@@ -14,10 +19,10 @@ const Header = () => {
         </Link>
 
         <nav className='header__nav'>
-            <NavLink className='header__nav-item' to={'/'}><p>Home</p></NavLink>
-            <NavLink className='header__nav-item' to={'/directions'}> <p>Services</p> <div className='header__nav-circle'></div></NavLink>
-            <NavLink className='header__nav-item' to={'/directions'}><p>Directions</p> <div className='header__nav-circle'></div></NavLink>
-            <NavLink className='header__nav-item' to={'/contacts'}><p>Contacts</p></NavLink>
+            <NavLink className='header__nav-item' to={'/'}>{t("header.home")}</NavLink>
+            <NavLink className='header__nav-item' to={'/directions'}>{t("header.services")}&#10625;</NavLink>
+            <NavLink className='header__nav-item' to={'/directions'}>{t("header.directions")}&#10625;</NavLink>
+            <NavLink className='header__nav-item' to={'/contacts'}>{t("header.contacts")}</NavLink>
         </nav>
         
         <div className='header__btns'>

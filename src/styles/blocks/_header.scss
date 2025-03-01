@@ -35,14 +35,6 @@ letter-spacing: 0em;
 text-transform: uppercase;
 color: var(--accent);
 
-// &:hover,:focus{
-// color: var(--white);
-// transition: all 0.5s ease-in-out;
-// .header__nav-circle{
-//     background-color: var(--white);
-//     transition: all 0.5s ease-in-out;
-// }
-// }
 }
 
 .nav-text {
@@ -54,11 +46,7 @@ color: var(--accent);
     display: block;
   }
 
-  .nav-text__top, .nav-text__bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+  
 
 .header__nav-circle{
     width: 6px;

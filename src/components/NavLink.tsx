@@ -13,15 +13,15 @@ interface NavLinkProps {
     children: React.ReactNode
 
 }
-const NavLink:React.FC<NavLinkProps> = ({className, to,  children}) => {
+const NavLink:React.FC<NavLinkProps> = ({className, to, children}) => {
   return (
     <Link className={className} to={to}>
       <motion.span initial="initial" whileHover="hover" className="nav-text">
-        <motion.span className="nav-text__top" variants={variants}>
-          {children}
+        <motion.span className="nav-text__top" variants={variants}> 
+        {children}
         </motion.span>
         <motion.span className="nav-text__bottom" variants={variants}>
-          {children}
+        {children}
         </motion.span>
       </motion.span>
     </Link>

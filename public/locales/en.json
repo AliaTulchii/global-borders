@@ -1,0 +1,10 @@
+{
+    "header":{
+    "home": "Home",
+    "services": "Services ",
+    "directions": "Directions ",
+    "contacts": "Contacts",
+    "EN": "EN",
+    "AZ": "AZ"
+    }
+}
