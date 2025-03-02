@@ -1,0 +1,44 @@
+.home{
+    height: 928px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-image: url('../assets/home/hero/home-baner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+@media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .home {
+      background-image: url('../assets/home/hero/home-baner@2x.jpg');
+    }
+  }
+
+
+.home__title{
+    width: 936px;
+    margin-bottom: 24px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 72px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: var(--white);
+}
+
+.home__text{
+    width: 626px;
+    margin-bottom: 32px;
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0em;
+color: #fff;
+}
+
+.home__btns{
+    margin-bottom: 56px;
+}

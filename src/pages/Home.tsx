@@ -1,26 +1,16 @@
-
-import { useTranslation } from 'react-i18next';
-import Btn from '../components/Btn'
+import HomeHero from '../components/HomeHero'
+import Reasons from '../components/Reasons'
 import '../styles/main.scss'
 
 const Home = () => {
-  const [t] = useTranslation("global");
-  return (
-    <section className='home'>
-      <div className='home__container container'>
-        <h1 className='home__title'>{t("home.title")}</h1>
-        <p className='home__text'>
-        {t("home.description")}
-        </p>
 
-        <div className='home__btns'>
-          <Btn text={t("home.quote")} destination={'/contacts'} styleBtn={'btn btn__anchor'}/>
-          <Btn text={t("home.service")} destination={'/directions'} styleBtn={'btn btn__services'}/>
-        </div>
-      </div>
+  return (
+    <main >
+      <HomeHero/>
+      <Reasons/>
+    </main>
       
 
-    </section>
   )
 }
 
