@@ -20,5 +20,21 @@
         "description": "Tam dövriyyəli logistika xidməti: idxal, ixrac, gömrük rəsmiləşdirilməsi və maliyyə idarəçiliyi. Zəmanətli keyfiyyət, rəqabətqabiliyyətli tariflər və vaxtında çatdırılma.",
         "quote":"Qiymət almaq",
         "service":"Xidmətlərimiz"
+    },
+    "reasons":{
+        "reason1": "Bizi seçmək üçün səbəblər",
+        "reason2": "Biz yüksək peşəkar nüfuza malik Avropa istehsalçılarından geniş çeşiddə məhsullar təklif edir və rəqabətqabiliyyətli qiymətlər təqdim edirik.",
+        "reason3": "Peşəkar təchizatçı olaraq biz mal, maliyyə, gömrük və nəqliyyat logistikasını müstəqil şəkildə təşkil edirik. 10 ildən artıq tərəfdaşlıq təcrübəsi ilə Avropa İttifaqı ölkələrindən mal tədarükü üçün xüsusi qiymətlər təklif edirik. Ənənəvi müştərilərimiz Azərbaycan, Çin, Hindistan, Özbəkistan və Qazaxıstandan olan idxalçılar və şirkətlərdir.",
+        "reason4": "10 il",
+        "reason5": "beynəlxalq logistika sahəsində təcrübə",
+        "reason6": "Biz qlobal daşımaları səmərəli şəkildə idarə edirik, marşrutları optimallaşdırır və xərcləri azaldırıq.",
+        "reason7": "Tərəfdaşlıq",
+        "reason8": "aparıcı Avropa istehsalçıları ilə",
+        "reason9": "Biz etibarlı təchizatçılarla əməkdaşlıq edirik, yüksək keyfiyyət və rəqabətqabiliyyətli qiymətləri təmin edirik.",
+        "reason10": "Bizim missiyamız",
+        "reason11": "Missiyamız ən yaxşı dünya istehsalçılarının keyfiyyətli məhsullarını daha çox insan üçün əlçatan etməkdir"
+    },
+    "partners": {
+        "partnersTitle": "Kimlərlə əməkdaşlıq edirik"
     }
 }

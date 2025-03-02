@@ -1,101 +1,74 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import logo from '../assets/home/reasons/logo.png'
-import ornament from '../assets/home/reasons/ornament.png'
-import RotatingLogo from './RotatingLogo'
+import logo from "../assets/home/reasons/logo.png";
+import ornament from "../assets/home/reasons/ornament.png";
+import RotatingLogo from "./RotatingLogo";
+import { useTranslation } from "react-i18next";
 
 const Reasons = () => {
-    const sectionRef = useRef(null);
-    const { scrollYProgress } = useScroll({
-        target: sectionRef,
-        offset: ["start end", "end end"],
-      });
-    
-      const ornamentY = useTransform(scrollYProgress, [0, 1], [-200, 300]); 
-    
+  const [t] = useTranslation("global");
+  const sectionRef = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start end", "end end"],
+  });
+
+  const ornamentY = useTransform(scrollYProgress, [0, 1], [-200, 300]);
+
   return (
-    <section ref={sectionRef} className='reasons'>
-        <div className="container">
-        <motion.div
-          className="reasons__ornament"
-          style={{ y: ornamentY }}
-        >
+    <section ref={sectionRef} className="reasons">
+      <div className="container">
+        <motion.div className="reasons__ornament" style={{ y: ornamentY }}>
           <img src={ornament} alt="ornament" />
         </motion.div>
         <ul className="reasons__list">
-            <li className="reasons__item">
-                <div className="reasons__choose">
-                    <h1 className="reasons__title">Reasons to choose us</h1>
-                    <h2 className="reasons__subtitle">We sell a wide range 
-                        of goods from European manufacturers with a high 
-                        professional reputation and at competitive prices.
-                    </h2>
-                    <p className="reasons__text">
-                    Being a professional supplier, we independently organize
-                    commodity, financial, customs and transport logistics.
-                    With 10-year partnerships we offer special prices for
-                    the supply of goods from the countries of the European
-                    Union. Traditionally, our customers are importers and 
-                    companies from Azerbaijan, China, India, Uzbekistan and 
-                    Kazakhstan.
-                    </p>
-                </div>
-                <div className="reasons__box reasons__logo">
-                    <RotatingLogo logo={logo}/>
-                </div>
-            </li>
+          <li className="reasons__item">
+            <div className="reasons__choose">
+              <h1 className="reasons__title">{t("reasons.reason1")}</h1>
+              <h2 className="reasons__subtitle">{t("reasons.reason2")}</h2>
+              <p className="reasons__text">{t("reasons.reason3")}</p>
+            </div>
+            <div className="reasons__box reasons__logo">
+              <RotatingLogo logo={logo} />
+            </div>
+          </li>
 
-            <li className="reasons__item">
-                <div className="reasons__box reasons__years">
-                    <h2 className='reasons__years-title'>
-                        10 years
-                    </h2>
+          <li className="reasons__item">
+            <div className="reasons__box reasons__years">
+              <h2 className="reasons__years-title">{t("reasons.reason4")}</h2>
 
-                    <div>
-                        <h3 className='reasons__box-subtitle'>
-                        of experience in international logistics
-                        </h3>
-                        <p className='reasons__box-text'>
-                        We efficiently manage global deliveries, optimizing routes and reducing costs.
-                        </p>
-                    </div>
-                </div>
-                <div className="reasons__box">
-                <h2 className='reasons__box-title'>
-                Partnership
-                    </h2>
+              <div>
+                <h3 className="reasons__box-subtitle">
+                  {t("reasons.reason5")}
+                </h3>
+                <p className="reasons__box-text">{t("reasons.reason6")}</p>
+              </div>
+            </div>
+            <div className="reasons__box">
+              <h2 className="reasons__box-title">{t("reasons.reason7")}</h2>
 
-                    <div>
-                        <h3 className='reasons__box-subtitle'>
-                        with leading European manufacturers
-                        </h3>
-                        <p className='reasons__box-text'>
-                        We collaborate with trusted suppliers, ensuring high quality and competitive pricing.
-                        </p>
-                    </div>
-                </div>
-            </li>
+              <div>
+                <h3 className="reasons__box-subtitle">
+                  {t("reasons.reason8")}
+                </h3>
+                <p className="reasons__box-text">{t("reasons.reason9")}</p>
+              </div>
+            </div>
+          </li>
 
-            <li className="reasons__item">
-                <div className="reasons__box reasons__box-img">
-                </div>
-                <div className="reasons__box">
-                <h2 className='reasons__box-title'>
-                Our mission
-                    </h2>
+          <li className="reasons__item">
+            <div className="reasons__box reasons__box-img"></div>
+            <div className="reasons__box">
+              <h2 className="reasons__box-title">{t("reasons.reason10")}</h2>
 
-                    
-                        <p className='reasons__box-text'>
-                        to make quality products from the best world manufacturers available to more people.
-                        </p>
-                    
-                </div>
-            </li>
+              <p className="reasons__box-text reasons__box-text--last">{t("reasons.reason11")}</p>
+            </div>
+          </li>
         </ul>
-        </div>
-      
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Reasons
+export default Reasons;

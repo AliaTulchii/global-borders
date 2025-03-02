@@ -1,0 +1,88 @@
+.partners__container{
+    padding: 56px 24px;
+    background-color: var(--box-bg);
+}
+
+.partners__title{
+    margin-bottom: 50px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: var(--accent);
+}
+
+.partners__wrapper{
+    position: relative;
+    height: 100px;
+    padding: 11px 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes scrollright{
+    to{
+        right: -225px;
+    }
+}
+
+.partners__item{
+    position: absolute;
+    right: 102%;
+    width: 200px;
+    height: 68px;
+    animation-name: scrollright;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.item1{
+    background-image: url('../assets/home/partners/partner1.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: calc(30s / 6 * (6 - 1) * -1);
+}
+
+.item2{
+    background-image: url('../assets/home/partners/partner2.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: calc(30s / 6 * (6 - 2) * -1);
+}
+
+.item3{
+    background-image: url('../assets/home/partners/partner3.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: calc(30s / 6 * (6 - 3) * -1);
+}
+
+.item4{
+    background-image: url('../assets/home/partners/partner4.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: calc(30s / 6 * (6 - 4) * -1);
+}
+
+.item5{
+    background-image: url('../assets/home/partners/partner5.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: calc(30s / 6 * (6 - 5) * -1);
+}
+
+.item6{
+    background-image: url('../assets/home/partners/partner6.png');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: calc(30s / 6 * (6 - 6) * -1);
+}
+
