@@ -5,6 +5,20 @@
     "directions": "Directions ",
     "contacts": "Contacts",
     "EN": "EN",
-    "AZ": "AZ"
+    "AZ": "AZ",
+    "services1": "Import of goods to Azerbajdzan",
+    "services2": "import of goods from the EU",
+    "services3": "Goods delivery from Turkey",
+    "services4": "Personalized logistics planning",
+    "direction1":"Azerbaijan",
+    "direction2":"European Union (EU) countries",
+    "direction3":"Turkey",
+    "direction4":"Great Britain"
+    },
+    "home":{
+        "title": "Seamless European Imports – Full-Service Logistics from Supplier to Destination",
+        "description": "A full-cycle logistics service: import, export, customs clearance, and financial management. Guaranteed quality, competitive rates, and on-time delivery.",
+        "quote":"Get a quote",
+        "service":"Our services"
     }
 }

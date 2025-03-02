@@ -1,20 +1,21 @@
 
+import { useTranslation } from 'react-i18next';
 import Btn from '../components/Btn'
 import '../styles/main.scss'
 
 const Home = () => {
+  const [t] = useTranslation("global");
   return (
     <section className='home'>
       <div className='home__container container'>
-        <h1 className='home__title'>Seamless European Imports – Full-Service Logistics from Supplier to Destination</h1>
+        <h1 className='home__title'>{t("home.title")}</h1>
         <p className='home__text'>
-          A full-cycle logistics service: import, export, customs clearance, and financial 
-          management. Guaranteed quality, competitive rates, and on-time delivery.
+        {t("home.description")}
         </p>
 
         <div className='home__btns'>
-          <Btn text={'Get a quote'} destination={'/contacts'} styleBtn={'btn btn__anchor'}/>
-          <Btn text={'Our services'} destination={'/directions'} styleBtn={'btn btn__services'}/>
+          <Btn text={t("home.quote")} destination={'/contacts'} styleBtn={'btn btn__anchor'}/>
+          <Btn text={t("home.service")} destination={'/directions'} styleBtn={'btn btn__services'}/>
         </div>
       </div>
       

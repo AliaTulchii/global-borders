@@ -5,6 +5,20 @@
     "directions": "İstiqamətlər ",
     "contacts": "Əlaqə",
     "EN": "EN",
-    "AZ": "AZ"
+    "AZ": "AZ",
+    "services1": "Azərbaycana mal idxalı",
+    "services2": "Avropa İttifaqından mal idxalı",
+    "services3": "Türkiyədən mal çatdırılması",
+    "services4": "Fərdi logistika planlaşdırılması",
+    "direction1":"Azərbaycan",
+    "direction2":"Avropa İttifaqı (Aİ) ölkələri",
+    "direction3":"Türkiyə",
+    "direction4":"Böyük Britaniya"
+    },
+    "home":{
+        "title": "Mükəmməl Avropa İdxalı – Təchizatçıdan təyinat nöqtəsinə tam xidmətli logistika",
+        "description": "Tam dövriyyəli logistika xidməti: idxal, ixrac, gömrük rəsmiləşdirilməsi və maliyyə idarəçiliyi. Zəmanətli keyfiyyət, rəqabətqabiliyyətli tariflər və vaxtında çatdırılma.",
+        "quote":"Qiymət almaq",
+        "service":"Xidmətlərimiz"
     }
 }

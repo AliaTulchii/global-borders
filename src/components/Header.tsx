@@ -1,12 +1,17 @@
-
-import { Link } from 'react-router-dom'
 import logo from '../assets/logo/logo.svg'
 import MultiLang from './MultiLang'
 import PhoneBtn from './PhoneBtn'
-import NavLink from './NavLink'
-
+import { motion } from "framer-motion";
+import NavLink from './NavLink';
+import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import DropdownNav from './DropdownNav'
 
+
+const variants = {
+    initial: { y: 0, opacity: 1 },
+    hover: { y: "-100%", opacity: 1, transition: { duration: 0.3 } },
+  };
 
 const Header = () => {
   const [t] = useTranslation("global");
@@ -20,8 +25,122 @@ const Header = () => {
 
         <nav className='header__nav'>
             <NavLink className='header__nav-item' to={'/'}>{t("header.home")}</NavLink>
-            <NavLink className='header__nav-item' to={'/directions'}>{t("header.services")}&#10625;</NavLink>
-            <NavLink className='header__nav-item' to={'/directions'}>{t("header.directions")}&#10625;</NavLink>
+            <DropdownNav
+              type="services"
+              trigger= {
+                <NavLink className='header__nav-item' to={'/directions'} >
+                {t("header.services")}&#10625;
+                </NavLink>
+              }
+              >
+                <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-services' to="/service1">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.services1")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.services1")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+            <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-services' to="/service2">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.services2")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.services2")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+            <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-services' to="/service3">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.services3")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.services3")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+            <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-services' to="/service4">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.services4")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.services4")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+                
+            </DropdownNav>
+            
+            <DropdownNav
+              type="direction"
+              trigger= {
+                <NavLink className='header__nav-item' to={'/directions'}>{t("header.directions")}&#10625;</NavLink>
+              }
+              >
+                <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-direction' to="/service1">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.direction1")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.direction1")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+            <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-direction' to="/service2">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.direction2")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.direction2")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+            <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-direction' to="/service3">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.direction3")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.direction3")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+            <li className='dropdown__item'>
+              <Link className='dropdown__link dropdown__link-direction' to="/service4">
+              <motion.span initial="initial" whileHover="hover" className="nav-text">
+                      <motion.span className="nav-text__top" variants={variants}> 
+                      {t("header.direction4")}
+                      </motion.span>
+                      <motion.span className="nav-text__bottom" variants={variants}>
+                      {t("header.direction4")}
+                      </motion.span>
+                    </motion.span>
+              </Link>
+            </li>
+                
+            </DropdownNav>
+
             <NavLink className='header__nav-item' to={'/contacts'}>{t("header.contacts")}</NavLink>
         </nav>
         
