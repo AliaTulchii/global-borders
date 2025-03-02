@@ -1,13 +1,16 @@
 .home{
+    position: relative;
     height: 928px;
     display: flex;
     justify-content: start;
     align-items: end;
+    background-color: var(--accent);
     background-image: url('../assets/home/hero/home-baner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
+    z-index: 10;
 }
 
 @media (min-resolution: 2dppx), (min-resolution: 192dpi) {

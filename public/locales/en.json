@@ -20,5 +20,20 @@
         "description": "A full-cycle logistics service: import, export, customs clearance, and financial management. Guaranteed quality, competitive rates, and on-time delivery.",
         "quote":"Get a quote",
         "service":"Our services"
+    },
+    "reasons":{
+        "reason1": "Reasons to choose us",
+        "reason2": "We sell a wide range of goods from European manufacturers with a high professional reputation and at competitive prices.",
+        "reason3": "Being a professional supplier, we independently organize commodity, financial, customs and transport logistics. With 10-year partnerships we offer special prices for the supply of goods from the countries of the European Union. Traditionally, our customers are importers and companies from Azerbaijan, China, India, Uzbekistan and Kazakhstan.",
+        "reason4": "10 years",
+        "reason5": "of experience in international logistics",
+        "reason6": "We efficiently manage global deliveries, optimizing routes and reducing costs.",
+        "reason7": "Partnership",
+        "reason8": "with leading European manufacturers",
+        "reason9": "We collaborate with trusted suppliers, ensuring high quality and competitive pricing.",
+        "reason10": "Our mission",
+        "reason11": "to make quality products from the best world manufacturers available to more people."
     }
+        
+    
 }

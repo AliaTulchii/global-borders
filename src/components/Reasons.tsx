@@ -11,7 +11,7 @@ const Reasons = () => {
         offset: ["start end", "end end"],
       });
     
-      const ornamentY = useTransform(scrollYProgress, [0, 1], [-250, 300]); 
+      const ornamentY = useTransform(scrollYProgress, [0, 1], [-200, 300]); 
     
   return (
     <section ref={sectionRef} className='reasons'>
