@@ -89,3 +89,32 @@ color: var(--white);
 color: var(--accent);
 }
 }
+
+.btn__link{
+    position: relative;
+    width: 144px;
+    display: flex;
+    gap: 7px;
+    border: 1px solid var(--accent);
+border-radius: 12px;
+padding: 8px 16px;
+z-index: 15;
+
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0em;
+color: var(--accent);
+
+&:hover, :focus{
+    background-color: var(--accent);
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+
+    .btn__arrow path{
+        stroke: var(--white);
+        transition: all 0.5s ease-in-out;
+    }
+}
+}

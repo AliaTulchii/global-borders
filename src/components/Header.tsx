@@ -4,6 +4,7 @@ import PhoneBtn from './PhoneBtn'
 import { motion } from "framer-motion";
 import NavLink from './NavLink';
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import DropdownNav from './DropdownNav'
 
@@ -28,13 +29,22 @@ const Header = () => {
             <DropdownNav
               type="services"
               trigger= {
-                <NavLink className='header__nav-item' to={'/directions'} >
+                <ScrollLink  className='header__nav-item' 
+                to="services-anchor" 
+                smooth={true} 
+                duration={500} >
                 {t("header.services")}&#10625;
-                </NavLink>
+                </ScrollLink>
               }
               >
                 <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-services' to="/service1">
+              <ScrollLink  
+              className='dropdown__link dropdown__link-services'
+              to="services-anchor" 
+              smooth={true} 
+              duration={500}
+
+              >
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services1")}
@@ -43,10 +53,14 @@ const Header = () => {
                       {t("header.services1")}
                       </motion.span>
                     </motion.span>
-              </Link>
+              </ScrollLink>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-services' to="/service2">
+              <ScrollLink  
+              className='dropdown__link dropdown__link-services'
+              to="services-anchor" 
+              smooth={true} 
+              duration={500}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services2")}
@@ -55,10 +69,14 @@ const Header = () => {
                       {t("header.services2")}
                       </motion.span>
                     </motion.span>
-              </Link>
+              </ScrollLink>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-services' to="/service3">
+              <ScrollLink  
+              className='dropdown__link dropdown__link-services'
+              to="services-anchor" 
+              smooth={true} 
+              duration={500}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services3")}
@@ -67,10 +85,14 @@ const Header = () => {
                       {t("header.services3")}
                       </motion.span>
                     </motion.span>
-              </Link>
+              </ScrollLink>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-services' to="/service4">
+              <ScrollLink  
+              className='dropdown__link dropdown__link-services'
+              to="services-anchor" 
+              smooth={true} 
+              duration={500}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services4")}
@@ -79,7 +101,7 @@ const Header = () => {
                       {t("header.services4")}
                       </motion.span>
                     </motion.span>
-              </Link>
+              </ScrollLink>
             </li>
                 
             </DropdownNav>
