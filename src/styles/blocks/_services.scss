@@ -14,6 +14,31 @@
             animation-duration: 500;
         }
     }
+
+}
+
+.services__wrapper:hover ~ .services__wrapper,
+.services:hover .services__wrapper:not(:hover) {
+    .services__content-title,
+    .services__content-text {
+        color: var(--services-text-hover); 
+        opacity: 0.4;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn__link{
+        color: var(--services-text-hover);
+        opacity: 0.4;
+        transition: all 0.5s ease-in-out;
+
+
+        .btn__arrow path{
+            stroke: var(--services-text-hover);
+            opacity: 0.4;
+        transition: all 0.5s ease-in-out;
+
+        }
+    }
 }
 
 .services__display-box{
