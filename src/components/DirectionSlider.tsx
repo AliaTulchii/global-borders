@@ -22,7 +22,7 @@ const DirectionSlider = () => {
 <Swiper 
 spaceBetween={5}
 slidesPerView="auto" 
-centeredSlides={true}
+centeredSlides={false}
 loop={true}
 modules={[Navigation, Pagination, Scrollbar, A11y]}
       
@@ -31,8 +31,6 @@ navigation={{
   nextEl: '.custom-next',
 }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
 >
         <SwiperSlide className="slider__card">
             <img className='slider__img' src={direction1} alt="image" />
