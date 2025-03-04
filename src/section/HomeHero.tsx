@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Btn from './Btn'
+import Btn from '../components/Btn/Btn'
 
 const HomeHero = () => {
     const [t] = useTranslation("global");

@@ -47,11 +47,10 @@
 
 .services__display{
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: 5%;
-    transform: translateY(-5%) translateX(-5%);
+    transform: translateY(-10%) translateX(-5%);
     width: 100%;
-    aspect-ratio: 16/9;
     opacity: 0;
     scale: 90%;
     z-index: 10;
@@ -82,7 +81,7 @@ color: var(--accent);
 .services__img{
     // display: none;
     width: 330px;
-    height: 346px;
+    height: 306px;
     margin-left: auto;
     border-radius: 12px;
 }

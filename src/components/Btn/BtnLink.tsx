@@ -1,13 +1,18 @@
-import {  NavLink } from 'react-router-dom'
-import ArrowIcon from '../svg/ArrowIcon'
+import { NavLink } from "react-router-dom";
+import ArrowIcon from "../svg/ArrowIcon";
+import { useTranslation } from "react-i18next";
 
 const BtnLink = () => {
-  return (
-    <NavLink className='btn__link' to={'/directions'}>
-                            <p>Learn more</p> 
-                            <ArrowIcon className={"btn__arrow"}/>
-                            </NavLink>
-  )
-}
+  const [t] = useTranslation("global");
 
-export default BtnLink
+  return (
+    <NavLink className="btn__link" to={"/directions"}>
+      <p>
+        <>{t("services.service11")}</>
+      </p>
+      <ArrowIcon className={"btn__arrow"} />
+    </NavLink>
+  );
+};
+
+export default BtnLink;

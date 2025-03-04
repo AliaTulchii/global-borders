@@ -1,7 +1,8 @@
-import HomeHero from '../components/HomeHero'
-import OurPartners from '../components/OurPartners'
-import Reasons from '../components/Reasons'
-import Services from '../components/Services'
+import OurDirections from '../section/OurDirections'
+import HomeHero from '../section/HomeHero'
+import OurPartners from '../section/OurPartners'
+import Reasons from '../section/Reasons'
+import Services from '../section/Services'
 import '../styles/main.scss'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Reasons/>
       <OurPartners/>
       <Services id="services-anchor"/>
+      <OurDirections/>
     </main>
       
 

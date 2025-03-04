@@ -36,5 +36,19 @@
     },
     "partners": {
         "partnersTitle": "Kimlərlə əməkdaşlıq edirik"
+    },
+    "services": {
+        "service1": "Təklif etdiyimiz xidmətlər",
+        "service2": "Şirkətimiz səmərəli və sərfəli mal çatdırılmasını təmin etmək üçün fərdi logistika həlləri təklif edir. Əsas beynəlxalq bazarlarda fəaliyyət göstəririk. Avropadan Asiyaya qədər idxal, nəqliyyat, gömrük rəsmiləşdirilməsi və risklərin idarə olunmasını həyata keçirərək müştərilərimizə tam xidmətli logistika dəstəyi təqdim edirik.",
+        "service3": "AZƏRBAYCANA MALLARIN İDXALI",
+        "service4": "Biz Azərbaycan biznesləri üçün sərfəli və problemsiz çatdırılmanı təmin edən optimal idxal həlli təqdim edirik. Xidmətlərimizə tələb olunan icazələrin alınması, optimal nəqliyyatın təşkili, gömrük rəsmiləşdirilməsi və vergi ödənişləri daxildir. Həmçinin, biz nəqliyyat risklərini idarə edir və ilkin mal yoxlamalarını həyata keçiririk. Sertifikatlaşdırma, sığorta və keyfiyyət nəzarəti kimi əlavə xidmətlər də mövcuddur ki, bu da təhlükəsiz və rahat idxalı təmin edir.",
+        "service5": "Avropa İttifaqı (Aİ) ölkələrindən malların çatdırılması",
+        "service6": "Biz Aİ-dən Çin, Hindistan, Özbəkistan və Qazaxıstana malların fasiləsiz daşınmasını təmin edirik, kiçik həcmli yüklərlə işləyən və ya ilk dəfə idxal edən bizneslər üçün xidmətlər göstəririk. Xidmətlərimizə müqaviləmiz əsasında malların alınması, Türkiyə vasitəsilə tranzitin təşkili, gömrük rəsmiləşdirilməsi və vergi ödənişlərinin icrası daxildir. Həmçinin, biz nəqliyyat risklərini azaldır və ilkin yoxlamalar aparırıq. Təhlükəsizliyi və uyğunluğu artırmaq üçün sertifikatlaşdırma, sığorta və müstəqil keyfiyyət nəzarəti kimi əlavə xidmətlər də mövcuddur.",
+        "service7": "Türkiyədən malların çatdırılması",
+        "service8":  "Biz Türkiyədən Türkmənistana, Özbəkistana və Qazaxıstana daşımaları asanlaşdırırıq, bu xidmət xüsusilə kiçik miqyaslı və ya ilk dəfə çatdırılma edənlər üçün idealdır. Xidmətimiz müqaviləmiz əsasında satınalmaları, gömrük sənədləşdirilməsini və DAP şərtləri ilə optimallaşdırılmış nəqliyyatı əhatə edir. Biz nəqliyyat risklərini idarə edir, yoxlamalar aparır və əlavə olaraq sığorta və keyfiyyət nəzarəti təklif edirik.",
+        "service9": "Fərdi logistika həllərinin inkişafı",
+        "service10": "Çin, Hindistan, Özbəkistan, Türkmənistan və Qazaxıstanda səmərəli və yüksək keyfiyyətli logistika həlləri axtaran kiçik və orta bizneslər üçün ideal seçimdir. Biz məsləhət, maliyyə logistikası, sertifikatlaşdırma dəstəyi, anbar xidməti və multimodal daşımaları əhatə edən tam xidmət dəstəyi təqdim edirik. Müştərilərimiz 15%-ə qədər nəqliyyat xərclərinə qənaət edir və optimallaşdırılmış nəqliyyat həllərindən yararlanırlar.",
+        "service11": "Ətraflı öyrənin"
+        
     }
 }

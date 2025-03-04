@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import logo from "../assets/home/reasons/logo.png";
 import ornament from "../assets/home/reasons/ornament.png";
-import RotatingLogo from "./RotatingLogo";
+import RotatingLogo from "../components/RotatingLogo";
 import { useTranslation } from "react-i18next";
 
 const Reasons = () => {

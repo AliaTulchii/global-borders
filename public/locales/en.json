@@ -36,6 +36,20 @@
     },
     "partners": {
         "partnersTitle": "Our partners"
+    },
+    "services": {
+        "service1": "Services we provide",
+        "service2": "Our company offers tailored logistics solutions to ensure efficient and cost-effective delivery of goods across key international markets. From Europe to Asia, we handle import, transportation, customs clearance, and risk management, providing our clients with full-service logistics support.",
+        "service3": "IMPORT OF GOODS TO AZERBAIJAN",
+        "service4": "We provide a seamless import solution for businesses in Azerbaijan, ensuring cost-effective and hassle-free deliveries. Our service includes obtaining necessary permits, organizing optimal transportation, customs clearance, and tax payments. We also handle transport risks and initial goods inspections. Additional services like certification, insurance, and quality control are available to ensure smooth and secure imports.",
+        "service5": "Delivery from European Union (EU) countries",
+        "service6": "We transport goods from the EU to China, India, Uzbekistan, and Kazakhstan, ideal for small-scale shipments or first-time importers. Our service covers procurement, transit via Turkey, customs clearance, and tax payments. We also manage transport risks, inspections, certification, insurance, and quality control for secure and compliant deliveries.",
+        "service7": "Delivery of goods from Turkey",
+        "service8":  "We facilitate shipments from Turkey to Turkmenistan, Uzbekistan, and Kazakhstan, ideal for small-scale or first-time deliveries. Our service covers purchasing under our contract, customs documentation, and optimized transportation under DAP terms. We handle transport risks, conduct inspections, and offer optional insurance and quality control.",
+        "service9": "Development of an individual logistics solution",
+        "service10": "Ideal for small and medium-sized businesses in China, India, Uzbekistan, Turkmenistan, and Kazakhstan seeking cost-effective, high-quality logistics. We provide end-to-end support, including consultation, financial logistics, certification assistance, warehousing, and multimodal transport. Clients benefit from up to 15% cost savings and optimized transportation solutions.",
+        "service11": "Learn more"
+        
     }
         
     
