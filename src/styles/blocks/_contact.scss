@@ -13,7 +13,7 @@ height: 982px;
 border-radius: 12px;
     background-image: url('../assets/home/contact/contact.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
@@ -24,6 +24,7 @@ border-radius: 12px;
 
   .contact__content{
     width: 50%;
+    height: 982px;
     padding: 33px 24px 59px 24px;
     background-color: var(--box-bg);
     border-radius: 12px;
@@ -49,3 +50,107 @@ line-height: 133%;
 letter-spacing: -0.01em;
 color: var(--accent);
   }
+
+
+  .contact__form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__error{
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: var(--error);
+
+    
+  }
+
+  .contact__error svg{
+    margin-left: 4px;
+}
+
+  .contact__form-group{
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+  .contact__label{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0em;
+color: var(--text-form);
+  }
+
+  .contact__input{
+    height: 34px;
+    border-bottom: 1px solid rgba(0, 19, 67, 0.4);
+  }
+
+  .contact__textarea{
+    border-bottom: 1px solid rgba(0, 19, 67, 0.4);
+    resize: none;
+    height: 100px;
+  }
+
+  .contact__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 12px;
+padding: 8px 21px;
+background-color: var(--accent);
+color: var(--white);
+text-transform: uppercase;
+text-align: center;
+
+font-family: var(--second-family);
+font-weight: 300;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0em;
+
+&:hover{
+background-color: transparent;
+color: var(--accent);
+border: 1px solid var(--accent);
+
+.btn__submit path{
+    stroke: var(--accent) ;
+}
+
+}
+
+&:focus{
+    background-color: var(--blue);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    
+    .btn__submit path{
+        stroke: var(--accent) ;
+    }
+    
+    }
+
+  }
+
+  .btn__submit{
+    margin-left: 10px;
+  }
+
+  .btn__submit path{
+
+    stroke: var(--white) ;
+}

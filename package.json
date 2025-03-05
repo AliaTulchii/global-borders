@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "formik": "^2.4.6",
     "framer-motion": "^12.4.7",
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.4",
@@ -20,8 +21,10 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^6.29.0",
     "react-scroll": "^1.9.3",
+    "react-toastify": "^11.0.5",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.2.5"
+    "swiper": "^11.2.5",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

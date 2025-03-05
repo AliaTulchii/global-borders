@@ -1,6 +1,6 @@
 import logo from '../assets/logo/logo.svg'
 import MultiLang from './MultiLang'
-import PhoneBtn from './PhoneBtn'
+import PhoneBtn from './Btn/PhoneBtn'
 import { motion } from "framer-motion";
 import NavLink from './NavLink';
 import { Link } from 'react-router-dom';
