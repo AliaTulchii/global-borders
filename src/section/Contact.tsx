@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+    const formcarryEndpoint = "https://formcarry.com/s/6bh6W2FDxH5"
   const formik = useFormik({
     initialValues: {
       firstName: '',
@@ -20,11 +21,40 @@ const Contact = () => {
       phone: Yup.string().matches(/^\+?\d{10,15}$/, "Incorrect phone number").required("Required field"),
       message: Yup.string().min(10, "There must be at least 10 characters").required("Required field"),
     }),
-    onSubmit: (values, { resetForm }) => {
-        console.log("Form submitted with values:", values); 
-        toast.success("Your message has been sent successfully!");
-      resetForm();
-    },
+    onSubmit: async (values, { resetForm }) => {
+        try {
+          const formData = new FormData();
+          Object.entries(values).forEach(([key, value]) => {
+            formData.append(key, value as string); // Переконайся, що значення - це рядок
+          });
+      
+          const response = await fetch(formcarryEndpoint, {
+            method: "POST",
+            body: formData, // Немає `Content-Type`, браузер виставить його сам
+          });
+      
+          console.log("Raw response:", response);
+      
+          if (!response.ok) {
+            throw new Error(`Server error: ${response.status} ${response.statusText}`);
+          }
+      
+          const data = await response.json();
+          console.log("Response JSON:", data);
+      
+          if (data.success) {
+            toast.success("Your message has been sent successfully!");
+            resetForm(); // Тепер спрацює
+          } else {
+            toast.error(data.message || "Something went wrong. Please try again later.");
+          }
+        } catch (error) {
+          console.error("Error sending message:", error);
+          toast.error("Error sending message. Check your internet connection.");
+        }
+      }
+      
+      
   });
 
   return (
