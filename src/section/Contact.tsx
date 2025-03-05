@@ -4,8 +4,9 @@ import ArrowIcon from "../components/svg/ArrowIcon";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Contact = () => {
-    const formcarryEndpoint = "https://formcarry.com/s/6bh6W2FDxH5"
+    
   const formik = useFormik({
     initialValues: {
       firstName: '',
@@ -15,46 +16,42 @@ const Contact = () => {
       message: ''
     },
     validationSchema: Yup.object({
-      firstName: Yup.string().min(2, "Enter minimum 2 symbols").required("Required field"),
-      lastName: Yup.string().min(2, "Enter minimum 2 symbols").required("Required field"),
-      email: Yup.string().email('Incorrect email').required("Required field"),
-      phone: Yup.string().matches(/^\+?\d{10,15}$/, "Incorrect phone number").required("Required field"),
-      message: Yup.string().min(10, "There must be at least 10 characters").required("Required field"),
+      firstName: Yup.string().min(2, "Enter minimum 2 symbols").required("Enter your first name"),
+      lastName: Yup.string().min(2, "Enter minimum 2 symbols").required("Enter your last name"),
+      email: Yup.string().email('Incorrect email').required("Enter your email address"),
+      phone: Yup.string().matches(/^\+?\d{10,15}$/, "Incorrect phone number").required("Enter your phone number"),
+      message: Yup.string().min(10, "There must be at least 10 characters").required("Enter your message"),
     }),
     onSubmit: async (values, { resetForm }) => {
         try {
-          const formData = new FormData();
-          Object.entries(values).forEach(([key, value]) => {
-            formData.append(key, value as string); // Переконайся, що значення - це рядок
-          });
-      
-          const response = await fetch(formcarryEndpoint, {
+          const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
-            body: formData, // Немає `Content-Type`, браузер виставить його сам
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              access_key: "370d35e2-06d5-46ba-a290-fced8f772174",
+              ...values, // передаємо всі значення з форми
+            }),
           });
-      
-          console.log("Raw response:", response);
       
           if (!response.ok) {
-            throw new Error(`Server error: ${response.status} ${response.statusText}`);
+            // Якщо відповідь від сервера не ок, вивести статус і текст помилки
+            const errorData = await response.json();
+            console.error('API Error:', errorData);
+            throw new Error("Error sending the form");
           }
       
-          const data = await response.json();
-          console.log("Response JSON:", data);
-      
-          if (data.success) {
-            toast.success("Your message has been sent successfully!");
-            resetForm(); // Тепер спрацює
-          } else {
-            toast.error(data.message || "Something went wrong. Please try again later.");
-          }
+          const responseData = await response.json(); // Прочитати відповідь сервера
+          console.log("Form submission response:", responseData);
+          
+          toast.success("Your message has been sent successfully!");
+          resetForm();
         } catch (error) {
-          console.error("Error sending message:", error);
-          toast.error("Error sending message. Check your internet connection.");
+          console.error("Error sending the form:", error);  // Вивести текст помилки
+          toast.error("There was an error sending your message.");
         }
       }
-      
-      
   });
 
   return (
@@ -69,7 +66,7 @@ const Contact = () => {
             find the best solutions for your needs, explain our work processes,
             and provide all the necessary details for collaboration.
           </p>
-          <form className="contact__form" onSubmit={formik.handleSubmit}>
+          <form className="contact__form"  onSubmit={formik.handleSubmit}>
             <div className="contact__form-group">
               <label className="contact__label" htmlFor="firstName">Name</label>
               <input
@@ -187,11 +184,12 @@ const Contact = () => {
                 
               ) : null}
             </div>
-
+            {/* <input type="hidden" name="redirect" value="https://www.estatefoto.pl/"></input> */}
             <button type="submit" className="contact__btn">
               Submit
               <ArrowIcon className={"btn__submit"} />
             </button>
+            
           </form>
         </div>
       </div>
