@@ -4,6 +4,7 @@ import OurPartners from '../section/OurPartners'
 import Reasons from '../section/Reasons'
 import Services from '../section/Services'
 import '../styles/main.scss'
+import Contact from '../section/Contact'
 
 const Home = () => {
   
@@ -14,6 +15,7 @@ const Home = () => {
       <OurPartners/>
       <Services id="services-anchor"/>
       <OurDirections/>
+      <Contact/>
     </main>
       
 

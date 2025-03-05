@@ -1,12 +1,16 @@
 .reasons{
-    position: relative;
+    
     padding: 104px 0 24px 0;
+}
+
+.reasons__container{
+    position: relative;
 }
 
 .reasons__ornament{
     position: absolute;
     top: 0;
-    right: 6%;
+    right: 2.5%;
     width: 277px;
     height: 1101px;
     z-index: 5;

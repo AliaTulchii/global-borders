@@ -8,7 +8,7 @@ const BtnLink = () => {
   return (
     <NavLink className="btn__link" to={"/directions"}>
       <p>
-        <>{t("services.service11")}</>
+        <>{t("learnBtn.text")}</>
       </p>
       <ArrowIcon className={"btn__arrow"} />
     </NavLink>

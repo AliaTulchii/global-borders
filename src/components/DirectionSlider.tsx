@@ -10,13 +10,14 @@ import arrowLeft from '../assets/svg/arrow-left.svg'
 import arrowRight from '../assets/svg/arrow-right.svg'
 import BtnLink from './Btn/BtnLink'
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { useTranslation } from 'react-i18next';
 
 
 
 
 
 const DirectionSlider = () => {
-
+  const [t] = useTranslation("global");
    
   return (
 <Swiper 
@@ -33,36 +34,49 @@ navigation={{
       scrollbar={{ draggable: true }}
 >
         <SwiperSlide className="slider__card">
-            <img className='slider__img' src={direction1} alt="image" />
+            <div className='slider__img-box'>
+              <img className='slider__img' src={direction1} alt="image" />
+            </div>
+            
             <div className="slider__content">
-                <h3 className='slider__title'>Azerbaijan</h3>
+                <h3 className='slider__title'>{t("homeDirection.direction1")}</h3>
                 <BtnLink/>
             </div>
         </SwiperSlide>
 
         <SwiperSlide className='slider__card'>
-            <img className='slider__img' src={direction2} alt="image" />
+            <div className='slider__img-box'>
+              <img className='slider__img' src={direction2} alt="image" />
+            </div>
+            
             <div className="slider__content">
-                <h3 className='slider__title'>European Union (EU) countries</h3>
+                <h3 className='slider__title'>{t("homeDirection.direction2")}</h3>
                 <BtnLink/>
             </div>
         </SwiperSlide>
 
         <SwiperSlide className='slider__card'>
-            <img className='slider__img' src={direction3} alt="image" />
+            <div className='slider__img-box'>
+              <img className='slider__img' src={direction3} alt="image" />
+            </div>
+            
             <div className="slider__content">
-                <h3 className='slider__title'>Turkey</h3>
+                <h3 className='slider__title'>{t("homeDirection.direction3")}</h3>
                 <BtnLink/>
             </div>
         </SwiperSlide>
 
         <SwiperSlide className='slider__card'>
-            <img className='slider__img' src={direction4} alt="image" />
+            <div className='slider__img-box'>
+              <img className='slider__img' src={direction4} alt="image" />
+            </div>
+            
             <div className="slider__content">
-                <h3 className='slider__title'>Great Britain</h3>
+                <h3 className='slider__title'>{t("homeDirection.direction4")}</h3>
                 <BtnLink/>
             </div>
         </SwiperSlide>
+
         <div className="swiper-button-prev custom-prev">
         <img className='slider__svg' src={arrowLeft} alt="prev" />
       </div>

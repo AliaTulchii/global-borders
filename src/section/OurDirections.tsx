@@ -1,12 +1,14 @@
+import { useTranslation } from "react-i18next";
 import DirectionSlider from "../components/DirectionSlider"
 
 
 const Directions = () => {
+  const [t] = useTranslation("global");
   return (
     <section className="directions">
       <div className="container">
-        <h2 className="directions__title">Our directions</h2>
-        <p className="directions__text">We specialize in international logistics and turnkey delivery solutions, providing reliable and cost-effective transportation services across multiple regions.</p>
+        <h2 className="directions__title">{t("homeDirection.title")}</h2>
+        <p className="directions__text">{t("homeDirection.text")}</p>
 
         <DirectionSlider/>
       </div>

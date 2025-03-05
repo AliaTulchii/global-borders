@@ -47,8 +47,17 @@
         "service7": "Türkiyədən malların çatdırılması",
         "service8":  "Biz Türkiyədən Türkmənistana, Özbəkistana və Qazaxıstana daşımaları asanlaşdırırıq, bu xidmət xüsusilə kiçik miqyaslı və ya ilk dəfə çatdırılma edənlər üçün idealdır. Xidmətimiz müqaviləmiz əsasında satınalmaları, gömrük sənədləşdirilməsini və DAP şərtləri ilə optimallaşdırılmış nəqliyyatı əhatə edir. Biz nəqliyyat risklərini idarə edir, yoxlamalar aparır və əlavə olaraq sığorta və keyfiyyət nəzarəti təklif edirik.",
         "service9": "Fərdi logistika həllərinin inkişafı",
-        "service10": "Çin, Hindistan, Özbəkistan, Türkmənistan və Qazaxıstanda səmərəli və yüksək keyfiyyətli logistika həlləri axtaran kiçik və orta bizneslər üçün ideal seçimdir. Biz məsləhət, maliyyə logistikası, sertifikatlaşdırma dəstəyi, anbar xidməti və multimodal daşımaları əhatə edən tam xidmət dəstəyi təqdim edirik. Müştərilərimiz 15%-ə qədər nəqliyyat xərclərinə qənaət edir və optimallaşdırılmış nəqliyyat həllərindən yararlanırlar.",
-        "service11": "Ətraflı öyrənin"
-        
+        "service10": "Çin, Hindistan, Özbəkistan, Türkmənistan və Qazaxıstanda səmərəli və yüksək keyfiyyətli logistika həlləri axtaran kiçik və orta bizneslər üçün ideal seçimdir. Biz məsləhət, maliyyə logistikası, sertifikatlaşdırma dəstəyi, anbar xidməti və multimodal daşımaları əhatə edən tam xidmət dəstəyi təqdim edirik. Müştərilərimiz 15%-ə qədər nəqliyyat xərclərinə qənaət edir və optimallaşdırılmış nəqliyyat həllərindən yararlanırlar."
+    },
+    "learnBtn": {
+        "text": "Ətraflı öyrənin"
+    },
+    "homeDirection":{
+        "title": "Bizim istiqamətlərimiz",
+        "text": "Biz beynəlxalq logistika və açar təhvili çatdırılma həllərində ixtisaslaşırıq, bir neçə bölgədə etibarlı və sərfəli nəqliyyat xidmətləri təqdim edirik.",
+        "direction1":"Azərbaycan",
+        "direction2":"Avropa İttifaqı (Aİ) ölkələri",
+        "direction3":"Türkiyə",
+        "direction4":"Böyük Britaniya"
     }
 }

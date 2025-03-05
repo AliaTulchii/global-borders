@@ -14,11 +14,11 @@ const Reasons = () => {
     offset: ["start end", "end end"],
   });
 
-  const ornamentY = useTransform(scrollYProgress, [0, 1], [-200, 300]);
+  const ornamentY = useTransform(scrollYProgress, [0, 1], [-150, 200]);
 
   return (
     <section ref={sectionRef} className="reasons">
-      <div className="container">
+      <div className="reasons__container container">
         <motion.div className="reasons__ornament" style={{ y: ornamentY }}>
           <img src={ornament} alt="ornament" />
         </motion.div>

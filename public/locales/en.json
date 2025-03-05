@@ -47,9 +47,18 @@
         "service7": "Delivery of goods from Turkey",
         "service8":  "We facilitate shipments from Turkey to Turkmenistan, Uzbekistan, and Kazakhstan, ideal for small-scale or first-time deliveries. Our service covers purchasing under our contract, customs documentation, and optimized transportation under DAP terms. We handle transport risks, conduct inspections, and offer optional insurance and quality control.",
         "service9": "Development of an individual logistics solution",
-        "service10": "Ideal for small and medium-sized businesses in China, India, Uzbekistan, Turkmenistan, and Kazakhstan seeking cost-effective, high-quality logistics. We provide end-to-end support, including consultation, financial logistics, certification assistance, warehousing, and multimodal transport. Clients benefit from up to 15% cost savings and optimized transportation solutions.",
-        "service11": "Learn more"
-        
+        "service10": "Ideal for small and medium-sized businesses in China, India, Uzbekistan, Turkmenistan, and Kazakhstan seeking cost-effective, high-quality logistics. We provide end-to-end support, including consultation, financial logistics, certification assistance, warehousing, and multimodal transport. Clients benefit from up to 15% cost savings and optimized transportation solutions."
+    },
+    "learnBtn": {
+        "text": "Learn more"
+    },
+    "homeDirection":{
+        "title": "Our directions",
+        "text": "We specialize in international logistics and turnkey delivery solutions, providing reliable and cost-effective transportation services across multiple regions.",
+        "direction1":"Azerbaijan",
+        "direction2":"European Union (EU) countries",
+        "direction3":"Turkey",
+        "direction4":"Great Britain"
     }
         
     
