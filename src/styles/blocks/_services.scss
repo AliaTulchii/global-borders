@@ -68,6 +68,7 @@ color: var(--accent);
 }
 
 .services__text{
+    width: 793px;
     margin-bottom: 56px;
 
     font-family: var(--second-family);
@@ -120,6 +121,9 @@ color: var(--accent);
 
 .services__content-right{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .services__content-text{

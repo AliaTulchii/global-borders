@@ -92,9 +92,9 @@ color: var(--accent);
 
 .btn__link{
     position: relative;
-    width: 160px;
+    
     display: flex;
-    gap: 12px;
+    gap: 4px;
     border: 1px solid var(--accent);
 border-radius: 12px;
 padding: 8px 16px;
@@ -102,7 +102,7 @@ z-index: 15;
 
 font-family: var(--second-family);
 font-weight: 400;
-font-size: 15px;
+font-size: 16px;
 line-height: 150%;
 letter-spacing: 0em;
 color: var(--accent);

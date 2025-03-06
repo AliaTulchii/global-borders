@@ -44,7 +44,17 @@
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--box-bg);
+}
+
+.slider__title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0em;
+color: var(--accent);
 }
 
 .swiper{
