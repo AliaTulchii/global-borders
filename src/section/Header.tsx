@@ -1,11 +1,11 @@
 import logo from '../assets/logo/logo.svg'
-import MultiLang from './MultiLang'
-import PhoneBtn from './Btn/PhoneBtn'
+import MultiLang from '../components/MultiLang'
+import PhoneBtn from '../components/Btn/PhoneBtn'
 import { motion } from "framer-motion";
-import NavLink from './NavLink';
+import NavLink from '../components/NavLink';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import DropdownNav from './DropdownNav'
+import DropdownNav from '../components/DropdownNav'
 
 
 const variants = {
@@ -28,9 +28,9 @@ const Header = () => {
             <DropdownNav
               type="services"
               trigger= {
-                <Link to={'/'}   className='header__nav-item'>
+                <NavLink to={'/'}   className='header__nav-item'>
                 {t("header.services")}&#10625;
-                </Link>
+                </NavLink>
               }
               >
                 <li className='dropdown__item'>

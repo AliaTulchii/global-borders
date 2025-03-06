@@ -59,6 +59,22 @@
         "direction2":"European Union (EU) countries",
         "direction3":"Turkey",
         "direction4":"Great Britain"
+    },
+    "contacts": {
+        "title": "Your First Step to Collaboration",
+        "text": "We are always ready to answer your questions and provide detailed information about our services. Contact us, and we will help you find the best solutions for your needs, explain our work processes, and provide all the necessary details for collaboration.",
+        "name": "Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone number",
+        "message": "Your message",
+        "btn": "Submit"
+    },
+    "footer":{
+        "price": "Prices",
+        "direction": "Directions",
+        "contacts": "Contacts",
+        "privacy": "Privacy policy"
     }
         
     

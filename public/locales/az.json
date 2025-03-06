@@ -59,5 +59,21 @@
         "direction2":"Avropa İttifaqı (Aİ) ölkələri",
         "direction3":"Türkiyə",
         "direction4":"Böyük Britaniya"
+    },
+    "contacts": {
+        "title": "Sizin əməkdaşlığa ilk addımınız",
+        "text": "Biz həmişə suallarınızı cavablandırmağa və xidmətlərimiz haqqında ətraflı məlumat verməyə hazırıq. Bizimlə əlaqə saxlayın və biz sizə ehtiyaclarınıza uyğun ən yaxşı həlləri tapmaqda, iş proseslərimizi izah etməkdə və əməkdaşlıq üçün bütün zəruri detalları təqdim etməkdə kömək edəcəyik.",
+        "name": "Ad",
+        "lastName": "Soyad",
+        "email": "Email",
+        "phone": "Telefon nömrəsi",
+        "message": "Mesajınız",
+        "btn": "Göndər"
+    },
+    "footer":{
+        "price": "Qiymətlər",
+        "direction": "İstiqamətlər",
+        "contacts": "Əlaqə",
+        "privacy": "Məxfilik siyasəti"
     }
 }

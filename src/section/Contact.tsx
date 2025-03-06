@@ -3,9 +3,11 @@ import * as Yup from "yup";
 import ArrowIcon from "../components/svg/ArrowIcon";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from "react-i18next";
 
 
 const Contact = () => {
+      const [t] = useTranslation("global");
     
   const formik = useFormik({
     initialValues: {
@@ -59,16 +61,11 @@ const Contact = () => {
       <div className="contact__container container">
         <div className="contact__img"></div>
         <div className="contact__content">
-          <h2 className="contact__title">Your First Step to Collaboration</h2>
-          <p className="contact__text">
-            We are always ready to answer your questions and provide detailed 
-            information about our services. Contact us, and we will help you 
-            find the best solutions for your needs, explain our work processes,
-            and provide all the necessary details for collaboration.
-          </p>
+          <h2 className="contact__title">{t("contacts.title")}</h2>
+          <p className="contact__text">{t("contacts.text")}</p>
           <form className="contact__form"  onSubmit={formik.handleSubmit}>
             <div className="contact__form-group">
-              <label className="contact__label" htmlFor="firstName">Name</label>
+              <label className="contact__label" htmlFor="firstName">{t("contacts.name")}</label>
               <input
                 className="contact__input"
                 id="firstName"
@@ -92,7 +89,7 @@ const Contact = () => {
 
 
             <div className="contact__form-group">
-              <label className="contact__label" htmlFor="lastName">Last Name</label>
+              <label className="contact__label" htmlFor="lastName">{t("contacts.lastName")}</label>
               <input
                 className="contact__input"
                 id="lastName"
@@ -116,7 +113,7 @@ const Contact = () => {
 
 
             <div className="contact__form-group">
-              <label className="contact__label" htmlFor="email">Email</label>
+              <label className="contact__label" htmlFor="email">{t("contacts.email")}</label>
               <input
                 className="contact__input"
                 id="email"
@@ -140,7 +137,7 @@ const Contact = () => {
 
 
             <div className="contact__form-group">
-              <label className="contact__label" htmlFor="phone">Phone number</label>
+              <label className="contact__label" htmlFor="phone">{t("contacts.phone")}</label>
               <input
                 className="contact__input"
                 id="phone"
@@ -163,7 +160,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-group">
-              <label className="contact__label" htmlFor="message">Your message</label>
+              <label className="contact__label" htmlFor="message">{t("contacts.message")}</label>
               <textarea
                 className="contact__textarea"
                 id="message"
@@ -186,7 +183,7 @@ const Contact = () => {
             </div>
             {/* <input type="hidden" name="redirect" value="https://www.estatefoto.pl/"></input> */}
             <button type="submit" className="contact__btn">
-              Submit
+            {t("contacts.btn")}
               <ArrowIcon className={"btn__submit"} />
             </button>
             

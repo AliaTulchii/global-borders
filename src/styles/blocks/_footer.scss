@@ -2,6 +2,8 @@
     position: relative;
     background-color: var(--accent);
     padding: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .footer__img{
@@ -23,6 +25,14 @@
 .footer__list{
     display: flex;
     gap: 40px;
+}
+
+.footer__item, .footer__privacy{
+    display: inline-block;
+  overflow: hidden;
+  position: relative;
+  height: 1.1em;
+  cursor: pointer;
 }
 
 .footer__link{

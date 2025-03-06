@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom"
 import ornament from "../assets/footer/ornament-footer.png"
 import logo from '../assets/footer/logo-white.png'
+import NavLink from "../components/NavLink"
+import { useTranslation } from "react-i18next"
 
 
 const Footer = () => {
+    const [t] = useTranslation("global");
   return (
     <section className="footer">
       <div className="footer__container container">
@@ -17,13 +20,13 @@ const Footer = () => {
             <nav className="footer__nav">
                 <ul className="footer__list">
                     <li className="footer__item">
-                        <Link className="footer__link" to="/">Prices</Link>
+                        <NavLink className="footer__link" to="/">{t("footer.price")}</NavLink>
                     </li>
                     <li className="footer__item">
-                        <Link className="footer__link" to="/directions">Directions</Link>
+                        <NavLink className="footer__link" to="/directions">{t("footer.direction")}</NavLink>
                     </li>
                     <li className="footer__item">
-                        <Link className="footer__link" to="/contacts">Contacts</Link>
+                        <NavLink className="footer__link" to="/contacts">{t("footer.contacts")}</NavLink>
                     </li>
                 </ul>
             </nav>
@@ -33,9 +36,9 @@ const Footer = () => {
                 <p className="footer__text">
                     &copy; ООО“Global borders” 2025
                 </p>
-                <Link className="footer__privacy" to='/'>
-                Privacy policy
-                </Link>
+                <NavLink className="footer__privacy" to='/'>
+                {t("footer.privacy")}
+                </NavLink>
             </div>
         </div>
       </div>
