@@ -7,11 +7,7 @@ import BtnLink from '../components/Btn/BtnLink'
 
 
 
-interface ServicesProps{
-    id: string;
-}
-
-const Services: React.FC<ServicesProps> = ({id}) => {
+const Services = () => {
     const [t] = useTranslation("global");
 
     const data = [
@@ -43,7 +39,7 @@ const Services: React.FC<ServicesProps> = ({id}) => {
 
 
   return (
-    <section id={id} className="services">
+    <section  className="services">
         <div className="container">           
                 <h2 className="services__title">
                 {t("services.service1")}

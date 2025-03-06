@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import Btn from '../components/Btn/Btn'
+import Btn from '../../components/Btn/Btn'
 
-const HomeHero = () => {
+const Hero = () => {
     const [t] = useTranslation("global");
   return (
     
@@ -21,4 +21,4 @@ const HomeHero = () => {
   )
 }
 
-export default HomeHero
+export default Hero

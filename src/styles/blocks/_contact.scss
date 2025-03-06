@@ -57,26 +57,9 @@ color: var(--accent);
     flex-direction: column;
   }
 
-  .contact__error{
-    display: inline-flex;
-    align-items: baseline;
-    gap: 4px;
-    margin-top: 8px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 130%;
-    letter-spacing: 0.02em;
-    color: var(--error);
-
-    
-  }
-
-  .contact__error svg{
-    margin-left: 4px;
-}
 
   .contact__form-group{
+    position: relative;
     margin-bottom: 33px;
     display: flex;
     flex-direction: column;
@@ -85,6 +68,7 @@ color: var(--accent);
   
 
   .contact__label{
+    
     font-family: var(--second-family);
 font-weight: 400;
 font-size: 16px;
@@ -94,12 +78,37 @@ color: var(--text-form);
   }
 
   .contact__input{
+   
     height: 34px;
     border-bottom: 1px solid rgba(0, 19, 67, 0.4);
     &:focus{
         background-color: var(--blue);
     }
   }
+
+  
+  .contact__error{
+    position: absolute;
+  bottom: -20px;
+    left: 0;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    // margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: var(--error);
+    z-index: 15;
+
+    
+  }
+
+  .contact__error svg{
+    margin-left: 4px;
+}
 
   .contact__textarea{
     border-bottom: 1px solid rgba(0, 19, 67, 0.4);

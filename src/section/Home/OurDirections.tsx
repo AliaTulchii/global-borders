@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import DirectionSlider from "../components/DirectionSlider"
+import DirectionSlider from "../../components/DirectionSlider"
 
 
 const Directions = () => {

@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import ArrowIcon from "../components/svg/ArrowIcon";
+import ArrowIcon from "../../components/svg/ArrowIcon";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useTranslation } from "react-i18next";
@@ -33,24 +33,23 @@ const Contact = () => {
             },
             body: JSON.stringify({
               access_key: "370d35e2-06d5-46ba-a290-fced8f772174",
-              ...values, // передаємо всі значення з форми
+              ...values, 
             }),
           });
       
           if (!response.ok) {
-            // Якщо відповідь від сервера не ок, вивести статус і текст помилки
             const errorData = await response.json();
             console.error('API Error:', errorData);
             throw new Error("Error sending the form");
           }
       
-          const responseData = await response.json(); // Прочитати відповідь сервера
+          const responseData = await response.json(); 
           console.log("Form submission response:", responseData);
           
           toast.success("Your message has been sent successfully!");
           resetForm();
         } catch (error) {
-          console.error("Error sending the form:", error);  // Вивести текст помилки
+          console.error("Error sending the form:", error);
           toast.error("There was an error sending your message.");
         }
       }
