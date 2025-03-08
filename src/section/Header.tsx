@@ -28,7 +28,7 @@ const Header = () => {
             <DropdownNav
               type="services"
               trigger= {
-                <NavLink to={'/'}   className='header__nav-item'>
+                <NavLink to={'/prices'}   className='header__nav-item'>
                 {t("header.services")}&#10625;
                 </NavLink>
               }

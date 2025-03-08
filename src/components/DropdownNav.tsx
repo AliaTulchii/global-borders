@@ -16,8 +16,8 @@ const DropdownNav: React.FC<DropdownNavProps> = ({trigger, children, type}) => {
   return (
     <div 
     className='dropdown-nav' 
-    // onMouseEnter={() => setIsOpen(true)}
-    onClick={() => setIsOpen((prev) => !prev)}
+    onMouseEnter={() => setIsOpen(true)}
+    // onClick={() => setIsOpen((prev) => !prev)}
     >
         {trigger}
 
@@ -30,8 +30,8 @@ const DropdownNav: React.FC<DropdownNavProps> = ({trigger, children, type}) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            // onMouseEnter={() => setIsOpen(true)}
-            // onMouseLeave={() => setIsOpen(false)}
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}
           >
             {children}
           </motion.ul>

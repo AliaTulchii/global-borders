@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import logo from "../../assets/home/reasons/logo.png";
+
 import ornament from "../../assets/home/reasons/ornament.png";
 import RotatingLogo from "../../components/RotatingLogo";
 import { useTranslation } from "react-i18next";
@@ -29,9 +29,8 @@ const Reasons = () => {
               <h2 className="reasons__subtitle">{t("reasons.reason2")}</h2>
               <p className="reasons__text">{t("reasons.reason3")}</p>
             </div>
-            <div className="reasons__box reasons__logo">
-              <RotatingLogo logo={logo} />
-            </div>
+              <RotatingLogo className="logo__box"/>
+
           </li>
 
           <li className="reasons__item">

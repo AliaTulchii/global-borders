@@ -1,16 +1,18 @@
-import React from 'react'
 import {motion} from 'framer-motion'
+import logo from "../assets/home/reasons/logo.png";
+import React from 'react';
 
 interface RotatingLogoProps{
-    logo: string;
+  className: string
 }
 
-const RotatingLogo: React.FC<RotatingLogoProps> = ({logo}) => {
+const RotatingLogo: React.FC<RotatingLogoProps> = ({className}) => {
   return (
-    <div>
-      <motion.img
+    <div className={className}>
+        <motion.img
         src={logo}
         alt="logo"
+        className='logo'
         animate={{ rotate: 360 }} 
         transition={{
           duration: 14, 
