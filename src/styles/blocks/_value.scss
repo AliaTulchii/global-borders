@@ -33,19 +33,19 @@ color: var(--accent);
     justify-content: space-between;
     background-color: var(--box-bg);
     border-radius: 12px ;
-    transition: background-color 0.5s ease-in,
-                background-color 0.5s ease-out 0.5s;
+    transition: background-color 0.3s ease-in,
+                background-color 0.3s ease-out 0.3s;
     
     &:hover{
     background-color: var(--blue);
     
-    transition: background-color 0.5s ease-in,
-                background-color 0.5s ease-out 0.5s;
+    transition: background-color 0.3s ease-in,
+                background-color 0.3s ease-out 0.3s;
                 
     .value__ornament{
         opacity: 1;
-        transition: opacity 0.5s ease-in,
-                opacity 0.5s ease-out 0.5s;
+        transition: opacity 0.3s ease-in,
+                    opacity 0.3s ease-out 0.3s;
     }
     }
 }
