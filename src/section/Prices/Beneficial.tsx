@@ -13,7 +13,7 @@ const Beneficial:React.FC<BeneficialProps> = ({title, items}) => {
        </h2>
        <div className="benef__content">
         <div className="benef__logo ">
-            <RotatingLogo className="logo"/>
+            <RotatingLogo className="rotate-logo"/>
         </div>
         
 

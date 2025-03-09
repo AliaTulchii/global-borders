@@ -11,7 +11,9 @@ const Turkey = () => {
     const [t] = useTranslation("global");
   const itemsCovered = t("turkey.covered.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
   const itemsBeneficial = t("turkey.beneficials.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
-  
+  const itemsValue = t("turkey.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
+
+
   return (
     <div className='turkey'>
         <Hero
@@ -27,7 +29,10 @@ const Turkey = () => {
         title={t("turkey.beneficials.title")}
         items={itemsBeneficial}
         />
-        <Value/>
+        <Value
+        title={t("turkey.value.title")}
+        items={itemsValue}
+        />
         <ServiceFees/>
         <OurDirections/>
         <Contact/>

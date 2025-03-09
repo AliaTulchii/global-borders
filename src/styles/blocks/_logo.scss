@@ -1,5 +1,10 @@
-.logo{
+.logo, .rotate-logo{
+    margin-right: 56px;
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.rotate-logo{
+    margin-right: 0;
 }

@@ -12,7 +12,7 @@ const RotatingLogo: React.FC<RotatingLogoProps> = ({className}) => {
         <motion.img
         src={logo}
         alt="logo"
-        className='logo'
+        className='rotate-logo'
         animate={{ rotate: 360 }} 
         transition={{
           duration: 14, 

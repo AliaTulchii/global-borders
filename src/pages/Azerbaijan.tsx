@@ -11,6 +11,8 @@ const Azerbaijan = () => {
   const [t] = useTranslation("global");
   const itemsCovered = t("azerbaijan.covered.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
   const itemsBeneficial = t("azerbaijan.beneficials.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
+  const itemsValue = t("azerbaijan.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
+  
   return (
     <div className='azerb'>
         <Hero 
@@ -26,7 +28,10 @@ const Azerbaijan = () => {
         title={t("azerbaijan.beneficials.title")}
         items={itemsBeneficial} 
         />
-        <Value/>
+        <Value
+        title={t("azerbaijan.value.title")}
+        items={itemsValue} 
+        />
         <ServiceFees/>
         <OurDirections/>
         <Contact/>

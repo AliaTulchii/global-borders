@@ -11,7 +11,8 @@ const Logistic = () => {
     const [t] = useTranslation("global");
   const itemsCovered = t("logistic.covered.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
   const itemsBeneficial = t("logistic.beneficials.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
-  
+  const itemsValue = t("logistic.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
+
   return (
     <div className='logistic'>
         <Hero 
@@ -27,7 +28,10 @@ const Logistic = () => {
         title={t("logistic.beneficials.title")}
         items={itemsBeneficial}
         />
-        <Value/>
+        <Value
+        title={t("logistic.value.title")}
+        items={itemsValue}
+        />
         <ServiceFees/>
         <OurDirections/>
         <Contact/>

@@ -127,7 +127,35 @@
                 "text":"İlk dəfə mal idxal etməyi planlaşdıran şirkətlər üçün."
             }
             }
-            
+        },
+        "value": {
+            "title": "Biznesinizə necə dəyər qatırıq",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Xərc optimizasiyası",
+                    "text": "Partiyanın dəyərinin 15%-dək iqtisadi fayda."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Gömrük rəsmiləşdirilməsinin sadələşdirilməsi",
+                    "text": "Gömrüklə işin qurulması və gömrük dəyərinin tənzimlənməsi risklərinin azaldılmasından faydalanın."
+                },
+                "item3":{
+                    "id": "3",
+                    "img": "../../src/assets/prices/svg/glass.svg",
+                    "title": "Yükləmə zamanı keyfiyyətə nəzarət",
+                    "text": "Nümayəndələrimiz malların nəqliyyat vasitəsinə yüklənməsi zamanı ilkin yoxlamanı həyata keçirəcək."
+                },
+                "item4":{
+                    "id": "4",
+                    "img": "../../src/assets/prices/svg/tick.svg",
+                    "title": "Biz nəqliyyat risklərini öz üzərimizə götürürük",
+                    "text": "Nəqliyyat riskləri də bizə keçir"
+                }
+            }
         }
     },
 
@@ -173,7 +201,29 @@
                 "text": "Avropa İttifaqı ölkələri ilə ticarət etməyi planlayan və ilk göndərişlərini həyata keçirməyə hazırlaşan müəssisələr üçün nəzərdə tutulub."
             }
             }
-            
+        },
+        "value": {
+            "title": "Biznesinizə necə dəyər qatırıq",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Xərc optimizasiyası",
+                    "text": "Partiyanın dəyərinin 10%-i qədər iqtisadi fayda."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Göndərilmədən əvvəl keyfiyyət yoxlanışı",
+                    "text": "Təmsilçilərimiz mallar avtomobilə yüklənərkən ilkin yoxlama həyata keçirəcəklər."
+                },
+                "item3":{
+                    "id": "3",
+                    "img": "../../src/assets/prices/svg/glass.svg",
+                    "title": "Nəqliyyat Risklərini Öhdəliyimizə Götürürük",
+                    "text": "Nəqliyyat riskləri də bizə keçir."
+                }
+            }
         }
     },
     "turkey": {
@@ -215,7 +265,29 @@
                 "text": "Türkiyə ölkələri ilə ticarət etməyə başlayan və ilk göndərişlərini həyata keçirməyi planlaşdıran şirkətlər üçün."
             }
             }
-            
+        },
+        "value": {
+            "title": "Biznesinizə necə dəyər qatırıq",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Xərc optimizasiyası",
+                    "text": "Partiyanın dəyərinin 15%-i qədər iqtisadi fayda."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Göndərilmədən əvvəl keyfiyyət yoxlanışı",
+                    "text": "Təmsilçilərimiz mallar avtomobilə yüklənərkən ilkin yoxlama həyata keçirəcəklər."
+                },
+                "item3":{
+                    "id": "3",
+                    "img": "../../src/assets/prices/svg/glass.svg",
+                    "title": "Nəqliyyat Risklərini Öhdəliyimizə Götürürük",
+                    "text": "Nəqliyyat riskləri də bizə keçir."
+                }
+            }
         }
     },
     "logistic": {
@@ -279,7 +351,23 @@
                 "text": "Çin, Hindistan, Özbəkistan, Türkmənistan və Qazaxıstandan olan kiçik və orta ölçülü qurumlar üçün, keyfiyyətli xidmət ön planda olan, sərfəli alış qiymətləri ilə işləmək istəyən, lakin satınalma mütəxəssisləri, logistika işçiləri və bəyannaməçilərdən ibarət bir heyət saxlamağın sərfəli olmadığı hallarda."
             }
             }
-            
+        },
+        "value": {
+            "title": "Biznesinizə necə dəyər qatırıq",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Xərc optimizasiyası",
+                    "text": "İdxal xərclərinizdə 15%-ə qədər azalma."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Gömrük rəsmiləşdirilməsinin sadələşdirilməsi",
+                    "text": "Nəqliyyatla bağlı qənaət - nəqliyyat partiyasının böyüdülməsi sayəsində."
+                }
+            }
         }
     }
 }

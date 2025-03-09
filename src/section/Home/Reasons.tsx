@@ -30,7 +30,7 @@ const Reasons = () => {
               <p className="reasons__text">{t("reasons.reason3")}</p>
             </div>
             <div className="reasons__box reasons__logo">
-              <RotatingLogo className={"logo"} />
+              <RotatingLogo className={"rotate-logo"} />
             </div>
           </li>
 

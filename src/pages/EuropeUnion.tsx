@@ -11,7 +11,8 @@ const EuropeUnion = () => {
     const [t] = useTranslation("global");
   const itemsCovered = t("eu.covered.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
   const itemsBeneficial = t("eu.beneficials.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
-  
+  const itemsValue = t("eu.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
+
   return (
     <div className='eu'>
         <Hero 
@@ -27,7 +28,10 @@ const EuropeUnion = () => {
         title={t("eu.beneficials.title")}
         items={itemsBeneficial} 
         />
-        <Value/>
+        <Value
+        title={t("eu.value.title")}
+        items={itemsValue} 
+        />
         <ServiceFees/>
         <OurDirections/>
         <Contact/>

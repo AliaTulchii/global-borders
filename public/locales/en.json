@@ -129,7 +129,34 @@
                 "text":"For companies intending to import goods for the first time."
             }
             }
-           
+        },
+        "value": {
+            "title": "How we add value to your business",
+            "list": {
+                "item1":{
+                    "id":"1",                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Cost optimization",
+                    "text": "Economic benefit from 15% of the cost of the batch."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Seamless Customs Processing",
+                    "text": "Benefit from delievering work with customs and the risks of adjusting the customs value."
+                },
+                "item3":{
+                    "id": "3",
+                    "img": "../../src/assets/prices/svg/glass.svg",
+                    "title": "Quality Control at Loading",
+                    "text": "Our representatives will perform the initial inspection of the goods when loading them into the vehicle."
+                },
+                "item4":{
+                    "id": "4",
+                    "img": "../../src/assets/prices/svg/tick.svg",
+                    "title": "We Cover Transport Risks",
+                    "text": "Transport risks are also passed to us."
+                }
+            }
         }
     },
 
@@ -177,7 +204,28 @@
                 "text": "For companies are ongoing to trade with EU countries and are planning to make their first delivery."
             }
             }
-            
+        },
+        "value": {
+            "title": "How we add value to your business",
+            "list": {
+                "item1":{
+                    "id":"1",                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Cost optimization",
+                    "text": "Economic benefit from 10% of the cost of the batch."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Pre-Shipment Quality Check",
+                    "text": "Our representatives inspect goods during loading."
+                },
+                "item3":{
+                    "id": "3",
+                    "img": "../../src/assets/prices/svg/glass.svg",
+                    "title": "We Cover Transport Risks",
+                    "text": "All transport risks and liabilities are fully transferred to us."
+                }
+            }
         }
     },
     "turkey": {
@@ -220,7 +268,29 @@
                 "text": "For companies are ongoing to trade with Turkiye countries and are planning to make their first delivery."
             }
             }
-            
+        },
+        "value": {
+            "title": "How we add value to your business",
+            "list": {
+                "item1":{
+                    "id":"1",
+                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Cost optimization",
+                    "text": "Achieve up to a 15% reduction in your overall import costs."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Pre-Shipment Quality Check",
+                    "text": "Our representatives inspect goods during loading."
+                },
+                "item3":{
+                    "id": "3",
+                    "img": "../../src/assets/prices/svg/glass.svg",
+                    "title": "We Cover Transport Risks",
+                    "text": "All transport risks and liabilities are fully transferred to us."
+                }
+            }
         }
     },
     "logistic": {
@@ -292,7 +362,23 @@
                 "text": "For small and medium-sized units from China, India, Uzbekistan, Turkmenistan and Kazakhstan, for whom a quality service is of the essence, a favorable purchase price, but it is not profitable to maintain a staff of purchasers, logisticians, declarants."
             }
             }
-            
+        },
+        "value": {
+            "title": "How we add value to your business",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "img": "../../src/assets/prices/svg/coin.svg",
+                    "title": "Cost optimization",
+                    "text": "Achieve up to a 15% reduction in your overall import costs."
+                },
+                "item2":{
+                    "id": "2",
+                    "img": "../../src/assets/prices/svg/deliver.svg",
+                    "title": "Reduced Shipping Costs",
+                    "text": "Savings on transportation - due to the enlargement of the transport batch."
+                }
+            }
         }
     }
 }
