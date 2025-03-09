@@ -12,9 +12,8 @@ const Beneficial:React.FC<BeneficialProps> = ({title, items}) => {
        {title}
        </h2>
        <div className="benef__content">
-        <div className="benef__logo-box">
-             <RotatingLogo className="benef__logo logo__box"/>
-        </div>
+        <RotatingLogo className="benef__logo logo__box"/>
+
        
         <ul className="benef__list">
         {Object.values(items).map((item) => (
