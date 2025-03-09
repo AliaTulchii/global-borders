@@ -80,6 +80,54 @@
         "hero": {
             "title": "AZƏRBAYCANA MALLARIN İDXALI",
             "text": "Biz Azərbaycanda bizneslər üçün rahat idxal həlləri təqdim edirik, sərfəli və problemsiz çatdırılmanı təmin edirik."
+        },
+        "covered": {
+            "title":"Xidmətimizə nələr daxildir",
+            "list": {
+                "service1":{
+                "id": "01",
+                "text": "Müqaviləmiz əsasında Azərbaycana mallar idxal edirik"
+            },
+            "service2":{
+                "id": "02",
+                "text": "İdxal icazələri və lisenziyaların alınması "
+            },
+            "service3":{
+                "id": "03",
+                "text": "Biz malların optimal daşınmasını təşkil edirik"
+            },
+            "service4":{
+                "id": "04",
+                "text": "Mallarin gömrük rəsmiləşdirilməsi"
+            },
+            "service5":{
+                "id": "05",
+                "text": "Azərbaycanda alıcılara malların razılaşdırılmış qiymətlə satışı"
+            },
+            "service6":{
+                "id": "06",
+                "text": "Gömrük rüsumları və vergilərin ödənilməsi."
+            }
+            }
+            
+        },
+        "beneficials":{
+            "title": "Xidmət kimlər üçün faydalıdır",
+            "list": {
+                "item1": {
+                "id": "01",
+                "text": "U Azərbaycandan olan və ayda 2-3 palet / 1 nəqliyyat vahidi (avtomobil / konteyner) və ya daha az həcmdə çatdırılma həyata keçirən qurumlar və müəssisələr üçün."
+            },
+            "item2": {
+                "id": "02",
+                "text": "Gömrük orqanlarının tez-tez gömrük dəyərini tənzimlədiyi malları idxal edənlər üçün."
+            },
+            "item3":{
+                "id": "03",
+                "text":"İlk dəfə mal idxal etməyi planlaşdıran şirkətlər üçün."
+            }
+            }
+            
         }
     },
 
@@ -87,18 +135,151 @@
         "hero": {
             "title": "Yevropa Ittifoqi (YI) mamlakatlaridan tovarlarni yetkazib berish",
             "text": "Yevropa Ittifoqidan Xitoy, Hindiston, O‘zbekiston va Qozog‘istonga samarali yetkazib berish yechimlari. Biz xarid qilish, logistika, bojxona rasmiylashtiruvi va Turkiya orqali tranzitni boshqaramiz – tavakkalchiliklarni kamaytirish va xarajatlarni 10% gacha qisqartirish."
+        },
+        "covered": {
+            "title":"Xidmətimizə nələr daxildir",
+            "list": {
+                "service1":{
+                "id": "01",
+                "text": "Müqaviləmiz əsasında AB ölkələrində mallar alırıq"
+            },
+            "service4":{
+                "id": "04",
+                "text": "Türkiyədə gömrük rüsumları və vergilərin ödənilməsi"
+            },
+            "service2":{
+                "id": "02",
+                "text": "Türkiyə terminalları ilə daşınmanı optimallaşdırırıq"
+            },
+            "service5":{
+                "id": "05",
+                "text": "Malların DAP şərtlərinə əsasən daşınması"
+            },
+            "service3":{
+                "id": "03",
+                "text": "Türkiyə ərazisində tranzit zamanı tam müşayiət və gömrük sənədləri paketi ilə satışları təşkil edirik"
+            }            
+            }
+        },
+        "beneficials":{
+            "title": "Xidmət kimlər üçün faydalıdır",
+            "list":{
+                "item1": {
+                "id": "01",
+                "text": "Çin, Hindistan, Özbəkistan və Qazaxıstandan gələn, ayda 1-2 palet və ya bir nəqliyyat vahidi (avtomobil/konteyner) qədər kiçik həcmli göndərişləri olan qurumlar və şirkətlər üçün."
+            },
+            "item2": {
+                "id": "02",
+                "text": "Avropa İttifaqı ölkələri ilə ticarət etməyi planlayan və ilk göndərişlərini həyata keçirməyə hazırlaşan müəssisələr üçün nəzərdə tutulub."
+            }
+            }
+            
         }
     },
     "turkey": {
         "hero": {
             "title": "Türkiyədən malların çatdırılması",
             "text": "Mərkəzi Asiya üçün səmərəli logistika, gömrük dəstəyi və risksiz çatdırılmalar."
+        },
+        "covered": {
+            "title":"Xidmətimizə nələr daxildir",
+            "list":{
+                "service1":{
+                "id": "01",
+                "text": "Türkiyədə müqaviləmiz əsasında mallar alırıq"
+            },
+            "service3":{
+                "id": "03",
+                "text": "Malların optimal daşınmasını təşkil edirik"
+            },
+            "service2":{
+                "id": "02",
+                "text": "Gömrük orqanları üçün sənəd paketini hazırlayırıq"
+            },
+            
+            "service4":{
+                "id": "04",
+                "text": "Malların DAP şərtlərinə uyğun olaraq daşınması"
+            }
+            }
+        },
+        "beneficials":{
+            "title": "Xidmət kimlər üçün faydalıdır",
+            "list":{
+                "item1": {
+                "id": "01",
+                "text": "Türkmənistan, Özbəkistan və Qazaxıstandan olan qurumlar və şirkətlər üçün: göndərmə həcmi kiçikdir (ayda 1-3 palet və ya bir nəqliyyat vahidi (avtomobil/konteyner) və daha az)."
+            },
+            "item2": {
+                "id": "02",
+                "text": "Türkiyə ölkələri ilə ticarət etməyə başlayan və ilk göndərişlərini həyata keçirməyi planlaşdıran şirkətlər üçün."
+            }
+            }
+            
         }
     },
     "logistic": {
         "hero": {
             "title": "Fərdi logistika həllərinin hazırlanması",
             "text": "Kapsamlı təchizat zənciri dəstəyi: məsləhət, maliyyə logistikası, gömrük rəsmiləşdirilməsi, sertifikatlaşdırma və multimodal daşımaları əhatə edir. Daxili logistika personalına ehtiyac olmadan idxal xərclərini 15%-ə qədər azaltmaq və göndərişləri optimallaşdırmaq imkanı."
+        },
+        "covered": {
+            "title":"Xidmətimizə nələr daxildir",
+            "list": {
+                "service1":{
+                "id": "01",
+                "text": "Malların tədarükü ilə bağlı xarici iqtisadi fəaliyyət məsələlərinə dair məsləhətlər"
+            },
+            "service6":{
+                "id": "06",
+                "text": "Mallarin anbarlarda konsolidasiyası və saxlanması, markalanması, qablaşdırılması, etiketlənməsi"
+            },
+            "service2":{
+                "id": "02",
+                "text": "Logistika həllərinizin hazırlanması"
+            },
+
+            "service7":{
+                "id": "07",
+                "text": "Malların sığortalanması"
+            },
+
+            "service3":{
+                "id": "03",
+                "text": "Maliyyə logistikası"
+            },
+            "service8":{
+                "id": "08",
+                "text": "Gömrük bəyannaməsi"
+            },
+            "service4":{
+                "id": "04",
+                "text": "Tam sənəd dəstəyi"
+            },
+            "service9":{
+                "id": "09",
+                "text": "Yük daşımaları avtomobil, dəmir yolu və multimodal nəqliyyatla"
+            },
+            "service5":{
+                "id": "05",
+                "text": "Baytarlıq və fitosanitar sertifikatların alınmasına kömək"
+            },           
+            
+            "service10":{
+                "id": "10",
+                "text": "Xarici iqtisadi fəaliyyətlə bağlı digər xidmətlər"
+            }
+            }
+        },
+        "beneficials":{
+            "title": "Xidmət kimlər üçün faydalıdır",
+            "list":{
+                "item1": {
+                "id": "01",
+                "text": "Çin, Hindistan, Özbəkistan, Türkmənistan və Qazaxıstandan olan kiçik və orta ölçülü qurumlar üçün, keyfiyyətli xidmət ön planda olan, sərfəli alış qiymətləri ilə işləmək istəyən, lakin satınalma mütəxəssisləri, logistika işçiləri və bəyannaməçilərdən ibarət bir heyət saxlamağın sərfəli olmadığı hallarda."
+            }
+            }
+            
         }
     }
 }

@@ -9,6 +9,9 @@ import Value from '../section/Prices/Value'
 
 const Turkey = () => {
     const [t] = useTranslation("global");
+  const itemsCovered = t("turkey.covered.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
+  const itemsBeneficial = t("turkey.beneficials.list", { returnObjects: true }) as Record<string, { id: string; text: string }>;
+  
   return (
     <div className='turkey'>
         <Hero
@@ -16,8 +19,14 @@ const Turkey = () => {
         title={t("turkey.hero.title")}
         text={t("turkey.hero.text")}
         />
-        <Covered/>
-        <Beneficial/>
+        <Covered
+        title={t("turkey.covered.title")}
+        items={itemsCovered}
+        />
+        <Beneficial
+        title={t("turkey.beneficials.title")}
+        items={itemsBeneficial}
+        />
         <Value/>
         <ServiceFees/>
         <OurDirections/>
