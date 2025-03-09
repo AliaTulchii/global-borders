@@ -4,13 +4,22 @@ import Contacts from '../pages/Contacts'
 import NotFound from '../pages/NotFound'
 
 import {Routes, Route} from 'react-router-dom'
-import Prices from '../pages/Prices'
+import Azerbaijan from '../pages/Azerbaijan'
+import EuropeUnion from '../pages/EuropeUnion'
+import Turkey from '../pages/Turkey'
+import Logistic from '../pages/Logistic'
 
 const AnimRoutes = () => {
   return (
     <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/prices' element={<Prices/>}/>
+
+        <Route path='/azerbaijan' element={<Azerbaijan/>}/>
+        <Route path='/eu' element={<EuropeUnion/>}/>
+        <Route path='/turkey' element={<Turkey/>}/>
+        <Route path='/logistic' element={<Logistic/>}/>
+
+
         <Route path='/directions' element={<Direction/>}/>
         <Route path='/contacts' element={<Contacts/>}/>
         <Route path='*' element={<NotFound/>}/>

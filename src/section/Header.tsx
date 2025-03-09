@@ -28,14 +28,14 @@ const Header = () => {
             <DropdownNav
               type="services"
               trigger= {
-                <NavLink to={'/prices'}   className='header__nav-item'>
+                <NavLink to='#'  className='header__nav-item'>
                 {t("header.services")}&#10625;
                 </NavLink>
               }
               >
                 <li className='dropdown__item'>
               <Link 
-              to={'/'} 
+              to={'/azerbaijan'} 
               className='dropdown__link dropdown__link-services'
               >
               <motion.span initial="initial" whileHover="hover" className="nav-text">
@@ -51,7 +51,7 @@ const Header = () => {
             <li className='dropdown__item'>
               <Link  
               className='dropdown__link dropdown__link-services'
-              to={'/'}>
+              to={'/eu'}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services2")}
@@ -65,7 +65,7 @@ const Header = () => {
             <li className='dropdown__item'>
               <Link  
               className='dropdown__link dropdown__link-services'
-              to={'/'}>
+              to={'/turkey'}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services3")}
@@ -79,7 +79,7 @@ const Header = () => {
             <li className='dropdown__item'>
               <Link  
               className='dropdown__link dropdown__link-services'
-              to={'/'}>
+              to={'/logistic'}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services4")}

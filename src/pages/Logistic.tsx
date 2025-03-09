@@ -7,14 +7,14 @@ import OurDirections from '../section/Prices/OurDirections'
 import ServiceFees from '../section/Prices/ServiceFees'
 import Value from '../section/Prices/Value'
 
-const Azerbaijan = () => {
-  const [t] = useTranslation("global");
+const Logistic = () => {
+    const [t] = useTranslation("global");
   return (
-    <div className='azerb'>
+    <div className='logistic'>
         <Hero 
-        className="azerb-hero hero"
-        title={t("azerbaijan.hero.title")}
-        text={t("azerbaijan.hero.text")}
+        className='logistic-hero hero'
+        title={t("logistic.hero.title")}
+        text={t("logistic.hero.text")}
         />
         <Covered/>
         <Beneficial/>
@@ -26,4 +26,4 @@ const Azerbaijan = () => {
   )
 }
 
-export default Azerbaijan
+export default Logistic

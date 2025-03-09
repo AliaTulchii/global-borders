@@ -1,16 +1,22 @@
 import ornament from '../../assets/home/reasons/ornament.png'
-const Hero = () => {
+
+interface HeroProps{
+  className: string,
+  title: string,
+  text: string
+}
+
+const Hero:React.FC<HeroProps> = ({className, title, text}) => {
   return (
-    <section className="hero">
+    <section className={className}>
       <div className="hero__container container">
         <img className='hero__ornament' src={ornament} alt="ornament" />
         <div className='hero__content'>
-        <h1 className="hero__title">
-        Import of goods to Azerbaijan
+        <h1 className={`hero__title`}>
+        {title}
         </h1>
         <p className="hero__text">
-        We provide a seamless import solution for businesses in Azerbaijan,
-        ensuring cost-effective and hassle-free deliveries. 
+        {text}
         </p>
         </div>
         

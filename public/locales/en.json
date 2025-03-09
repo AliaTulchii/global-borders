@@ -75,7 +75,31 @@
         "direction": "Directions",
         "contacts": "Contacts",
         "privacy": "Privacy policy"
-    }
+    },
         
-    
+    "azerbaijan": {
+        "hero": {
+            "title": "Import of goods to Azerbaijan",
+            "text": "We provide a seamless import solution for businesses in Azerbaijan, ensuring cost-effective and hassle-free deliveries."
+        }
+    },
+
+    "eu": {
+        "hero": {
+            "title": "Delivery of goods from the countries of the European Union (EU)",
+            "text": "Efficient delivery solutions from the European Union to China, India, Uzbekistan, and Kazakhstan. We handle procurement, logistics, customs, and transit through Turkey—minimizing risks and reducing costs by up to 10%."
+        }
+    },
+    "turkey": {
+        "hero": {
+            "title": "Delivery of goods from Turkey",
+            "text": "Efficient logistics, customs support, and risk-free deliveries for Central Asia."
+        }
+    },
+    "logistic": {
+        "hero": {
+            "title": "Development of an individual logistics solution",
+            "text": "Comprehensive supply chain support, including consultation, financial logistics, customs clearance, certification, and multimodal transportation. Reduce import costs by up to 15% and optimize shipments without the need for in-house logistics staff."
+        }
+    }
 }

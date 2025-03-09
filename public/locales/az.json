@@ -75,5 +75,30 @@
         "direction": "İstiqamətlər",
         "contacts": "Əlaqə",
         "privacy": "Məxfilik siyasəti"
+    },
+    "azerbaijan": {
+        "hero": {
+            "title": "AZƏRBAYCANA MALLARIN İDXALI",
+            "text": "Biz Azərbaycanda bizneslər üçün rahat idxal həlləri təqdim edirik, sərfəli və problemsiz çatdırılmanı təmin edirik."
+        }
+    },
+
+    "eu": {
+        "hero": {
+            "title": "Yevropa Ittifoqi (YI) mamlakatlaridan tovarlarni yetkazib berish",
+            "text": "Yevropa Ittifoqidan Xitoy, Hindiston, O‘zbekiston va Qozog‘istonga samarali yetkazib berish yechimlari. Biz xarid qilish, logistika, bojxona rasmiylashtiruvi va Turkiya orqali tranzitni boshqaramiz – tavakkalchiliklarni kamaytirish va xarajatlarni 10% gacha qisqartirish."
+        }
+    },
+    "turkey": {
+        "hero": {
+            "title": "Türkiyədən malların çatdırılması",
+            "text": "Mərkəzi Asiya üçün səmərəli logistika, gömrük dəstəyi və risksiz çatdırılmalar."
+        }
+    },
+    "logistic": {
+        "hero": {
+            "title": "Fərdi logistika həllərinin hazırlanması",
+            "text": "Kapsamlı təchizat zənciri dəstəyi: məsləhət, maliyyə logistikası, gömrük rəsmiləşdirilməsi, sertifikatlaşdırma və multimodal daşımaları əhatə edir. Daxili logistika personalına ehtiyac olmadan idxal xərclərini 15%-ə qədər azaltmaq və göndərişləri optimallaşdırmaq imkanı."
+        }
     }
 }

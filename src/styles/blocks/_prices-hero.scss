@@ -1,0 +1,118 @@
+.hero{
+    position: relative;
+    height: 1018px;
+    margin-bottom: 120px;    
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    z-index: 10;
+}
+
+.azerb-hero{
+  background-image: url('../assets/prices/azerbaijan/azerbaijan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  .azerb-hero {
+      background-image: url('../assets/prices/azerbaijan/azerbaijan@2x.jpg');
+    }
+  }
+
+  .eu-hero{
+    background-image: url('../assets/prices/eu/truck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .eu-hero {
+        background-image: url('../assets/prices/eu/truck@2x.jpg');
+      }
+    }
+
+    .turkey-hero{
+      background-image: url('../assets/prices/turkey/shipping.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+      .turkey-hero {
+          background-image: url('../assets/prices/turkey/shipping@2x.jpg');
+        }
+      }
+
+      .logistic-hero{
+        background-image: url('../assets/prices/logistic/businessman.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        .logistic-hero {
+            background-image: url('../assets/prices/logistic/businessman@2x.jpg');
+          }
+        }
+
+  .hero__container{
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    // align-items: end;
+  }
+
+  .hero__ornament{
+    position: absolute;
+    top: 0;
+    right: 2.5%;
+    width: 277px;
+    height: 100%;
+    z-index: 5;
+  }
+
+.hero__content{
+  width: 100%;
+}
+  .hero__title{
+    // width: 916px;
+    margin-bottom: 33px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 80px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: var(--accent);
+
+  }
+
+  .turkey-hero .hero__title{
+    color: var(--white);
+  }
+
+  .logistic-hero .hero__title{
+    color: var(--white);
+  }
+
+
+
+  .hero__text{
+    // width: 747px;
+    margin-bottom: 56px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0em;
+color: var(--accent);
+  }
+
+  .turkey-hero .hero__text{
+    color: var(--white);
+  }
+
+  .logistic-hero .hero__text{
+    color: var(--white);
+  }

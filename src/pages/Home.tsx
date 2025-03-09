@@ -4,7 +4,7 @@ import OurPartners from '../section/Home/OurPartners'
 import Reasons from '../section/Home/Reasons'
 import Services from '../section/Services'
 import '../styles/main.scss'
-import Contact from '../section/Home/Contact'
+import Contact from '../section/Contact'
 
 const Home = () => {
   
