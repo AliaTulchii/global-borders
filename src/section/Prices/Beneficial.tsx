@@ -12,7 +12,10 @@ const Beneficial:React.FC<BeneficialProps> = ({title, items}) => {
        {title}
        </h2>
        <div className="benef__content">
-        <RotatingLogo className="benef__logo logo__box"/>
+        <div className="benef__logo ">
+            <RotatingLogo className="logo"/>
+        </div>
+        
 
        
         <ul className="benef__list">

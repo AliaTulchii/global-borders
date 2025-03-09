@@ -29,8 +29,9 @@ const Reasons = () => {
               <h2 className="reasons__subtitle">{t("reasons.reason2")}</h2>
               <p className="reasons__text">{t("reasons.reason3")}</p>
             </div>
-              <RotatingLogo className="logo__box"/>
-
+            <div className="reasons__box reasons__logo">
+              <RotatingLogo className={"logo"} />
+            </div>
           </li>
 
           <li className="reasons__item">
