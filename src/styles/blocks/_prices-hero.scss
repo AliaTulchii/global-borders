@@ -1,6 +1,6 @@
 .hero{
     position: relative;
-    height: 1018px;
+    height: 1048px;
     margin-bottom: 120px;    
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
@@ -89,17 +89,19 @@ color: var(--accent);
   }
 
   .turkey-hero .hero__title{
+    width: 1016px;
     color: var(--white);
   }
 
   .logistic-hero .hero__title{
+    width: 1016px;
     color: var(--white);
   }
 
 
 
   .hero__text{
-    // width: 747px;
+    width: 907px;
     margin-bottom: 56px;
     font-family: var(--second-family);
 font-weight: 400;
