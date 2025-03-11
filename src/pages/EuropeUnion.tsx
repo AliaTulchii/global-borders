@@ -14,7 +14,7 @@ const EuropeUnion = () => {
   const itemsValue = t("eu.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
 
   return (
-    <div className='eu'>
+    <main className='eu'>
         <Hero 
         className='eu-hero hero'
         title={t("eu.hero.title")}
@@ -35,7 +35,7 @@ const EuropeUnion = () => {
         <ServiceFees/>
         <OurDirections/>
         <Contact/>
-    </div>
+    </main>
   )
 }
 

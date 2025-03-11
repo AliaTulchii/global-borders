@@ -1,14 +1,18 @@
 import { NavLink } from "react-router-dom";
 import ArrowIcon from "../svg/ArrowIcon";
-import { useTranslation } from "react-i18next";
 
-const BtnLink = () => {
-  const [t] = useTranslation("global");
+interface BtnLinkProps{
+  className: string, 
+  direction: string,
+  children: React.ReactNode
+}
+
+const BtnLink:React.FC<BtnLinkProps> = ({className, direction, children}) => {
 
   return (
-    <NavLink className="btn__link" to={"/directions"}>
+    <NavLink className={className} to={direction}>
       <p>
-        <>{t("learnBtn.text")}</>
+        {children}
       </p>
       <ArrowIcon className={"btn__arrow"} />
     </NavLink>

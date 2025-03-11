@@ -96,11 +96,11 @@ const Header = () => {
             <DropdownNav
               type="direction"
               trigger= {
-                <NavLink className='header__nav-item' to={'/directions'}>{t("header.directions")}&#10625;</NavLink>
+                <NavLink className='header__nav-item' to={'#'}>{t("header.directions")}&#10625;</NavLink>
               }
               >
                 <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/service1">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions">
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction1")}
@@ -112,7 +112,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/service2">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions">
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction2")}
@@ -124,7 +124,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/service3">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions">
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction3")}
@@ -136,7 +136,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/service4">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions">
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction4")}

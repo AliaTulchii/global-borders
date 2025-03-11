@@ -1,11 +1,17 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-import ornament from "../../assets/home/reasons/ornament.png";
-import RotatingLogo from "../../components/RotatingLogo";
+import ornament from "../assets/home/reasons/ornament.png";
+import RotatingLogo from "../components/RotatingLogo";
 import { useTranslation } from "react-i18next";
 
-const Reasons = () => {
+interface ReasonsProps{
+  title: string,
+  subtitle: string,
+  text: string
+}
+
+const Reasons:React.FC<ReasonsProps> = ({title, subtitle, text}) => {
   const [t] = useTranslation("global");
   const sectionRef = useRef(null);
 
@@ -25,9 +31,9 @@ const Reasons = () => {
         <ul className="reasons__list">
           <li className="reasons__item">
             <div className="reasons__choose">
-              <h1 className="reasons__title">{t("reasons.reason1")}</h1>
-              <h2 className="reasons__subtitle">{t("reasons.reason2")}</h2>
-              <p className="reasons__text">{t("reasons.reason3")}</p>
+              <h1 className="reasons__title">{title}</h1>
+              <h2 className="reasons__subtitle">{subtitle}</h2>
+              <p className="reasons__text">{text}</p>
             </div>
             <div className="reasons__box reasons__logo">
               <RotatingLogo className={"rotate-logo"} />

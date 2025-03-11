@@ -15,7 +15,7 @@ const Turkey = () => {
 
 
   return (
-    <div className='turkey'>
+    <main className='turkey'>
         <Hero
         className="turkey-hero hero"
         title={t("turkey.hero.title")}
@@ -36,7 +36,7 @@ const Turkey = () => {
         <ServiceFees/>
         <OurDirections/>
         <Contact/>
-    </div>
+    </main>
   )
 }
 

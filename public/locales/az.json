@@ -369,5 +369,86 @@
                 }
             }
         }
+    },
+    "ourDirections": {
+        "title": "Baxış istiqamətlərimiz",
+        "text": "Biz beynəlxalq logistika və açar təhvili ilə çatdırılma həlləri üzrə ixtisaslaşmışıq, müxtəlif regionlarda etibarlı və sərfəli nəqliyyat xidmətləri təqdim edirik.",
+        "title2":"Bizi seçmək üçün səbəblər?",
+        "subtitle": "Biz yüksək peşəkar nüfuza malik Avropa istehsalçılarından geniş çeşiddə məhsullar təklif edir və rəqabətqabiliyyətli qiymətlər təqdim edirik.",
+        "text2": "Being a professional supplier, we independently organize commodity, financial, customs and transport logistics. With 10-year partnerships we offer special prices for the supply of goods from the countries of the European Union. Traditionally, our customers are importers and companies from Azerbaijan, China, India, Uzbekistan and Kazakhstan.",            
+        "list": {
+            "item1":{
+                "id": "01",
+                "mainTitle": "Azərbaycan",
+                "text1": "Azərbaycanlı müştərilər üçün aşağıdakı xidmətlər faydalı olacaq:",
+                "text2": "Avropa İttifaqından malların açar təhvili ilə çatdırılması",
+                "text3": "Çin və Hindistandan malların açar təhvili ilə çatdırılması",
+                "text4": "Özbəkistan və Qazaxıstandan malların açar təhvili ilə çatdırılması",
+                "text5": "",
+                "subtitle1": "Sizin üçün əsas üstünlüklər",
+                "text6": "Nəqliyyat xərclərinin azaldılması",
+                "text7": "Rəqabətqabiliyyətli qiymət",
+                "text8": "Bizim təcrübəmizdən istifadə",
+                "text9": "Risklərinizi minimuma endirmək",
+                "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
+                "btn1": "Learn more",
+                "btn2": "Bağla",
+                "img": "../assets/directions/direction1.jpg"
+            },
+            "item2":{
+                "id": "02",
+                "mainTitle": "Avropa İttifaqı (Aİ) ölkələri",
+                "text1": "Biz artıq 10 ildən çoxdur ki, Avropa İttifaqı istehsalçıları ilə əməkdaşlıq edirik. Geniş paylama şəbəkəmiz, müntəzəm tədarüklərimiz, topdansatış endirimlərimiz və aşağıdakı ölkələrə çatdırılmalar üçün yaxşı təşkil olunmuş nəqliyyat logistikamız mövcuddur:",
+                "text2": "Çin",
+                "text3": "Hindistan",
+                "text4": "Özbəkistan",
+                "text5": "Qazaxıstan",
+                "subtitle1": "Sizin üçün əsas üstünlüklər",
+                "text6": "Azaldılmış nəqliyyat xərcləri.",
+                "text7": "Rəqabətqabiliyyətli qiymət.",
+                "text8": "Bizim təcrübəmizdən istifadə.",
+                "text9": "Risklərinizi minimuma endirin.",
+                "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
+                "btn1": "Learn more",
+                "btn2": "Bağla",
+                "img": "../assets/directions/direction2.jpg"
+            },
+            "item3":{
+                "id": "03",
+                "mainTitle": "Türkiyə",
+                "text1": "Biz artıq 7 ildən çoxdur ki, Türkiyə istehsalçıları ilə əməkdaşlıq edirik. Geniş tərəfdaş şəbəkəmiz, müntəzəm tədarüklərimiz, topdansatış endirimlərimiz və aşağıdakı ölkələrə çatdırılmalar üçün yaxşı təşkil olunmuş nəqliyyat logistikamız mövcuddur:",
+                "text2": "Türkmənistan",
+                "text3": "Özbəkistan",
+                "text4": "Qazaxıstan",
+                "text5": "",
+                "subtitle1": "Sizin üçün əsas üstünlüklər",
+                "text6": "Azaldılmış nəqliyyat xərcləri.",
+                "text7": "Rəqabətqabiliyyətli qiymət.",
+                "text8": "Bizim təcrübəmizdən istifadə edirsiniz.",
+                "text9": "Risklərinizi minimuma endirirsiniz.",
+                "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
+                "btn1": "Learn more",
+                "btn2": "Bağla",
+                "img": "../assets/directions/direction3.jpg"
+            },
+            "item4":{
+                "id": "04",
+                "mainTitle": "Böyük Britaniya",
+                "text1": "Biz artıq 5 ildən çoxdur ki, İngiltərədən olan istehsalçılarla əməkdaşlıq edirik. Yaxın iş əlaqələrimiz, müntəzəm tədarüklərimiz, topdansatış endirimlərimiz və aşağıdakı ölkələrə çatdırılmalar üçün yaxşı təşkil olunmuş nəqliyyat logistikamız mövcuddur:",
+                "text2": "Çin",
+                "text3": "Hindistan",
+                "text4": "Özbəkistan",
+                "text5": "Qazaxıstan",
+                "subtitle1": "Sizin üçün əsas üstünlüklər",
+                "text6": "Azaldılmış nəqliyyat xərcləri.",
+                "text7": "Rəqabətqabiliyyətli qiymət.",
+                "text8": "Bizim təcrübəmizdən istifadə edirsiniz.",
+                "text9": "Risklərinizi minimuma endirirsiniz.",
+                "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
+                "btn1": "Learn more",
+                "btn2": "Bağla",
+                "img": "../assets/directions/direction4.jpg"
+            }
+        }
     }
 }

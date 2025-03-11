@@ -14,7 +14,7 @@ const Azerbaijan = () => {
   const itemsValue = t("azerbaijan.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
   
   return (
-    <div className='azerb'>
+    <main className='azerb'>
         <Hero 
         className="azerb-hero hero"
         title={t("azerbaijan.hero.title")}
@@ -35,7 +35,7 @@ const Azerbaijan = () => {
         <ServiceFees/>
         <OurDirections/>
         <Contact/>
-    </div>
+    </main>
   )
 }
 

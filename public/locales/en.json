@@ -159,6 +159,7 @@
                 }
             }
         }
+        
     },
 
     "eu": {
@@ -382,5 +383,86 @@
                 }
             }
         }
-    }
+    },
+    "ourDirections": {
+            "title": "Our directions",
+            "text": "We specialize in international logistics and turnkey delivery solutions, providing reliable and cost-effective transportation services across multiple regions.",
+            "title2":"Why Choose Us?",
+            "subtitle": "We sell a wide range of goods from European manufacturers with a high professional reputation and at competitive prices.",
+            "text2": "Being a professional supplier, we independently organize commodity, financial, customs and transport logistics. With 10-year partnerships we offer special prices for the supply of goods from the countries of the European Union. Traditionally, our customers are importers and companies from Azerbaijan, China, India, Uzbekistan and Kazakhstan.",            
+            "list": {
+                "item1":{
+                    "id": "01",
+                    "mainTitle": "Azerbaijan",
+                    "text1": "The following services will be beneficial for customers from Azerbaijan:  Turnkey delivery of goods from the European Union Turnkey delivery of goods from China and India Turnkey delivery of goods from Uzbekistan and Kazakhstan",
+                    "text2": "Turnkey delivery of goods from the European Union",
+                    "text3": "Turnkey delivery of goods from China and India",
+                    "text4": "Turnkey delivery of goods from Uzbekistan and Kazakhstan",
+                    "text5": "",
+                    "subtitle1": "The main benefit for you",
+                    "text6": "Reduced transportation costs.",
+                    "text7": "Competitive price.",
+                    "text8": "You use our expertise.",
+                    "text9": "Minimize your risks.",
+                    "subtitle2": "To order the service, call by phone",
+                    "btn1": "Learn more",
+                    "btn2": "Close",
+                    "img": "../assets/directions/direction1.jpg"
+                },
+                "item2":{
+                    "id": "02",
+                    "mainTitle": "European Union (EU) countries",
+                    "text1": "We have been working with manufacturers from the European Union for over 10 years. We have a wide distribution network, regular deliveries, wholesale discounts, and well-established transport logistics for deliveries to the following countries:",
+                    "text2": "China",
+                    "text3": "India",
+                    "text4": "Uzbekistan",
+                    "text5": "Kazakhstan",
+                    "subtitle1": "The main benefit for you",
+                    "text6": "Reduced transportation costs.",
+                    "text7": "Competitive price.",
+                    "text8": "You use our expertise.",
+                    "text9": "Minimize your risks.",
+                    "subtitle2": "To order the service, call by phone",
+                    "btn1": "Learn more",
+                    "btn2": "Close",
+                    "img": "../assets/directions/direction2.jpg"
+                },
+                "item3":{
+                    "id": "03",
+                    "mainTitle": "Turkey",
+                    "text1": "We have been working with Turkish manufacturers for over 7 years. We have a wide network of partners, regular deliveries, wholesale discounts, and well-established transport logistics for deliveries to the following countries:",
+                    "text2": "Turkmenistan",
+                    "text3": "Uzbekistan",
+                    "text4": "Kazakhstan",
+                    "text5": "",
+                    "subtitle1": "The main benefit for you",
+                    "text6": "Reduced transportation costs.",
+                    "text7": "Competitive price.",
+                    "text8": "You use our expertise.",
+                    "text9": "Minimize your risks.",
+                    "subtitle2": "To order the service, call by phone",
+                    "btn1": "Learn more",
+                    "btn2": "Close",
+                    "img": "../assets/directions/direction3.jpg"
+                },
+                "item4":{
+                    "id": "04",
+                    "mainTitle": "Great Britain",
+                    "text1": "We have been working with manufacturers from England for over 5 years. We have close business ties, regular deliveries, wholesale discounts, and well-established transport logistics for deliveries to the following countries:",
+                    "text2": "China",
+                    "text3": "India",
+                    "text4": "Uzbekistan",
+                    "text5": "Kazakhstan",
+                    "subtitle1": "The main benefit for you",
+                    "text6": "Reduced transportation costs.",
+                    "text7": "Competitive price.",
+                    "text8": "You use our expertise.",
+                    "text9": "Minimize your risks.",
+                    "subtitle2": "To order the service, call by phone",
+                    "btn1": "Learn more",
+                    "btn2": "Close",
+                    "img": "../assets/directions/direction4.jpg"
+                }
+            }
+        }
 }

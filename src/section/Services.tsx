@@ -66,7 +66,7 @@ const Services = () => {
                         <div className='services__content-right'>
                             <p className='services__content-text'>{text}</p>
 
-                            <BtnLink/>
+                            <BtnLink className="btn__link" direction={"/directions"}><>{t("learnBtn.text")}</></BtnLink>
                         </div>
                         
                     </div>

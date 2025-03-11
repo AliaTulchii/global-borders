@@ -40,7 +40,7 @@ navigation={{
             
             <div className="slider__content">
                 <h3 className='slider__title'>{t("homeDirection.direction1")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link" direction={"/directions"}><>{t("learnBtn.text")}</></BtnLink>
             </div>
         </SwiperSlide>
 
@@ -51,7 +51,7 @@ navigation={{
             
             <div className="slider__content">
                 <h3 className='slider__title'>{t("homeDirection.direction2")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link" direction={"/directions"}><>{t("learnBtn.text")}</></BtnLink>
             </div>
         </SwiperSlide>
 
@@ -62,7 +62,7 @@ navigation={{
             
             <div className="slider__content">
                 <h3 className='slider__title'>{t("homeDirection.direction3")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link" direction={"/directions"}><>{t("learnBtn.text")}</></BtnLink>
             </div>
         </SwiperSlide>
 
@@ -73,7 +73,7 @@ navigation={{
             
             <div className="slider__content">
                 <h3 className='slider__title'>{t("homeDirection.direction4")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link" direction={"/directions"}><>{t("learnBtn.text")}</></BtnLink>
             </div>
         </SwiperSlide>
 

@@ -14,7 +14,7 @@ const Logistic = () => {
   const itemsValue = t("logistic.value.list", { returnObjects: true }) as Record<string, { id: string; img: string; title: string; text: string }>;
 
   return (
-    <div className='logistic'>
+    <main className='logistic'>
         <Hero 
         className='logistic-hero hero'
         title={t("logistic.hero.title")}
@@ -35,7 +35,7 @@ const Logistic = () => {
         <ServiceFees/>
         <OurDirections/>
         <Contact/>
-    </div>
+    </main>
   )
 }
 
