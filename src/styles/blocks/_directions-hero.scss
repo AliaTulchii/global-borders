@@ -79,7 +79,7 @@ color: var(--accent);
     }
 
     .direction__item{
-        padding: 12px 0 40px 0;
+        padding: 40px 0 40px 12px;
         display: grid;
     align-items: start;
     grid-template-columns: 1fr 1fr; 
@@ -137,7 +137,7 @@ color: var(--accent);
     }
 
     .direction__item-btns{
-        margin-bottom: 56px;
+        // margin-bottom: 56px;
         display: flex;
         gap: 12px;
     }
@@ -147,6 +147,7 @@ color: var(--accent);
     }
 
     .direction__item-acordeon{
+        margin-top: 205px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -154,28 +155,53 @@ color: var(--accent);
 border-radius: 12px;
 padding: 8px 21px;
 width: 181px;
-background-color: var(--accent);
+background-color: transparent;
 
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0em;
-color: var(--white);
+color: var(--accent);
+cursor: pointer;
 transition: all 0.5s ease-in-out;
 
 .btn__arrow{
+    margin-top: 6px;
     margin-left: 8px;
 }
 
 .btn__arrow path{
-    margin-left: 10px;
-    stroke: var(--white);
+    stroke: var(--accent);
     transition: all 0.5s ease-in-out;
 }
 
 &:hover, :focus{
-    background-color: var(--white);
+    background-color: var(--accent);
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+
+    .btn__arrow path{
+        stroke: var(--white);
+        transition: all 0.5s ease-in-out;
+    }
+}
+    }
+
+    .direction__item-acordeon.active {
+        margin-top: 56px;
+        background: var(--accent); 
+        color: var(--white);
+        cursor: pointer;
+
+        .btn__arrow path{
+            stroke: var(--white);
+            transition: all 0.5s ease-in-out;
+        }
+
+        
+&:hover, :focus{
+    background-color: transparent;
     color: var(--accent);
     transition: all 0.5s ease-in-out;
 
@@ -184,5 +210,4 @@ transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
     }
 }
-    }
-
+      }

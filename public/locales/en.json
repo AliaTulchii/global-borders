@@ -394,7 +394,7 @@
                 "item1":{
                     "id": "01",
                     "mainTitle": "Azerbaijan",
-                    "text1": "The following services will be beneficial for customers from Azerbaijan:  Turnkey delivery of goods from the European Union Turnkey delivery of goods from China and India Turnkey delivery of goods from Uzbekistan and Kazakhstan",
+                    "text1": "The following services will be beneficial for customers from Azerbaijan: ",
                     "text2": "Turnkey delivery of goods from the European Union",
                     "text3": "Turnkey delivery of goods from China and India",
                     "text4": "Turnkey delivery of goods from Uzbekistan and Kazakhstan",
@@ -459,7 +459,7 @@
                     "text8": "You use our expertise.",
                     "text9": "Minimize your risks.",
                     "subtitle2": "To order the service, call by phone",
-                    "btn1": "Learn more",
+                    "btn1": "Discover more",
                     "btn2": "Close",
                     "img": "../assets/directions/direction4.jpg"
                 }

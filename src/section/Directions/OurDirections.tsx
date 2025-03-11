@@ -2,8 +2,11 @@ import RotatingLogo from "../../components/RotatingLogo"
 import BtnLink from "../../components/Btn/BtnLink"
 import ArrowIcon from "../../components/svg/ArrowIcon"
 import { useTranslation } from "react-i18next"
+import { useState } from "react"
+import { motion } from "framer-motion";
 
 const OurDirections = () => {
+    const [openIndex, setOpenIndex] = useState<number | null>(null);
     const [t] = useTranslation("global");
     const items = t("ourDirections.list", { returnObjects: true }) as Record<string,
      { id: string; 
@@ -22,6 +25,13 @@ const OurDirections = () => {
              btn1: string; 
              btn2: string; 
              img: string;}>;
+
+             const toggleAccordion = (index: number) => {
+                setOpenIndex(openIndex === index ? null : index);
+              };
+
+
+
   return (
     <section className="direction">
     <div className="container">
@@ -40,7 +50,7 @@ const OurDirections = () => {
         </div>
 
         <ul className="direction__list">
-        {Object.values(items).map((item) => (
+        {Object.values(items).map((item, index) => (
             <li className="direction__item" key={item.id}>
               <div>
                 <p className="direction__item-number">{item.id}</p>
@@ -53,7 +63,17 @@ const OurDirections = () => {
                 <p className="direction__item-text">{item.text4}</p>
                 <p className="direction__item-text">{item.text5}</p>
                 </div>               
-
+                
+                <motion.div
+          initial={{ height: 0.5, opacity: 0 }}
+          animate={{
+            height: openIndex === index ? "auto" : 0,
+            opacity: openIndex === index ? 1 : 0,
+          }}
+          exit={{ height: 0.5, opacity: 0 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+          className="overflow-hidden"
+        >
                 <h3 className="direction__item-subtitle">{item.subtitle1}</h3>
 
                 <div className="direction__item-benefits">
@@ -70,11 +90,20 @@ const OurDirections = () => {
                     <BtnLink className="direction__item-btn btn__link" direction={"#"}>Viber</BtnLink>
                     <BtnLink className="direction__item-btn btn__link" direction={"#"}>WhatsApp</BtnLink>
                 </div>
+                </motion.div>
 
-                <button className="direction__item-acordeon">
-                {item.btn2}
-                    <ArrowIcon className={"btn__arrow"} />
-                </button>
+                
+                <button 
+          className={`direction__item-acordeon ${
+            openIndex === index ? "active" : ""
+          }`}
+          onClick={() => toggleAccordion(index)}
+        >
+          {openIndex === index ? item.btn2 : item.btn1}
+          <motion.span>
+            <ArrowIcon className={"btn__arrow"} />
+          </motion.span>
+        </button>
                 </div>
 
                 <div className="direction__item-img">
