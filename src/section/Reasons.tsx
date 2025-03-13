@@ -1,26 +1,19 @@
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
-
-import ornament from "../assets/home/reasons/ornament.png";
+import { motion, MotionValue  } from "framer-motion";
+import { RefObject } from "react";
 import RotatingLogo from "../components/RotatingLogo";
 import { useTranslation } from "react-i18next";
 
 interface ReasonsProps{
   title: string,
   subtitle: string,
-  text: string
+  text: string,
+  ornamentY?: MotionValue<number>; 
+  sectionRef?: RefObject<HTMLElement | null>; 
+  ornament?: string;
 }
 
-const Reasons:React.FC<ReasonsProps> = ({title, subtitle, text}) => {
+const Reasons:React.FC<ReasonsProps> = ({title, subtitle, text, ornamentY, sectionRef, ornament}) => {
   const [t] = useTranslation("global");
-  const sectionRef = useRef(null);
-
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start end", "end end"],
-  });
-
-  const ornamentY = useTransform(scrollYProgress, [0, 1], [-150, 200]);
 
   return (
     <section ref={sectionRef} className="reasons">
