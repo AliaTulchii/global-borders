@@ -156,7 +156,11 @@ const Map:React.FC<MapProps> = ({center, apiKey}) => {
   return (
     <section className='map'>
         <div className="container">
-        <LoadScript googleMapsApiKey={apiKey} language="az">
+        <LoadScript
+        googleMapsApiKey={apiKey} 
+        language="en"
+        onError={(error) => console.error("Google Maps API загрузка не вдалася", error)}
+        >
       <GoogleMap 
       mapContainerStyle={containerStyle} 
       center={center} 
