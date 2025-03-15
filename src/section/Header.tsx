@@ -17,8 +17,9 @@ const Header = () => {
   const [t] = useTranslation("global");
 
   return (
-    <header className='header container'>
-      <div className='header__wrapper'>
+    <header className='header'>
+      <div className='container'>
+        <div className='header__wrapper'>
         <Link className='logo' to={'/'}>
         <img className='logo__img' src={logo} alt="logo" />
         </Link>
@@ -158,6 +159,8 @@ const Header = () => {
             <PhoneBtn/>
         </div>
       </div>
+      </div>
+      
     </header>
   )
 }

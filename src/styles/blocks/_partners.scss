@@ -2,6 +2,10 @@
     margin-bottom: 120px;
     padding: 56px 24px;
     background-color: var(--box-bg);
+
+    @media screen and (max-width: 968px){
+    padding: 40px 24px;
+    }
 }
 
 .partners__title{
@@ -12,6 +16,11 @@ font-size: 40px;
 line-height: 100%;
 letter-spacing: -0.03em;
 color: var(--accent);
+
+@media screen and (max-width: 968px){
+font-weight: 700;
+font-size: 32px;
+}
 }
 
 .partners__wrapper{
@@ -45,6 +54,7 @@ color: var(--accent);
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay: -15s;
+
 }
 
 .item1{
@@ -53,6 +63,7 @@ color: var(--accent);
     background-repeat: no-repeat;
     background-position: center;
     animation-delay: calc(30s / 6 * (6 - 1) * -1);
+
 }
 
 .item2{
@@ -61,6 +72,7 @@ color: var(--accent);
     background-repeat: no-repeat;
     background-position: center;
     animation-delay: calc(30s / 6 * (6 - 2) * -1);
+
 }
 
 .item3{
@@ -69,6 +81,8 @@ color: var(--accent);
     background-repeat: no-repeat;
     background-position: center;
     animation-delay: calc(30s / 6 * (6 - 3) * -1);
+
+
 }
 
 .item4{
@@ -77,6 +91,7 @@ color: var(--accent);
     background-repeat: no-repeat;
     background-position: center;
     animation-delay: calc(30s / 6 * (6 - 4) * -1);
+
 }
 
 .item5{
@@ -85,6 +100,8 @@ color: var(--accent);
     background-repeat: no-repeat;
     background-position: center;
     animation-delay: calc(30s / 6 * (6 - 5) * -1);
+
+
 }
 
 .item6{
@@ -93,5 +110,6 @@ color: var(--accent);
     background-repeat: no-repeat;
     background-position: center;
     animation-delay: calc(30s / 6 * (6 - 6) * -1);
+
 }
 

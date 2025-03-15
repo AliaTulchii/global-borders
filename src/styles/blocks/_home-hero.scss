@@ -11,13 +11,23 @@
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
     z-index: 10;
-}
 
-@media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    .home {
-      background-image: url('../assets/home/hero/home-baner@2x.jpg');
+    @media screen and (max-width: 968px){
+    background-image: url('../assets/home/hero/home-banner-mobile.jpg');
+
+    @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        background-image: url('../assets/home/hero/home-banner-mobile@2x.jpg');
+      }
     }
-  }
+
+    @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+          background-image: url('../assets/home/hero/home-baner@2x.jpg');
+        }
+    
+      }
+
+
+
 
 
 .home__title{
@@ -29,6 +39,12 @@ font-size: 72px;
 line-height: 100%;
 letter-spacing: -0.03em;
 color: var(--white);
+
+@media screen and (max-width:968px){
+    width: 358px;
+font-weight: 700;
+font-size: 32px;
+}
 }
 
 .home__text{
@@ -40,6 +56,11 @@ font-size: 18px;
 line-height: 120%;
 letter-spacing: 0em;
 color: #fff;
+
+@media screen and (max-width:968px){
+    width: 303px;
+font-size: 16px;
+}
 }
 
 .home__btns{

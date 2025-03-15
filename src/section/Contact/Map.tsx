@@ -1,50 +1,171 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import {  LatLngExpression } from "leaflet";
-import * as L from "leaflet";
-import "leaflet/dist/leaflet.css";
+import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import React from "react";
+import "../../styles/main.scss";
 
-// Кастомна іконка для маркера
-const customIcon = new L.Icon({
-  iconUrl: "/assets/svg/location.svg",
-  iconSize: [24, 24], // Розмір іконки
-  iconAnchor: [16, 32],
-  popupAnchor: [0, -32],
-});
+const containerStyle = {
+  width: "1406px",
+  height: "839px", 
+  borderRadius: "12px",
+};
 
-// const centerOfAzerbaijan: LatLngExpression = [40.1431, 47.5769];
+const blackAndWhiteStyle = [
+  {
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#f5f5f5',
+      },
+    ],
+  },
+  {
+    elementType: 'labels.icon',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#000',
+      },
+    ],
+  },
+  {
+    elementType: 'labels.text.stroke',
+    stylers: [
+      {
+        color: '#ffffff',
+      },
+    ],
+  },
+  {
+    featureType: 'administrative.locality',
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#a9a9a9',
+      },
+    ],
+  },
+  {
+    featureType: 'poi',
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#413838ec',
+      },
+    ],
+  },
+  {
+    featureType: 'poi',
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#a9a9a9',
+      },
+    ],
+  },
+  {
+    featureType: 'road',
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#ffffff',
+      },
+    ],
+  },
+  {
+    featureType: 'road',
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#757575',
+      },
+    ],
+  },
+  {
+    featureType: 'road.arterial',
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#a9a9a9',
+      },
+    ],
+  },
+  {
+    featureType: 'road.highway',
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#a9a9a9',
+      },
+    ],
+  },
+  {
+    featureType: 'transit',
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#a9a9a9',
+      },
+    ],
+  },
+  {
+    featureType: 'transit.station',
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#a9a9a9',
+      },
+    ],
+  },
+  {
+    featureType: 'water',
+    elementType: 'geometry',
+    stylers: [
+      {
+        color: '#d3d3d3',
+      },
+    ],
+  },
+  {
+    featureType: 'water',
+    elementType: 'labels.text.fill',
+    stylers: [
+      {
+        color: '#d3d3d3',
+      },
+    ],
+  },
+];
 
-interface MapProps {
-    center: LatLngExpression;
-    zoom: number;
-    scrollWheelZoom?: boolean;
-  }
-const Map:React.FC<MapProps> = ({center, zoom}) => {
+
+
+
+interface MapProps{
+  center: {
+    lat: number;
+    lng: number;
+  };
+  apiKey: string;
+}
+const Map:React.FC<MapProps> = ({center, apiKey}) => {
   return (
     <section className='map'>
         <div className="container">
-        <MapContainer 
-        center={center} 
-        zoom={zoom} 
-        scrollWheelZoom={true} 
-        className="leaflet-container"
-        attributionControl={false}
-        >
-      
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        // attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
-
-      
-      <Marker position={center} icon={customIcon}>
-        <Popup>
-          <b>Luxen Plaza, SME Office</b> <br />
-          AZ1008, Azerbaijan, Baku, Narimanov district <br />
-          Shah Ismail Khatai Avenue, 152-158 <br />
-          📧 <a href="mailto:office@glb.az">office@glb.az</a>
-        </Popup>
-      </Marker>
-    </MapContainer>
+        <LoadScript googleMapsApiKey={apiKey} language="az">
+      <GoogleMap 
+      mapContainerStyle={containerStyle} 
+      center={center} 
+      zoom={10}
+      options={{ styles: blackAndWhiteStyle }}
+      >
+        <Marker position={center} />
+      </GoogleMap>
+    </LoadScript>
         </div>
     </section>
   )

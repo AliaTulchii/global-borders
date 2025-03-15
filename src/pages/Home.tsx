@@ -1,10 +1,10 @@
-import OurDirections from '../section/Home/OurDirections'
+// import OurDirections from '../section/Home/OurDirections'
 import Hero from '../section/Home/Hero'
 import OurPartners from '../section/OurPartners'
 import Reasons from '../section/Reasons'
-import Services from '../section/Services'
+// import Services from '../section/Services'
 import '../styles/main.scss'
-import Contact from '../section/Contact'
+// import Contact from '../section/Contact'
 import { useTranslation } from 'react-i18next'
 import { useRef } from 'react'
 import { useScroll, useTransform } from 'framer-motion'
@@ -33,9 +33,9 @@ const Home = () => {
       ornament={ornament}
       />
       <OurPartners/>
-      <Services />
-      <OurDirections/>
-      <Contact/>
+      {/* <Services /> */}
+      {/* <OurDirections/> */}
+      {/* <Contact/> */}
     </main>
       
 
