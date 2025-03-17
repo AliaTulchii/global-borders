@@ -1,4 +1,6 @@
 import logo from '../assets/logo/logo.svg'
+import logoMobile from '../assets/logo/logo-mobile.svg'
+
 import MultiLang from '../components/MultiLang'
 import PhoneBtn from '../components/Btn/PhoneBtn'
 import { motion } from "framer-motion";
@@ -6,6 +8,7 @@ import NavLink from '../components/NavLink';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import DropdownNav from '../components/DropdownNav'
+import MobileNavBtn from '../components/Btn/MobileNavBtn';
 
 
 const variants = {
@@ -22,6 +25,8 @@ const Header = () => {
         <div className='header__wrapper'>
         <Link className='logo' to={'/'}>
         <img className='logo__img' src={logo} alt="logo" />
+        <img className='logo__img-mobile' src={logoMobile} alt="logo" />
+
         </Link>
 
         <nav className='header__nav'>
@@ -158,6 +163,8 @@ const Header = () => {
             <MultiLang/>
             <PhoneBtn/>
         </div>
+
+        {/* <MobileNavBtn/> */}
       </div>
       </div>
       

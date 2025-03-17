@@ -6,6 +6,20 @@
 
 }
 
+.logo__img{
+    display: block;
+    @media screen and (max-width:968px){
+        display: none;
+    }
+}
+
+.logo__img-mobile{
+    display: block;
+    @media screen and (min-width:969px){
+        display: none;
+    }
+}
+
 .rotate-logo{
     margin-right: 0;
 }

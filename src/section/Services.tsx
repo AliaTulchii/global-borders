@@ -61,6 +61,8 @@ const Services = () => {
                     <div className='services__content'>
                     <div className='services__content-left'>
                     <p className='services__number'>0{id}</p>
+                    <img className='services__img-mobile' src={image} alt='image'/>
+                        
                         <h3 className='services__content-title'>{title}</h3>
                         </div>
                         <div className='services__content-right'>

@@ -1,5 +1,9 @@
 .directions{
     margin-bottom: 120px;
+
+    @media screen and (max-width: 968px){
+    margin-bottom: 104px;
+    }
 }
 
 .directions__title{
@@ -11,6 +15,10 @@ font-size: 72px;
 line-height: 100%;
 letter-spacing: -0.03em;
 color: var(--accent);
+
+@media screen and (max-width: 968px) {
+font-size: 32px;
+}
 }
 
 .directions__text{
@@ -23,4 +31,10 @@ font-size: 18px;
 line-height: 133%;
 letter-spacing: 0em;
 color: var(--accent);
+
+@media screen and (max-width:968px) {
+    width:100%;
+font-size: 16px;
+line-height: 150%;
+}
 }
