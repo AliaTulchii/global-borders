@@ -6,33 +6,38 @@ const slide = {
     initial: {
         x:"80px"
     },
-    enter: {
+    enter: (i: number)=> ({
         x: "0px",
-        transition: {duration: 0.8, ease: [0.76, 0, 0.24, 1]}
-    },
-    exit: {
-        x:"80px"
-    }
+        transition: {duration: 0.8, ease: [0.76, 0, 0.24, 1], delay: 0.05 * i}
+    }),
+    exit: (i: number)=> ({
+        x:"80px",
+        transition: {duration: 0.8, ease: [0.76, 0, 0.24, 1], delay: 0.05 * i}
+    })
 }
 
 interface MobileNavLinkProps{
     item: {
+        id: string;
         title: string;
         href: string;
       };
 }
 const MobileNavLink:React.FC<MobileNavLinkProps> = ({item}) => {
   return (
-    <motion.div 
+    <motion.li 
+    custom={item.id}
     variants={slide}
     animate="enter"
     exit="exit"
     initial="initial"
+    className="mobile-nav__item"
     >
-      <Link to={item.href}>
+        <p className="mobile-nav__number">{item.id}</p>
+      <Link className="mobile-nav__link" to={item.href}>
       {item.title}
       </Link>
-    </motion.div>
+    </motion.li>
   )
 }
 

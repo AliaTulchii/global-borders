@@ -8,9 +8,11 @@
 
 
 .lang__btns{
+    position: relative;
  display: flex;
  align-items: center;
  gap: 4px;
+ z-index: 15;
 
  @media screen and (max-width:968px){
     margin-right: 24px;

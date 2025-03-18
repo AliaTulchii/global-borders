@@ -11,6 +11,7 @@
     justify-content: center;
     cursor: pointer;
     z-index: 15;
+    transition: background-color 0.3s ease-in-out;
 
     .mobile-nav__burger{
         width: 100%;
@@ -35,46 +36,156 @@
         }
     }
 
+    &.mobile-nav__btn-active {
+        background-color: var(--accent);
+    }
+
     .burger-active{
+        
+        
         &::after{
             top: -1px;
             transform: rotate(42deg);
+            background-color: var(--white);
             
         }
 
         &::before{
             top: 0px;
             transform: rotate(-42deg);
+            background-color: var(--white);
+
         }
     }
 }
 
 
 .mobile-nav__menu{
+    width: 100%;
+    height: 100vh;
     position: absolute;
     top: -25px;
     right: 0;
-    height: 100vh;
-    background-color: var(--page-bg);
+    background-color: var(--white);
     color: var(--accent);
-    z-index: 1;
+    z-index: 2;
 }
 
 .mobile-nav__body{
-    padding: 100px;
+    width: 100%;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    
 }
 
+
+
+
 .mobile-nav__nav{
+    width: 100%;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     font-size: 22px;
     gap: 12px;
-    margin-top: 80px;
+    margin-top: 70px;
     font-family: var(--second-family);
 }
 
-.mobile-nav__header{
+.mobile-nav__logo{
+    position: absolute;
+    top: 38px;
+    left: 16px;
+}
 
+.mobile-nav__item{
+    width: 100%;
+    padding-bottom: 12px;
+    display: flex;
+    border-bottom: 1px solid var(--accent);
+}
+
+.mobile-nav__number{
+    margin-right: 2px;
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+letter-spacing: 0em;
+color: var(--services-number);
+}
+
+.mobile-nav__link{
+    margin-top: 15px;
+}
+
+.mobile-nav__footer{
+    margin-top: auto;
+    padding: 27px 24px 27px 24px;
+    background-color: var(--accent);
+    color: var(--white);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: url('../assets/footer/ornament-burgermenu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mobile-nav__footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav__footer-text{
+    width: 70px;
+    // margin-right: 30px;
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 120%;
+letter-spacing: 0em;
+text-transform: uppercase;
+color: var(--footer-text);
+}
+
+.mobile-nav__footer-title{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0em;
+text-transform: uppercase;
+color: var(--white);
+}
+
+.mobile-nav__footer-btn{
+    border-radius: 12px;
+border: 1px solid var(--white);
+background-color: transparent;
+padding: 4px 24px;
+
+.btn__arrow path{
+    stroke: var(--white);
+    transition: all 0.5s ease-in-out;
+}
+}
+
+.mobile-nav__footer-line{
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    background-color: var(--white);
+}
+
+.mobile-nav__footer-company{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 120%;
+letter-spacing: 0em;
+color: var(--footer-text);
 }

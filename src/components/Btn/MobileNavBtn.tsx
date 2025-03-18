@@ -1,5 +1,6 @@
 import { useState } from "react"
 import MobileNav from "../MobileNav";
+import { AnimatePresence } from "framer-motion";
 
 
 const MobileNavBtn = () => {
@@ -7,11 +8,13 @@ const MobileNavBtn = () => {
 
   return (
     <>
-    <div className="mobile-nav__btn" onClick={() => setIsActive(!isActive)}>
+    <div className={`mobile-nav__btn ${isActive ? "mobile-nav__btn-active" : ""}`}  onClick={() => setIsActive(!isActive)}>
     <div className={`mobile-nav__burger ${isActive ? "burger-active" : ""}`}>
     </div>
     </div>
+    <AnimatePresence mode="wait">
     {isActive && <MobileNav/>}
+    </AnimatePresence>
 </>
   )
 }
