@@ -89,24 +89,23 @@
                 "id": "01",
                 "text": "We import goods to Azerbaijan under our contract"
             },
-            "service4":{
-                "id": "04",
-                "text": "Customs clearance of goods"
-            },
             "service2":{
                 "id": "02",
                 "text": "Obtaining import permits and licenses "
-            },
-            "service5":{
-                "id": "05",
-                "text": "Selling goods to buyers in Azerbaijan at a set price"
             },
             "service3":{
                 "id": "03",
                 "text": "We organize optimal transportation of goods"
             },
             
-            
+            "service4":{
+                "id": "04",
+                "text": "Customs clearance of goods"
+            },
+            "service5":{
+                "id": "05",
+                "text": "Selling goods to buyers in Azerbaijan at a set price"
+            },
             "service6":{
                 "id": "06",
                 "text": "Payment of customs duties and taxes."
@@ -395,9 +394,9 @@
                     "id": "01",
                     "mainTitle": "Azerbaijan",
                     "text1": "The following services will be beneficial for customers from Azerbaijan: ",
-                    "text2": "Turnkey delivery of goods from the European Union",
-                    "text3": "Turnkey delivery of goods from China and India",
-                    "text4": "Turnkey delivery of goods from Uzbekistan and Kazakhstan",
+                    "text2": "Turkey delivery of goods from the European Union",
+                    "text3": "Turkey delivery of goods from China and India",
+                    "text4": "Turkey delivery of goods from Uzbekistan and Kazakhstan",
                     "text5": "",
                     "subtitle1": "The main benefit for you",
                     "text6": "Reduced transportation costs.",
@@ -407,7 +406,9 @@
                     "subtitle2": "To order the service, call by phone",
                     "btn1": "Learn more",
                     "btn2": "Close",
-                    "img": "../assets/directions/direction1.jpg"
+                    "img": "../assets/directions/direction1.jpg",
+                    "img2": "../assets/directions/direction1-mobile.jpg"
+
                 },
                 "item2":{
                     "id": "02",
@@ -425,7 +426,8 @@
                     "subtitle2": "To order the service, call by phone",
                     "btn1": "Learn more",
                     "btn2": "Close",
-                    "img": "../assets/directions/direction2.jpg"
+                    "img": "../assets/directions/direction2.jpg",
+                    "img2": "../assets/directions/direction2-mobile.jpg"
                 },
                 "item3":{
                     "id": "03",
@@ -443,7 +445,8 @@
                     "subtitle2": "To order the service, call by phone",
                     "btn1": "Learn more",
                     "btn2": "Close",
-                    "img": "../assets/directions/direction3.jpg"
+                    "img": "../assets/directions/direction3.jpg",
+                    "img2": "../assets/directions/direction3-mobile.jpg"
                 },
                 "item4":{
                     "id": "04",
@@ -461,7 +464,8 @@
                     "subtitle2": "To order the service, call by phone",
                     "btn1": "Discover more",
                     "btn2": "Close",
-                    "img": "../assets/directions/direction4.jpg"
+                    "img": "../assets/directions/direction4.jpg",
+                    "img2": "../assets/directions/direction4-mobile.jpg"
                 }
             }
         }

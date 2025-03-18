@@ -8,12 +8,21 @@
         background-size: cover;
         border-bottom-right-radius: 24px;
         border-bottom-left-radius: 24px;
-}
- @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    .hero-directions {
+
+        @media screen and (max-width: 968px){
+            margin-bottom: 64px;
+            background-image: url('../assets/directions/plane-mobile.jpg');
+        
+            @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                background-image: url('../assets/directions/plane-mobile@2x.jpg');
+              }
+            }
+
+            @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
           background-image: url('../assets/directions/plane@2x.jpg');
-        }
       }
+}
+ 
 
       .hero-directions__ornament{
         position: absolute;
@@ -22,10 +31,16 @@
 
         &-first{
             right: 32px;
+            @media screen and (max-width:968px){
+                right: 16px;
+            }
         }
 
         &-second{
             right: 142px;
+            @media screen and (max-width:968px){
+                display: none;
+            }
         }
       }
 
@@ -33,6 +48,10 @@
 
     .direction{
         margin-bottom: 120px;
+
+        @media screen and (max-width:968px){
+            margin-bottom: 104px;
+        }
     }
 
     .direction__wrapper{
@@ -42,12 +61,22 @@
     grid-template-columns: 1fr 1fr; 
     gap: 24px;
     grid-auto-rows: 1fr;
+
+    @media screen and (max-width:968px) {
+        margin-bottom: 104px;
+    grid-template-columns: 1fr; 
+
+    }
     }
 
     .direction__content{
         padding: 40px 32px;
         background-color: var(--box-bg);
         border-radius: 12px;
+    
+        @media screen and (max-width:968px){
+            padding: 0;
+        }
     }
 
     .direction__title{
@@ -58,6 +87,13 @@ font-size: 104px;
 line-height: 90%;
 letter-spacing: -0.03em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+    margin-bottom: 56px;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+}
     }
 
     .direction__text{
@@ -67,6 +103,12 @@ font-size: 24px;
 line-height: 120%;
 letter-spacing: -0.02em;
 color: var(--accent);
+
+@media screen and (max-width:968px) {
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0em;
+}
     }
 
     .direction__logo-box{
@@ -76,6 +118,10 @@ color: var(--accent);
         align-items: center;
         background-color: var(--box-bg);
         border-radius: 12px;
+
+        @media screen and (max-width:968px) {
+            display: none;
+        }
     }
 
     .direction__item{
@@ -86,6 +132,12 @@ color: var(--accent);
     gap: 24px;
     grid-auto-rows: 1fr;
     border-bottom: 1px solid var(--accent);
+
+    @media screen and (max-width:968px){
+        padding: 0 0 40px 12px;
+    grid-template-columns: 1fr; 
+        
+    }
     }
 
     .direction__item-number{
@@ -106,6 +158,20 @@ font-size: 48px;
 line-height: 120%;
 letter-spacing: -0.03em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+font-size: 32px;
+}
+    }
+
+    .direction__item-img-mobile{
+        width: 344px;
+        height: 358px;
+        margin-bottom: 24px;
+
+        @media screen and (min-width:969px){
+            display: none;
+        }
     }
 
     .direction__item-benefits{
@@ -123,6 +189,11 @@ color: var(--accent);
 &--bold{
     font-weight: 600;
 }
+
+@media screen and (max-width:968px){
+font-size: 16px;
+line-height: 150%;
+}
     }
 
     .direction__item-subtitle{
@@ -134,10 +205,14 @@ line-height: 100%;
 letter-spacing: -0.01em;
 text-transform: uppercase;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+font-size: 20px;
+line-height: 120%;
+}
     }
 
     .direction__item-btns{
-        // margin-bottom: 56px;
         display: flex;
         gap: 12px;
     }
@@ -147,7 +222,9 @@ color: var(--accent);
     }
 
     .direction__item-acordeon{
-        margin-top: 205px;
+        position: relative;
+        z-index: 15;
+        margin-top: 210px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -210,4 +287,12 @@ transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
     }
 }
+      }
+
+      .direction__item-img{
+        @media screen  and (max-width:968px){
+            display: none;
+        }
+
+        
       }

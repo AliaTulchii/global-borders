@@ -21,7 +21,7 @@ const OurDirections = () => {
             
             <div className="price-direct__content">
                 <h3 className='price-direct__card-title'>{t("homeDirection.direction1")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link btn__link-direct" direction="/directions">Learn more</BtnLink>
             </div>
        
             </li>
@@ -32,7 +32,7 @@ const OurDirections = () => {
             
             <div className="price-direct__content">
                 <h3 className='price-direct__card-title'>{t("homeDirection.direction2")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link btn__link-direct" direction="/directions">Learn more</BtnLink>
             </div>
             </li>
             <li  className="price-direct__item price-direct__item-country">
@@ -42,7 +42,7 @@ const OurDirections = () => {
             
             <div className="price-direct__content">
                 <h3 className='price-direct__card-title'>{t("homeDirection.direction3")}</h3>
-                <BtnLink/>
+                <BtnLink className="btn__link btn__link-direct" direction="/directions">Learn more</BtnLink>
             </div>
             </li>
 

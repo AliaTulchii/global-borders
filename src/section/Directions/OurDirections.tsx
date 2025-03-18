@@ -24,7 +24,9 @@ const OurDirections = () => {
             subtitle2: string;
              btn1: string; 
              btn2: string; 
-             img: string;}>;
+             img: string;
+             img2: string;}>;
+          
 
              const toggleAccordion = (index: number) => {
                 setOpenIndex(openIndex === index ? null : index);
@@ -55,7 +57,9 @@ const OurDirections = () => {
               <div>
                 <p className="direction__item-number">{item.id}</p>
                 <h2 className="direction__item-title">{item.mainTitle}</h2>
-
+                <div className="direction__item-img-mobile">
+                    <img src={item.img2} alt="image of country" />
+                </div>
                 <div className="direction__item-benefits">
                 <p className="direction__item-text direction__item-text--bold">{item.text1}</p>
                 <p className="direction__item-text">{item.text2}</p>

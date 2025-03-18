@@ -1,5 +1,9 @@
 .price-direct{
     margin-bottom: 120px;
+
+    @media screen and (max-width:968px){
+        margin-bottom: 104px;
+    }
 }
 
 .price-direct__title{
@@ -10,24 +14,41 @@ font-size: 72px;
 line-height: 100%;
 letter-spacing: -0.03em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+    margin-bottom: 32px;
+    font-size: 32px;
+}
 }
 
 .price-direct__list{
+    
     display: grid;
     align-items: start;
     grid-template-columns: 1fr 1fr; 
     gap: 24px;
+
+    @media screen and (max-width:968px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 }
 
 .price-direct__item{
     width: 691px;
     padding: 24px;
+    
 
     &-country{
         background-color: var(--box-bg);
         border-radius: 12px;
 
-   
+    @media screen and (max-width:968px) {
+        width: 358px;
+    padding: 16px;
+
+    }
 
         
     &:hover{
@@ -44,10 +65,17 @@ color: var(--accent);
 }
 
 .price-direct__item-last{
-    height: 473px;
+    height: 452px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media screen and (max-width:968px){
+        width: 100%;
+        justify-content: start;
+    height: 257px;
+    }
 }
 
 
@@ -57,6 +85,10 @@ color: var(--accent);
     margin-bottom: 24px;
     border-radius: 20px;
     overflow: hidden;
+
+    @media screen and (max-width:968px){
+        width: 326px;
+    }
 }
 
 .price-direct__img{
@@ -70,6 +102,8 @@ color: var(--accent);
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
 }
 
 .price-direct__card-title{
@@ -79,6 +113,11 @@ font-size: 24px;
 line-height: 120%;
 letter-spacing: 0em;
 color: var(--accent);
+
+@media screen  and (max-width:968px){
+font-size: 16px;
+line-height: 87%;
+}
 }
 
 .price-direct__subtitle{
@@ -90,6 +129,11 @@ font-size: 48px;
 line-height: 100%;
 letter-spacing: 0em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+    margin-bottom: 16px;
+font-size: 32px;
+}
 }
 
 .price-direct__text{
@@ -99,6 +143,13 @@ font-size: 18px;
 line-height: 133%;
 letter-spacing: 0em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+    width: 342px;
+    margin-bottom: 24px;
+font-size: 16px;
+line-height: 150%;
+}
 }
 
 .price-direct__btn{
@@ -106,7 +157,7 @@ color: var(--accent);
 border-radius: 12px;
 padding: 8px 21px;
 width: 691px;
-height: 38px;
+// height: 38px;
 text-align: center;
 
 font-family: var(--second-family);
@@ -115,6 +166,10 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+width: 100%;
+}
 
 &:hover,:focus{
     background-color: var(--accent);

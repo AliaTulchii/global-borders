@@ -180,7 +180,6 @@ const Contact = () => {
                 
               ) : null}
             </div>
-            {/* <input type="hidden" name="redirect" value="https://www.estatefoto.pl/"></input> */}
             <button type="submit" className="contact__btn">
             {t("contacts.btn")}
               <ArrowIcon className={"btn__submit"} />

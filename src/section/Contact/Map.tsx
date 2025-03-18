@@ -1,12 +1,23 @@
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../../styles/main.scss";
 
-const containerStyle = {
-  width: "1406px",
-  height: "839px", 
-  borderRadius: "12px",
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 968);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return isMobile;
 };
+
+
 
 const blackAndWhiteStyle = [
   {
@@ -153,6 +164,16 @@ interface MapProps{
   apiKey: string;
 }
 const Map:React.FC<MapProps> = ({center, apiKey}) => {
+  const isMobile = useIsMobile();
+
+  const containerStyle = {
+    width: isMobile ? "100%" : "1406px",
+    height: isMobile ? "400px" : "839px",
+    borderRadius: "12px",
+  };
+
+
+
   return (
     <section className='map'>
         <div className="container">

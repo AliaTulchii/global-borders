@@ -19,8 +19,11 @@ const menuSlide = {
     }
 }
 
+interface MobileNavProps{
+    onClick: () => void;
+}
 
-const MobileNav = () => {
+const MobileNav:React.FC<MobileNavProps> = ({onClick}) => {
     const navItems =[
         {
             id: '01',
@@ -45,7 +48,7 @@ const MobileNav = () => {
         {
             id: '05',
             title:"Logistics Solutions",
-            href:"/logistics"
+            href:"/logistic"
         },
         {
             id: '06',
@@ -76,7 +79,7 @@ const MobileNav = () => {
                 <ul className="mobile-nav__list">
                     {
                     navItems.map((item)=> (
-                        <MobileNavLink key={item.id} item={item} /> 
+                        <MobileNavLink key={item.id} item={item} onClick={onClick}/> 
                     ))
                     }
                 </ul>

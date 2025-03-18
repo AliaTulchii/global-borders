@@ -13,7 +13,7 @@ const MobileNavBtn = () => {
     </div>
     </div>
     <AnimatePresence mode="wait">
-    {isActive && <MobileNav/>}
+    {isActive && <MobileNav onClick={() => setIsActive(!isActive)}/>}
     </AnimatePresence>
 </>
   )

@@ -393,7 +393,8 @@
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
                 "btn1": "Learn more",
                 "btn2": "Bağla",
-                "img": "../assets/directions/direction1.jpg"
+                "img": "../assets/directions/direction1.jpg",
+                "img2": "../assets/directions/direction1-mobile.jpg"
             },
             "item2":{
                 "id": "02",
@@ -411,7 +412,8 @@
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
                 "btn1": "Learn more",
                 "btn2": "Bağla",
-                "img": "../assets/directions/direction2.jpg"
+                "img": "../assets/directions/direction2.jpg",
+                "img2": "../assets/directions/direction2-mobile.jpg"
             },
             "item3":{
                 "id": "03",
@@ -429,7 +431,8 @@
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
                 "btn1": "Learn more",
                 "btn2": "Bağla",
-                "img": "../assets/directions/direction3.jpg"
+                "img": "../assets/directions/direction3.jpg",
+                "img2": "../assets/directions/direction3-mobile.jpg"
             },
             "item4":{
                 "id": "04",
@@ -447,7 +450,8 @@
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
                 "btn1": "Daha çox kəşf edin",
                 "btn2": "Bağla",
-                "img": "../assets/directions/direction4.jpg"
+                "img": "../assets/directions/direction4.jpg",
+                "img2": "../assets/directions/direction4-mobile.jpg"
             }
         }
     }

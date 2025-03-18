@@ -1,5 +1,9 @@
 .benef{
     margin-bottom: 120px;
+
+    @media screen and (max-width:968px){
+        margin-bottom: 104px;
+    }
 }
 
 .benef__title{
@@ -10,6 +14,11 @@ font-size: 72px;
 line-height: 100%;
 letter-spacing: -0.03em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+    margin-bottom: 32px;
+font-size: 32px;
+}
 }
 
 .benef__content{
@@ -17,6 +26,11 @@ color: var(--accent);
   grid-template-columns: 1fr 1fr; 
   align-items: stretch; 
   gap: 24px;
+
+  @media screen and (max-width:968px){
+  grid-template-columns: 1fr; 
+    
+  }
 }
 
 .benef__logo{
@@ -25,6 +39,10 @@ color: var(--accent);
   align-items: center;
   background: var(--box-bg);
   border-radius: 12px;
+
+  @media screen and (max-width:968px){
+    padding: 48px;
+  }
 }
 
 .benef__list{
@@ -62,4 +80,8 @@ font-size: 24px;
 line-height: 120%;
 letter-spacing: -0.01em;
 color: var(--accent);
+
+@media screen and (max-width:968px){
+font-size: 16px;
+}
 }
