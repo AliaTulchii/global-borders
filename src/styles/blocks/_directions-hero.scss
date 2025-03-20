@@ -10,6 +10,7 @@
         border-bottom-left-radius: 24px;
 
         @media screen and (max-width: 968px){
+            height: 577px;
             margin-bottom: 64px;
             background-image: url('../assets/directions/plane-mobile.jpg');
         
@@ -27,7 +28,7 @@
       .hero-directions__ornament{
         position: absolute;
         top: 0;
-        
+        height: 100%;
 
         &-first{
             right: 32px;
@@ -89,7 +90,7 @@ letter-spacing: -0.03em;
 color: var(--accent);
 
 @media screen and (max-width:968px){
-    margin-bottom: 56px;
+    margin-bottom: 24px;
 font-weight: 700;
 font-size: 32px;
 line-height: 100%;
@@ -105,6 +106,7 @@ letter-spacing: -0.02em;
 color: var(--accent);
 
 @media screen and (max-width:968px) {
+    width: 322px;
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0em;
@@ -189,6 +191,7 @@ color: var(--accent);
 
 
 @media screen and (max-width:968px){
+    width: 358px;
 font-size: 16px;
 line-height: 150%;
 }
@@ -241,6 +244,13 @@ letter-spacing: 0em;
 color: var(--accent);
 cursor: pointer;
 transition: all 0.5s ease-in-out;
+
+@media screen and (max-width:968px){
+    margin-top: 32px;
+    width: 144px;
+padding: 6px 19px;
+font-size: 14px;
+}
 
 .btn__arrow{
     margin-top: 6px;

@@ -2,8 +2,17 @@
     position: relative;
     background-color: var(--accent);
     padding: 0;
+    overflow: hidden;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    background-image: url('../assets/footer/ornament-footer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 968px){
+    background-image: url('../assets/footer/ornament-footer-mobile.png');
+        
+    }
 }
 
 .footer__img{

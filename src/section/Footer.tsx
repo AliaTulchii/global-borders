@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import ornament from "../assets/footer/ornament-footer.png"
-import ornamentMob from "../assets/footer/ornament-footer-mobile.png"
+// import ornament from "../assets/footer/ornament-footer.png"
+// import ornamentMob from "../assets/footer/ornament-footer-mobile.png"
 import logo from '../assets/footer/logo-white.png'
 import NavLink from "../components/NavLink"
 import { useTranslation } from "react-i18next"
@@ -11,12 +11,12 @@ const Footer = () => {
   return (
     <section className="footer">
     <div className="container">
-        <picture>
-            <source media="(max-width: 392px)" srcSet={ornamentMob} type="image/png"/>
+        {/* <picture>
+            <source media="(max-width: 968px)" srcSet={ornamentMob} type="image/png"/>
             <source srcSet={ornament} type="image/png"/>
                         
             <img className="footer__img" src={ornament} alt="ornament" />
-        </picture>
+        </picture> */}
         
         <div className="footer__content">
             <div className="footer__upper">

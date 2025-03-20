@@ -10,6 +10,10 @@ const MobileNavBtn = () => {
   
     const isSpecialRoute = location.pathname === "/eu" || location.pathname === "/contacts";
   
+    const closeAndScroll = () => {
+        setIsActive(false);
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
 
   return (
     <>
@@ -27,7 +31,7 @@ const MobileNavBtn = () => {
     </div>
 
     <AnimatePresence mode="wait">
-        {isActive && <MobileNav onClick={() => setIsActive(false)} />}
+        {isActive && <MobileNav onClick={closeAndScroll}/>}
     </AnimatePresence>
 </>
   )

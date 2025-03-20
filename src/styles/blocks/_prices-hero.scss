@@ -17,6 +17,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    background-image: url('../assets/prices/azerbaijan/azerbaijan@2x.jpg');
+}
+
   @media screen and (max-width: 968px){
   background-image: url('../assets/prices/azerbaijan/azerbaijan-mobile.jpg');
 
@@ -27,9 +31,7 @@
   }
 
 
-  @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-      background-image: url('../assets/prices/azerbaijan/azerbaijan@2x.jpg');
-  }
+  
 }
 
 
@@ -124,7 +126,7 @@
 }
   .hero__title{
     width: 916px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 80px;
@@ -174,6 +176,7 @@ color: var(--accent);
 
 @media screen and (max-width:968px){
   width: 303px;
+  margin-bottom: 72px;
 font-weight: 500;
 font-size: 16px;
 }

@@ -35,7 +35,7 @@ const MobileNavLink:React.FC<MobileNavLinkProps> = ({item, onClick}) => {
     className="mobile-nav__item"
     >
         <p className="mobile-nav__number">{item.id}</p>
-      <Link className="mobile-nav__link" to={item.href} onClick={onClick}>
+      <Link className="mobile-nav__link" to={item.href} onClick={onClick} >
       {item.title}
       </Link>
     </motion.li>

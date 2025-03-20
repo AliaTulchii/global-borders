@@ -21,8 +21,7 @@ color: var(--accent);
 }
 }
 
-.price-direct__list{
-    
+.price-direct__list{    
     display: grid;
     align-items: start;
     grid-template-columns: 1fr 1fr; 
@@ -45,7 +44,7 @@ color: var(--accent);
         border-radius: 12px;
 
     @media screen and (max-width:968px) {
-        width: 358px;
+        width: 100%;
     padding: 16px;
 
     }
@@ -87,7 +86,12 @@ color: var(--accent);
     overflow: hidden;
 
     @media screen and (max-width:968px){
-        width: 326px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 306px;
+        height: 363px;
+        background-image: url('../assets/prices/direction/azerbaijan-mobile.jpg');
+        
     }
 }
 
@@ -145,7 +149,7 @@ letter-spacing: 0em;
 color: var(--accent);
 
 @media screen and (max-width:968px){
-    width: 342px;
+    width: 352px;
     margin-bottom: 24px;
 font-size: 16px;
 line-height: 150%;
