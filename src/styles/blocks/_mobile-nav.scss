@@ -1,11 +1,11 @@
 .mobile-nav__btn{
     position: fixed;
-    right: 0;
+    right: 4px;
     margin-right: 24px;
     width: 32px;
     height: 28px;
-    background-color: var(--accent);
-    border-radius: 8px;
+    background-color: var(--white);
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,14 +17,14 @@
         display: none;
     }
 
-    .mobile-nav__burger{
+    .mobile-nav__burger, .burger-page{
         width: 100%;
 
         &::after, &::before{
             content: "";
             display: block;
             width: 50%;
-            background-color: var(--white);
+            background-color: var(--accent);
             height: 1px;
             margin: auto;
             position: relative;
@@ -37,6 +37,21 @@
 
         &::before{
             top: 4px;
+        }
+    }
+
+    .burger-page{
+        &::after{
+            top: -4px;
+            transform: rotate(0deg);
+            background-color: var(--white);
+            
+        }
+
+        &::before{
+            top: 4px;
+            transform: rotate(0deg);
+            background-color: var(--white);
         }
     }
 
