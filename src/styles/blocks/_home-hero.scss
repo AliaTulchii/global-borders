@@ -11,18 +11,21 @@
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
     z-index: 10;
-
-    @media screen and (max-width: 968px){
-    background-image: url('../assets/home/hero/home-banner-mobile.jpg');
-
-    @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-        background-image: url('../assets/home/hero/home-banner-mobile@2x.jpg');
-      }
-    }
-
+    
     @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
           background-image: url('../assets/home/hero/home-baner@2x.jpg');
         }
+
+        @media screen and (max-width: 968px) {
+            background-image: url("../assets/home/hero/home-banner-mobile.jpg");
+        
+            
+            @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+              background-image: url("../assets/home/hero/home-banner-mobile@2x.jpg");
+            }
+          }
+
+   
     
       }
 
