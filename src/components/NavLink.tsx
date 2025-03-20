@@ -15,7 +15,7 @@ interface NavLinkProps {
 }
 const NavLink:React.FC<NavLinkProps> = ({className, to, children}) => {
   return (
-    <Link className={className} to={to}>
+    <Link className={className} to={to} onClick={()=> window.scrollTo(0, 0)}>
       <motion.span initial="initial" whileHover="hover" className="nav-text">
         <motion.span className="nav-text__top" variants={variants}> 
         {children}

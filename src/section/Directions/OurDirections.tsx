@@ -61,7 +61,7 @@ const OurDirections = () => {
                     <img src={item.img2} alt="image of country" />
                 </div>
                 <div className="direction__item-benefits">
-                <p className="direction__item-text direction__item-text--bold">{item.text1}</p>
+                <p className="direction__item-text">{item.text1}</p>
                 <p className="direction__item-text">{item.text2}</p>
                 <p className="direction__item-text">{item.text3}</p>
                 <p className="direction__item-text">{item.text4}</p>
@@ -78,7 +78,7 @@ const OurDirections = () => {
           transition={{ duration: 0.5, ease: "easeInOut" }}
           className="overflow-hidden"
         >
-                <h3 className="direction__item-subtitle">{item.subtitle1}</h3>
+                <h3 className="direction__item-subtitle direction__item-subtitle--bold">{item.subtitle1}</h3>
 
                 <div className="direction__item-benefits">
                     <p className="direction__item-text">{item.text6}</p>

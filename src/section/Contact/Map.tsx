@@ -167,7 +167,7 @@ const Map:React.FC<MapProps> = ({center, apiKey}) => {
   const isMobile = useIsMobile();
 
   const containerStyle = {
-    width: isMobile ? "100%" : "1406px",
+    width: isMobile ? "100%" : "1340px",
     height: isMobile ? "400px" : "839px",
     borderRadius: "12px",
   };

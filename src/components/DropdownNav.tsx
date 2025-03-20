@@ -17,7 +17,7 @@ const DropdownNav: React.FC<DropdownNavProps> = ({trigger, children, type}) => {
     <div 
     className='dropdown-nav' 
     onMouseEnter={() => setIsOpen(true)}
-    // onClick={() => setIsOpen((prev) => !prev)}
+    onClick={() => setIsOpen((prev) => !prev)}
     >
         {trigger}
 

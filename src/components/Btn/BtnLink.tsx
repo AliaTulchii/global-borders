@@ -11,7 +11,7 @@ interface BtnLinkProps{
 const BtnLink:React.FC<BtnLinkProps> = ({className, direction, children}) => {
 
   return (
-    <NavLink className={className} to={direction}>
+    <NavLink className={className} to={direction} onClick={()=> window.scrollTo(0, 0)}>
       <p>
         {children}
       </p>

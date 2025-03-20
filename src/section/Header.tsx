@@ -30,7 +30,7 @@ const Header = () => {
         </Link>
 
         <nav className='header__nav'>
-            <NavLink className='header__nav-item' to={'/'}>{t("header.home")}</NavLink>
+            <NavLink className='header__nav-item' to={'/'} >{t("header.home")}</NavLink>
             <DropdownNav
               type="services"
               trigger= {
@@ -57,7 +57,9 @@ const Header = () => {
             <li className='dropdown__item'>
               <Link  
               className='dropdown__link dropdown__link-services'
-              to={'/eu'}>
+              to={'/eu'}
+              onClick={()=> window.scrollTo(0, 0)}
+              >
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services2")}
@@ -71,7 +73,9 @@ const Header = () => {
             <li className='dropdown__item'>
               <Link  
               className='dropdown__link dropdown__link-services'
-              to={'/turkey'}>
+              to={'/turkey'}
+              onClick={()=> window.scrollTo(0, 0)}
+              >
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services3")}
@@ -85,7 +89,9 @@ const Header = () => {
             <li className='dropdown__item'>
               <Link  
               className='dropdown__link dropdown__link-services'
-              to={'/logistic'}>
+              to={'/logistic'}
+              onClick={()=> window.scrollTo(0, 0)}
+              >
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.services4")}
@@ -106,7 +112,7 @@ const Header = () => {
               }
               >
                 <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/directions">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions" onClick={()=> window.scrollTo(0, 0)}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction1")}
@@ -130,7 +136,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/directions">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions" onClick={()=> window.scrollTo(0, 0)}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction3")}
@@ -142,7 +148,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='dropdown__item'>
-              <Link className='dropdown__link dropdown__link-direction' to="/directions">
+              <Link className='dropdown__link dropdown__link-direction' to="/directions"  onClick={()=> window.scrollTo(0, 0)}>
               <motion.span initial="initial" whileHover="hover" className="nav-text">
                       <motion.span className="nav-text__top" variants={variants}> 
                       {t("header.direction4")}

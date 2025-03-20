@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import Btn from '../../components/Btn/Btn'
-import React from 'react';
 
 
 

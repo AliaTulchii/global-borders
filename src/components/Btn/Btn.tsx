@@ -10,7 +10,7 @@ interface BtnProps {
 const Btn: React.FC<BtnProps> = ({text, destination, styleBtn}) => {
   console.log(styleBtn)
   return (
-    <Link to={destination} className={styleBtn}>
+    <Link to={destination} className={styleBtn}  onClick={()=> window.scrollTo(0, 0)}>
         {text}
     </Link>
   )

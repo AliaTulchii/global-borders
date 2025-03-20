@@ -114,7 +114,7 @@ color: var(--text-form);
   }
 
   .contact__input{
-   
+    font-family: var(--second-family);
     height: 34px;
     border-bottom: 1px solid rgba(0, 19, 67, 0.4);
     &:focus{
@@ -147,6 +147,7 @@ color: var(--text-form);
 }
 
   .contact__textarea{
+    font-family: var(--second-family);
     border-bottom: 1px solid rgba(0, 19, 67, 0.4);
     resize: none;
     outline: none;

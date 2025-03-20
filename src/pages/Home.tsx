@@ -19,7 +19,7 @@ const Home = () => {
     offset: ["start end", "end end"],
   });
 
-  const ornamentY = useTransform(scrollYProgress, [0, 1], [-150, 200]);
+  const ornamentY = useTransform(scrollYProgress, [0, 1], [-170, 200]);
 
   return (
     <main >
