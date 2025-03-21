@@ -5,7 +5,7 @@
     justify-content: start;
     align-items: end;
     background-color: var(--accent);
-    background-image: url('../assets/home/hero/home-baner.jpg');
+    background-image: url('../assets/home/hero/home-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-right-radius: 24px;
@@ -13,7 +13,7 @@
     z-index: 10;
     
     @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-          background-image: url('../assets/home/hero/home-baner@2x.jpg');
+          background-image: url('../assets/home/hero/home-banner@2x.jpg');
         }
 
         @media screen and (max-width: 968px) {

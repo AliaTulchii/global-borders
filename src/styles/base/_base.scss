@@ -31,3 +31,11 @@ pre.code {
 	padding: 1rem;
 	border-radius: 4px;
 }
+
+.no-scroll {
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
+	touch-action: none; 
+  }
+  

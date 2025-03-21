@@ -88,6 +88,7 @@
     background-color: var(--white);
     color: var(--accent);
     z-index: 2;
+    overflow: scroll;
 }
 
 .mobile-nav__body{
@@ -121,6 +122,7 @@
 
 .mobile-nav__item{
     width: 100%;
+    margin-top: 8px;
     padding-bottom: 12px;
     display: flex;
     border-bottom: 1px solid var(--accent);
@@ -137,7 +139,19 @@ color: var(--services-number);
 }
 
 .mobile-nav__link{
-    margin-top: 15px;
+    margin-top: 25px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: var(--services-number);
+
+&.active{
+color: var(--accent);
+font-weight: 600;
+
+}
 }
 
 .mobile-nav__footer{

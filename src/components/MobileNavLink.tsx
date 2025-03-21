@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const slide = {
     initial: {
@@ -25,9 +25,11 @@ interface MobileNavLinkProps{
     onClick: () => void;
 }
 const MobileNavLink:React.FC<MobileNavLinkProps> = ({item, onClick}) => {
+  const location = useLocation();
+    const isActive = location.pathname === item.href;
   return (
     <motion.li 
-    custom={item.id}
+    custom={parseInt(item.id)}
     variants={slide}
     animate="enter"
     exit="exit"
@@ -35,7 +37,7 @@ const MobileNavLink:React.FC<MobileNavLinkProps> = ({item, onClick}) => {
     className="mobile-nav__item"
     >
         <p className="mobile-nav__number">{item.id}</p>
-      <Link className="mobile-nav__link" to={item.href} onClick={onClick} >
+      <Link className={`mobile-nav__link ${isActive ? "active" : ""}`}  to={item.href} onClick={onClick} >
       {item.title}
       </Link>
     </motion.li>

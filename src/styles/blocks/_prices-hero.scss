@@ -41,6 +41,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+      background-image: url('../assets/prices/eu/truck@2x.jpg');
+  }
+
     @media screen and (max-width: 968px){
       background-image: url('../assets/prices/eu/truck-mobile.jpg');
     
@@ -50,9 +54,7 @@
         
       }
 
-       @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-        background-image: url('../assets/prices/eu/truck@2x.jpg');
-    }
+    
 
   }
   
@@ -61,6 +63,10 @@
       background-image: url('../assets/prices/turkey/shipping.jpg');
       background-repeat: no-repeat;
       background-size: cover;
+
+      @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        background-image: url('../assets/prices/turkey/shipping@2x.jpg');
+    }
 
       @media screen and (max-width: 968px){
         background-image: url('../assets/prices/turkey/shipping-mobile.jpg');
@@ -71,9 +77,7 @@
           
         }
 
-      @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-          background-image: url('../assets/prices/turkey/shipping@2x.jpg');
-      }
+      
     }
     
     
@@ -82,6 +86,10 @@
         background-image: url('../assets/prices/logistic/businessman.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+
+        @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+          background-image: url('../assets/prices/logistic/businessman@2x.jpg');
+      }
 
         @media screen and (max-width: 968px){
           background-image: url('../assets/prices/logistic/businessman-mobile.jpg');
@@ -92,9 +100,7 @@
             
           }
 
-        @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-            background-image: url('../assets/prices/logistic/businessman@2x.jpg');
-        }
+        
       }
       
       
