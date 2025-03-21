@@ -1,6 +1,8 @@
 
 import { useTranslation } from 'react-i18next'
 import BtnLink from '../../components/Btn/BtnLink'
+import azerbaijan from '../../assets/prices/direction/azerbaijan.jpg'
+import azerbaijanMobile from '../../assets/prices/direction/azerbaijan-mobile.jpg'
 import eu from '../../assets/prices/direction/eu.jpg'
 import euMobile from '../../assets/prices/direction/eu-mobile.jpg'
 import turkey from '../../assets/prices/direction/turkey.jpg'
@@ -17,13 +19,13 @@ const OurDirections = () => {
         <ul  className="price-direct__list">
             <li  className="price-direct__item price-direct__item-country">                
             <div className='price-direct__img-box'>
-            {/* <picture>
+            <picture>
                         <source media="(max-width: 968px)" srcSet={`${azerbaijanMobile} 1x, ${azerbaijanMobile.replace('.jpg', '@2x.jpg')} 2x`}  type="image/jpg"/>
                 
                         <source srcSet={`${azerbaijan} 1x, ${azerbaijan.replace('.jpg', '@2x.jpg')} 2x`}  type="image/jpg"/>
                         
                         <img className='price-direct__img' src={azerbaijan} alt="azerbaijan" />
-            </picture> */}
+            </picture>
              
             </div>
             
