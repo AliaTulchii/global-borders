@@ -1,8 +1,14 @@
 import shipping from '../../assets/prices/service-fees/shipping.jpg'
+import shipping2x from '../../assets/prices/service-fees/shipping@2x.jpg'
 import shippingMobile from '../../assets/prices/service-fees/shipping-mobile.jpg'
+import shippingMobile2x from '../../assets/prices/service-fees/shipping-mobile@2x.jpg'
+
 
 import workers from '../../assets/prices/service-fees/workers.jpg'
+import workers2x from '../../assets/prices/service-fees/workers@2x.jpg'
 import workersMobile from '../../assets/prices/service-fees/workers-mobile.jpg'
+import workersMobile2x from '../../assets/prices/service-fees/workers-mobile@2x.jpg'
+
 
 import NavLink from "../../components/NavLink"
 
@@ -14,9 +20,9 @@ const ServiceFees = () => {
             <div className="serfees__wrapper" >
                 <div className="serfees__img-box">
                 <picture>
-                        <source media="(max-width: 968px)" srcSet={`${shippingMobile} 1x, ${shippingMobile.replace('.jpg', '@2x.jpg')} 2x`}  type="image/jpg"/>
+                        <source media="(max-width: 968px)" srcSet={`${shippingMobile} 1x, ${shippingMobile2x}`}  type="image/jpg"/>
                 
-                        <source srcSet={`${shipping} 1x, ${shipping.replace('.jpg', '@2x.jpg')} 2x`}  type="image/jpg"/>
+                        <source srcSet={`${shipping} 1x, ${shipping2x} 2x`}  type="image/jpg"/>
                         
                         <img className="serfees__img" src={shipping} alt="shipping container" />
                     </picture>
@@ -59,9 +65,9 @@ const ServiceFees = () => {
             <div  className="serfees__wrapper serfees__wrapper--reverse">
             <div className="serfees__img-box">
             <picture>
-                        <source media="(max-width: 968px)" srcSet={`${workersMobile} 1x, ${workersMobile.replace('.jpg', '@2x.jpg')} 2x`}  type="image/jpg"/>
+                        <source media="(max-width: 968px)" srcSet={`${workersMobile} 1x, ${workersMobile2x} 2x`}  type="image/jpg"/>
                 
-                        <source srcSet={`${workers} 1x, ${workers.replace('.jpg', '@2x.jpg')} 2x`}  type="image/jpg"/>
+                        <source srcSet={`${workers} 1x, ${workers2x} 2x`}  type="image/jpg"/>
                         
                         <img className="serfees__img" src={workers} alt="shipping container" />
                     </picture>

@@ -158,7 +158,7 @@ const Contact = () => {
               ) : null}
             </div>
 
-            <div className="contact__form-group">
+            <div className="contact__form-group contact__form-group--textarea">
               <label className="contact__label" htmlFor="message">{t("contacts.message")}</label>
               <textarea
                 className="contact__textarea"

@@ -16,24 +16,28 @@ const Services = () => {
         title: <>{t("services.service3")}</>,
         text: <>{t("services.service4")}</>,
         image: img1,
+        direct: "/azerbaijan"
         },
         {
         id: 2,
             title: <>{t("services.service5")}</>,
             text: <>{t("services.service6")}</>,
             image: img2,
+            direct:"/eu"
             },
             {
             id: 3,
                 title: <>{t("services.service7")}</>,
                 text: <>{t("services.service8")}</>,
                 image: img3,
+                direct: "/turkey"
                 },
                 {
                 id: 4,
                     title: <>{t("services.service9")}</>,
                     text: <>{t("services.service10")}</>,
                     image: img4,
+                    direct: "/logistic"
                     }
     ]
 
@@ -51,7 +55,7 @@ const Services = () => {
             </p>
             <div className='services__line'></div>
             <div>
-                {data.map(({id, title, text, image}) =>(
+                {data.map(({id, title, text, image, direct}) =>(
                     <div className='services__wrapper' key={id}>
                         <div className='services__display-box'>                        
                         <div className='services__display'>
@@ -68,7 +72,7 @@ const Services = () => {
                         <div className='services__content-right'>
                             <p className='services__content-text'>{text}</p>
 
-                            <BtnLink className="btn__link" direction={"/directions"}><>{t("learnBtn.text")}</></BtnLink>
+                            <BtnLink className="btn__link" direction={direct}><>{t("learnBtn.text")}</></BtnLink>
                         </div>
                         
                     </div>

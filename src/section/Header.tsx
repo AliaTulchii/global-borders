@@ -1,5 +1,5 @@
-import logo from '../assets/logo/logo.svg'
-import logoMobile from '../assets/logo/logo-mobile.svg'
+import logo from '../assets/logo/logo-mobile.png'
+import logoMobile from '../assets/logo/logo-mobile.png'
 
 import MultiLang from '../components/MultiLang'
 import PhoneBtn from '../components/Btn/PhoneBtn'

@@ -71,7 +71,7 @@
         "btn": "Submit"
     },
     "footer":{
-        "price": "Prices",
+        "price": "Services",
         "direction": "Directions",
         "contacts": "Contacts",
         "privacy": "Privacy policy"
@@ -462,7 +462,7 @@
                     "text8": "You use our expertise.",
                     "text9": "Minimize your risks.",
                     "subtitle2": "To order the service, call by phone",
-                    "btn1": "Discover more",
+                    "btn1": "Learn more",
                     "btn2": "Close",
                     "img": "../assets/directions/direction4.jpg",
                     "img2": "../assets/directions/direction4-mobile.jpg"

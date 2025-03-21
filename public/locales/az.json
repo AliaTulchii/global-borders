@@ -71,7 +71,7 @@
         "btn": "Göndər"
     },
     "footer":{
-        "price": "Qiymətlər",
+        "price": "Xidmətlər",
         "direction": "İstiqamətlər",
         "contacts": "Əlaqə",
         "privacy": "Məxfilik siyasəti"
@@ -391,7 +391,7 @@
                 "text8": "Bizim təcrübəmizdən istifadə",
                 "text9": "Risklərinizi minimuma endirmək",
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
-                "btn1": "Learn more",
+                "btn1": "Daha çox öyrənin",
                 "btn2": "Bağla",
                 "img": "../assets/directions/direction1.jpg",
                 "img2": "../assets/directions/direction1-mobile.jpg"
@@ -410,7 +410,7 @@
                 "text8": "Bizim təcrübəmizdən istifadə.",
                 "text9": "Risklərinizi minimuma endirin.",
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
-                "btn1": "Learn more",
+                "btn1": "Daha çox öyrənin",
                 "btn2": "Bağla",
                 "img": "../assets/directions/direction2.jpg",
                 "img2": "../assets/directions/direction2-mobile.jpg"
@@ -429,7 +429,7 @@
                 "text8": "Bizim təcrübəmizdən istifadə edirsiniz.",
                 "text9": "Risklərinizi minimuma endirirsiniz.",
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
-                "btn1": "Learn more",
+                "btn1": "Daha çox öyrənin",
                 "btn2": "Bağla",
                 "img": "../assets/directions/direction3.jpg",
                 "img2": "../assets/directions/direction3-mobile.jpg"
@@ -448,7 +448,7 @@
                 "text8": "Bizim təcrübəmizdən istifadə edirsiniz.",
                 "text9": "Risklərinizi minimuma endirirsiniz.",
                 "subtitle2": "Xidməti sifariş etmək üçün telefonla zəng edin",
-                "btn1": "Daha çox kəşf edin",
+                "btn1": "Daha çox öyrənin",
                 "btn2": "Bağla",
                 "img": "../assets/directions/direction4.jpg",
                 "img2": "../assets/directions/direction4-mobile.jpg"

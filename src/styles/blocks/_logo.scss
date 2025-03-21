@@ -7,13 +7,19 @@
 }
 
 .logo__img{
+    width: 136px;
+    height: 45px;
     display: block;
     @media screen and (max-width:968px){
+        width: 97px;
+        height: 28px;
         display: none;
     }
 }
 
 .logo__img-mobile{
+    width: 97px;
+        height: 35px;
     display: block;
     @media screen and (min-width:969px){
         display: none;

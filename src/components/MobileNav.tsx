@@ -1,7 +1,7 @@
 import MobileNavLink from "./MobileNavLink"
 import { motion } from "framer-motion";
 import CurveIcon from "./svg/CurveIcon";
-import logoMobile from '../assets/logo/logo-mobile.svg'
+import logoMobile from '../assets/logo/logo-mobile.png'
 import BtnLink from "./Btn/BtnLink";
 
 

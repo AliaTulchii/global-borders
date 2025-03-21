@@ -9,8 +9,9 @@ interface HeroProps{
 }
 
 const Hero:React.FC<HeroProps> = ({className, title, text}) => {
+
   return (
-    <section className={className}>
+    <section className={className }>
       <div className="hero__container container">
       <picture>
           <source media="(max-width: 968px)" srcSet={ornamentMobile}  type="image/png"/>                
@@ -20,7 +21,7 @@ const Hero:React.FC<HeroProps> = ({className, title, text}) => {
       </picture>
         
         <div className='hero__content'>
-        <h1 className={`hero__title`}>
+        <h1 className={`hero__title `}>
         {title}
         </h1>
         <p className="hero__text">

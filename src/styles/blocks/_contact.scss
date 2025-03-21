@@ -46,7 +46,7 @@ border-radius: 12px;
   .contact__content{
     width: 50%;
     height: 982px;
-    padding: 33px 24px 59px 24px;
+    padding: 33px 24px 60px 24px;
     background-color: var(--box-bg);
     border-radius: 12px;
 
@@ -96,9 +96,13 @@ line-height: 150%;
 
   .contact__form-group{
     position: relative;
-    margin-bottom: 33px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 32px;
+
+    &--textarea{
+      margin-bottom: 0;
+    }
   }
 
   
