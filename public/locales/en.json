@@ -377,6 +377,15 @@
             }
         }
     },
+    "contact": {
+        "title": "Contacts",
+        "subtitle1": "For consultation",
+        "subtitle2": "Legal address",
+        "subtitle3": "Mail address",
+        "subtitle4": "Operation time",
+        "text": "Monday - Friday: from 9:00 to 18:00"
+    },
+
     "ourDirections": {
             "title": "Our directions",
             "text": "We specialize in international logistics and turnkey delivery solutions, providing reliable and cost-effective transportation services across multiple regions.",

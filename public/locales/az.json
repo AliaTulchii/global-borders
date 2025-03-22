@@ -454,6 +454,15 @@
             }
         }
     },
+    "contact": {
+        "title": "Əlaqə",
+        "subtitle1": "Konsultasiyalar almaq üçün",
+        "subtitle2": "Hüquqi ünvan",
+        "subtitle3": "Poçt ünvanı",
+        "subtitle4": "Bazar ertəsi",
+        "text": "Bazar ertəsi - Cümə: 09:00-dan 18:00-a qədər"
+    },
+
     "privacy":{
             "title": "Məxfilik Siyasəti",
             "list": {

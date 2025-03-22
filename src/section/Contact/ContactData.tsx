@@ -1,10 +1,13 @@
+import { useTranslation } from 'react-i18next';
 import RotatingLogo from '../../components/RotatingLogo'
 
 const ContactData = () => {
+        const [t] = useTranslation("global");
+    
   return (
     <section className='data'>
         <div className='container'>
-            <h1 className='data__title'>Contacts</h1>
+            <h1 className='data__title'>{t("contact.title")}</h1>
         <div className='data__wrapper'>
             <div className='data__logo-box'>
                 <RotatingLogo className={"rotate-logo"}/>
@@ -13,7 +16,7 @@ const ContactData = () => {
                 <li className='data__item'>
                     <div className='data__item-left'>
                         <p className='data__item-number'>01</p>
-                        <p className='data__item-text'>For consultation</p>
+                        <p className='data__item-text'>{t("contact.subtitle1")}</p>
                     </div>
                     <div className='data__item-right'>
                         <h2 className='data__item-title'>+994 51 205 1011</h2>
@@ -33,7 +36,7 @@ const ContactData = () => {
                 <li className='data__item'>
                     <div className='data__item-left'>
                         <p className='data__item-number'>03</p>
-                        <p className='data__item-text'>Legal address</p>
+                        <p className='data__item-text'>{t("contact.subtitle2")}</p>
                     </div>
                     <div className='data__item-right'>
                     <h3 className='data__item-subtitle'>AZ1008, Azerbaijan, Baku, Narimanov district, Shah Ismail Khatai Avenue, 152-158, Luxen Plaza, 7th floor, SME office</h3>
@@ -45,7 +48,7 @@ const ContactData = () => {
                 <li className='data__item'>
                     <div className='data__item-left'>
                         <p className='data__item-number'>04</p>
-                        <p className='data__item-text'>Mail address</p>
+                        <p className='data__item-text'>{t("contact.subtitle3")}</p>
                     </div>
                     <div className='data__item-right'>
                         <h3 className='data__item-subtitle'>AZ1005, Azerbaijan, Baku, Khatai district, Afiaddin Jalilov street, 26</h3>
@@ -55,10 +58,10 @@ const ContactData = () => {
                 <li className='data__item'>
                     <div className='data__item-left'>
                         <p className='data__item-number'>05</p>
-                        <p className='data__item-text'>Operation time</p>
+                        <p className='data__item-text'>{t("contact.subtitle4")}</p>
                     </div>
                     <div className='data__item-right'>
-                        <h3 className='data__item-subtitle'>Monday - Friday: from 9:00 to 18:00</h3>
+                        <h3 className='data__item-subtitle'>{t("contact.text")}</h3>
                     </div>
                     
                 </li>
