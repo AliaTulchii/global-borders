@@ -171,22 +171,24 @@
                 "id": "01",
                 "text": "Müqaviləmiz əsasında AB ölkələrində mallar alırıq"
             },
-            "service4":{
-                "id": "04",
-                "text": "Türkiyədə gömrük rüsumları və vergilərin ödənilməsi"
-            },
+            
             "service2":{
                 "id": "02",
                 "text": "Türkiyə terminalları ilə daşınmanı optimallaşdırırıq"
             },
-            "service5":{
-                "id": "05",
-                "text": "Malların DAP şərtlərinə əsasən daşınması"
-            },
+            
             "service3":{
                 "id": "03",
                 "text": "Türkiyə ərazisində tranzit zamanı tam müşayiət və gömrük sənədləri paketi ilə satışları təşkil edirik"
-            }            
+            },  
+            "service4":{
+                "id": "04",
+                "text": "Türkiyədə gömrük rüsumları və vergilərin ödənilməsi"
+            },
+            "service5":{
+                "id": "05",
+                "text": "Malların DAP şərtlərinə əsasən daşınması"
+            }          
             }
         },
         "beneficials":{
@@ -238,15 +240,14 @@
                 "id": "01",
                 "text": "Türkiyədə müqaviləmiz əsasında mallar alırıq"
             },
-            "service3":{
-                "id": "03",
-                "text": "Malların optimal daşınmasını təşkil edirik"
-            },
             "service2":{
                 "id": "02",
                 "text": "Gömrük orqanları üçün sənəd paketini hazırlayırıq"
             },
-            
+            "service3":{
+                "id": "03",
+                "text": "Malların optimal daşınmasını təşkil edirik"
+            },            
             "service4":{
                 "id": "04",
                 "text": "Malların DAP şərtlərinə uyğun olaraq daşınması"
@@ -302,40 +303,38 @@
                 "id": "01",
                 "text": "Malların tədarükü ilə bağlı xarici iqtisadi fəaliyyət məsələlərinə dair məsləhətlər"
             },
-            "service6":{
-                "id": "06",
-                "text": "Mallarin anbarlarda konsolidasiyası və saxlanması, markalanması, qablaşdırılması, etiketlənməsi"
-            },
             "service2":{
                 "id": "02",
                 "text": "Logistika həllərinizin hazırlanması"
             },
-
-            "service7":{
-                "id": "07",
-                "text": "Malların sığortalanması"
-            },
-
             "service3":{
                 "id": "03",
                 "text": "Maliyyə logistikası"
-            },
-            "service8":{
-                "id": "08",
-                "text": "Gömrük bəyannaməsi"
             },
             "service4":{
                 "id": "04",
                 "text": "Tam sənəd dəstəyi"
             },
-            "service9":{
-                "id": "09",
-                "text": "Yük daşımaları avtomobil, dəmir yolu və multimodal nəqliyyatla"
-            },
             "service5":{
                 "id": "05",
                 "text": "Baytarlıq və fitosanitar sertifikatların alınmasına kömək"
-            },           
+            },
+            "service6":{
+                "id": "06",
+                "text": "Mallarin anbarlarda konsolidasiyası və saxlanması, markalanması, qablaşdırılması, etiketlənməsi"
+            },
+            "service7":{
+                "id": "07",
+                "text": "Malların sığortalanması"
+            },            
+            "service8":{
+                "id": "08",
+                "text": "Gömrük bəyannaməsi"
+            },            
+            "service9":{
+                "id": "09",
+                "text": "Yük daşımaları avtomobil, dəmir yolu və multimodal nəqliyyatla"
+            },       
             
             "service10":{
                 "id": "10",
@@ -454,5 +453,62 @@
                 "img2": "../assets/directions/direction4-mobile.jpg"
             }
         }
-    }
+    },
+    "privacy":{
+            "title": "Məxfilik Siyasəti",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "subtitle": "Ümumi müddəalar",
+                    "text": "Bu Məxfilik Siyasəti (bundan sonra – Siyasət) Global Borders şirkətinin (bundan sonra – Şirkət) veb-saytından istifadə zamanı təqdim edilən istifadəçi şəxsi məlumatlarının emalı və qorunması qaydalarını müəyyən edir.\nGlobal Borders şirkəti dünyanın aparıcı istehsalçılarından Azərbaycana mal idxalı, Avropa İttifaqı ölkələrindən və Türkiyədən Özbəkistan və Qazaxıstana malların çatdırılması, həmçinin fərdi logistika həllərinin hazırlanması xidmətlərini göstərir. Şirkət öz fəaliyyətində müştərilərinin və tərəfdaşlarının məlumatlarının etibarlı və şəffaf qorunmasını təmin etməyə çalışır."
+                },
+                "item2":{
+                    "id": "2",
+                    "subtitle": "Hansı məlumatları toplayırıq",
+                    "text": "Şirkət aşağıdakı şəxsi məlumatları toplaya bilər:\n• Ad, soyad, əlaqə məlumatları (telefon, e-mail);\n• Əlaqədə olunan şirkət haqqında məlumat;\n• Müştəri sifarişləri və sorğuları haqqında məlumat;\n• Texniki məlumatlar (IP ünvanı, brauzer məlumatları, cookies)."
+                },
+
+                "item3": {
+                    "id":"3",
+                    "subtitle": "Məlumatların emalı məqsədləri",
+                    "text": "Şəxsi məlumatların toplanması və emalı yalnız aşağıdakı məqsədlər üçün həyata keçirilir:\n• Müştəri sorğularının emalı və logistika xidmətlərinin göstərilməsi;\n• Xidmət keyfiyyətinin artırılması və müştərilərlə fərdi əlaqənin qurulması;\n• Müqavilələrin bağlanması və icrası;\n• Azərbaycanın qanunvericiliyinə və beynəlxalq ticarət və logistika standartlarına riayət edilməsi;\n• Marketinq və informasiya göndərişlərinin aparılması (istifadəçinin razılığı ilə)."
+                },
+                "item4": {
+                    "id": "4",
+                    "subtitle": "Məlumatların üçüncü şəxslərə ötürülməsi",
+                    "text": "Global Borders şirkəti şəxsi məlumatları üçüncü şəxslərə ötürmür, aşağıdakı hallar istisna olmaqla:\n• Müqavilə öhdəliklərinin yerinə yetirilməsi üçün zəruri olduqda (məsələn, logistika tərəfdaşları ilə əməkdaşlıq çərçivəsində);\n• Azərbaycan qanunvericiliyi çərçivəsində dövlət orqanlarının tələbi əsasında;\n• Analitika və marketinq xidmətlərindən istifadə zamanı (Google Analytics, CRM sistemləri və s.), bu zaman məlumatlar anonimləşdirilmiş formada ötürülür."
+                },
+                "item5":{
+                    "id": "5",
+                    "subtitle":"Şəxsi məlumatların qorunması",
+                    "text": "Şirkət şəxsi məlumatların qorunması üçün bütün ağlabatan tədbirləri görür, o cümlədən:\n• Müasir şifrələmə və məlumat mühafizəsi texnologiyalarından istifadə;\n• Şirkət əməkdaşlarının şəxsi məlumatlara girişinin nəzarət edilməsi;\n• Proqram təminatının və təhlükəsizlik sistemlərinin müntəzəm yenilənməsi."
+                },
+                "item6":{
+                    "id": "6",
+                    "subtitle":"Məlumatların saxlanması",
+                    "text": "Şəxsi məlumatlar emal məqsədlərinin yerinə yetirilməsi üçün zəruri müddət ərzində saxlanılır, lakin 5 ildən çox olmamaq şərti ilə. Qanunvericiliyin fərqli müddətlər tələb etdiyi hallar istisna təşkil edir."
+                },
+                "item7":{
+                    "id": "7",
+                    "subtitle":"İstifadəçi hüquqları",
+                    "text": "İstifadəçi aşağıdakı hüquqlara malikdir:\n• Şirkət tərəfindən saxlanılan şəxsi məlumatları haqqında məlumat tələb etmək;\n• Şəxsi məlumatların dəyişdirilməsini, yenilənməsini və ya silinməsini tələb etmək;\n• Şəxsi məlumatların emalı üçün verilmiş razılığı istənilən vaxt geri götürmək."
+                },
+                "item8":{
+                    "id": "8",
+                    "subtitle":"Cookies fayllarından istifadə",
+                    "text": "Şirkət veb-saytın işini yaxşılaşdırmaq və istifadəçi davranışını təhlil etmək üçün cookies fayllarından istifadə edir. İstifadəçi brauzer ayarlarında cookies-i deaktiv edə bilər, lakin bu, saytın funksionallığına təsir göstərə bilər."
+                },
+                "item9":{
+                    "id": "9",
+                    "subtitle":"Məxfilik Siyasətində dəyişikliklər",
+                    "text": "Şirkət bu Siyasətə dəyişiklik etmək hüququnu özündə saxlayır. Siyasətin aktual versiyası həmişə Şirkətin rəsmi veb-saytında mövcuddur."
+                },
+                "item10":{
+                    "id": "10",
+                    "subtitle":"Əlaqə məlumatları",
+                    "text": "Şəxsi məlumatların emalı ilə bağlı suallar üzrə aşağıdakı əlaqə vasitələrinə müraciət edə bilərsiniz:\nGlobal Borders\nEmail: office@glb.az\nTelefon: +994 51 205 1011\nÜnvan: AZ1008, Azerbaijan, Baku, Narimanov district, Shah Ismail Khatai Avenue, 152-158, Luxen Plaza, 7th floor, SME office"
+                }
+
+            }
+        }
 }

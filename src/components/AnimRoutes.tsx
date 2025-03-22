@@ -8,6 +8,7 @@ import Azerbaijan from '../pages/Azerbaijan'
 import EuropeUnion from '../pages/EuropeUnion'
 import Turkey from '../pages/Turkey'
 import Logistic from '../pages/Logistic'
+import PrivacyPolicy from '../pages/PrivacyPolicy'
 
 const AnimRoutes = () => {
   return (
@@ -22,6 +23,7 @@ const AnimRoutes = () => {
 
         <Route path='/directions' element={<Direction/>}/>
         <Route path='/contacts' element={<Contacts/>}/>
+        <Route path='/policy' element={<PrivacyPolicy/>}/>
         <Route path='*' element={<NotFound/>}/>
     </Routes>
   )

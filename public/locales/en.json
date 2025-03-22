@@ -173,23 +173,23 @@
                     "id": "01",
                     "text": "We purchase goods in EU countries under our contract"
                 },
-                "service4":{
-                    "id": "04",
-                    "text": "Payment of customs duties and taxes in Turkey"
-                },
                 "service2":{
                     "id": "02",
                     "text": "We optimize goods transport via Turkish terminals"
                 },
-                "service5":{
-                    "id": "05",
-                    "text": "Transportation of goods under DAP terms"
-                },
                 "service3":{
                     "id": "03",
                     "text": "We facilitate transit sales in Turkey with full documentation"
-                }
+                },
+                "service4":{
+                    "id": "04",
+                    "text": "Payment of customs duties and taxes in Turkey"
+                },
                 
+                "service5":{
+                    "id": "05",
+                    "text": "Transportation of goods under DAP terms"
+                }               
                 
             }           
         },
@@ -243,13 +243,14 @@
                 "id": "01",
                 "text": "We purchase goods in Turkey under our contract"
             },
-            "service3":{
-                "id": "03",
-                "text": "We organize optimal transportation of goods"
-            },
+            
             "service2":{
                 "id": "02",
                 "text": "We prepare the necessary package of documents for your customs authorities"
+            },
+            "service3":{
+                "id": "03",
+                "text": "We organize optimal transportation of goods"
             },
             
             "service4":{
@@ -307,47 +308,40 @@
                 "id": "01",
                 "text": "Consultation on issues of foreign economic activity for the supply of goods"
             },
-            "service6":{
-                "id": "06",
-                "text": "Consolidation and storage of goods in warehouses, marking, packaging, stickering"
-            },
-            
-            
-
             "service2":{
                 "id": "02",
                 "text": "Development of your logistics solution"
             },
+            "service3":{
+                "id": "03",
+                "text": "Financial logistics"
+            },
+            "service4":{
+                "id": "04",
+                "text": "Full documentary support"
+            },
+            "service5":{
+                "id": "05",
+                "text": "Help in obtaining veterinary and phytosanitary certificates"
+            },   
+            "service6":{
+                "id": "06",
+                "text": "Consolidation and storage of goods in warehouses, marking, packaging, stickering"
+            },            
 
             "service7":{
                 "id": "07",
                 "text": "Insurance of goods"
             },
-
-            "service3":{
-                "id": "03",
-                "text": "Financial logistics"
-            },
-
             "service8":{
                 "id": "08",
                 "text": "Customs declaration"
             },
-
-            "service4":{
-                "id": "04",
-                "text": "Full documentary support"
-            },
+            
             "service9":{
                 "id": "09",
                 "text": "Cargo transport by road, rail, or multimodal"
-            },
-
-            "service5":{
-                "id": "05",
-                "text": "Help in obtaining veterinary and phytosanitary certificates"
-            },        
-            
+            },           
             
             "service10":{
                 "id": "10",
@@ -467,6 +461,63 @@
                     "img": "../assets/directions/direction4.jpg",
                     "img2": "../assets/directions/direction4-mobile.jpg"
                 }
+            }
+        },
+        "privacy":{
+            "title": "Privacy Policy",
+            "list": {
+                "item1":{
+                    "id": "1",
+                    "subtitle": "General Provisions",
+                    "text": "This Privacy Policy (hereinafter referred to as the Policy) establishes the procedure for processing and protecting personal data provided by users when using the website of Global Borders (hereinafter referred to as the Company).\nGlobal Borders provides services for importing goods from global manufacturers to Azerbaijan, delivering goods from the European Union and Turkey to Uzbekistan and Kazakhstan, as well as developing customized logistics solutions. As part of its activities, the Company strives to ensure the reliable and transparent protection of its clients' and partners' data."
+                },
+                "item2":{
+                    "id": "2",
+                    "subtitle": "What Data We Collect",
+                    "text": "The Company may collect the following personal data:\n• Name, surname, contact details (phone, email);\n• Information about the company on whose behalf the interaction is conducted;\n• Information about customer orders and inquiries;• Technical information (IP address, browser data, cookies)."
+                },
+
+                "item3": {
+                    "id":"3",
+                    "subtitle": "Purposes of Data Processing",
+                    "text": "The collection and processing of personal data are carried out exclusively for the following purposes:\n• Processing customer requests and providing logistics services;\n• Improving service quality and personalizing interactions with customers;\n• Concluding and executing contracts;\n• Compliance with Azerbaijani legislation and international trade and logistics standards;\n• Conducting marketing and informational mailings (with user consent)."
+                },
+                "item4": {
+                    "id": "4",
+                    "subtitle": "Transfer of Data to Third Parties",
+                    "text": "Global Borders does not transfer personal data to third parties, except in the following cases:\n• When necessary to fulfill contractual obligations (e.g., interaction with logistics partners);\n• Upon request from government authorities in accordance with Azerbaijani law;\n• When using analytics and marketing services (Google Analytics, CRM systems, etc.), where data is transferred in an anonymized form."
+                },
+                "item5":{
+                    "id": "5",
+                    "subtitle":"Protection of Personal Data",
+                    "text": "The Company takes all reasonable measures to protect personal data, including:\n• Using modern encryption and data protection technologies;\n• Controlling employee access to personal data;\n• Regularly updating software and security systems."
+                },
+                "item6":{
+                    "id": "6",
+                    "subtitle":"Data Storage",
+                    "text": "Personal data is stored for the period necessary to fulfill processing purposes but no longer than 5 years, except in cases where the law requires otherwise."
+                },
+                "item7":{
+                    "id": "7",
+                    "subtitle":"User Rights",
+                    "text": "The user has the right to:\n• Request information about their personal data stored by the Company;\n• Request modifications, updates, or deletion of personal data;\n• Withdraw consent for the processing of personal data at any time."
+                },
+                "item8":{
+                    "id": "8",
+                    "subtitle":"Use of Cookies",
+                    "text": "The Company uses cookies to improve website performance and analyze user behavior. The user can disable cookies in browser settings, but this may affect the site's functionality."
+                },
+                "item9":{
+                    "id": "9",
+                    "subtitle":"Changes to the Privacy Policy",
+                    "text": "The Company reserves the right to make changes to this Policy. The current version of the Policy is always available on the Company's official website."
+                },
+                "item10":{
+                    "id": "10",
+                    "subtitle":"Contact Information",
+                    "text": "For questions related to personal data processing, users can contact us at:\nGlobal Borders Email:\noffice@glb.az Phone:\n+994 51 205 1011 Address:\nAZ1008, Azerbaijan, Baku, Narimanov district, Shah Ismail Khatai Avenue,\n152-158, Luxen Plaza, 7th floor, SME office"
+                }
+
             }
         }
 }

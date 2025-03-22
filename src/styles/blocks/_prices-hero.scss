@@ -9,7 +9,7 @@
 
     @media screen and (max-width:968px){
       margin-bottom: 104px;
-      height: 844px;
+      height: 824px;
     }
 }
 
@@ -60,6 +60,11 @@
       .hero__title{
         width: 916px;
         margin-top: 730px;
+
+        @media screen and (max-width: 968px){
+          width: 358px;
+          margin-top: 528px;
+        }
       }
 
   }

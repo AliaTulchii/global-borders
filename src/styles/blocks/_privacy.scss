@@ -1,0 +1,47 @@
+.privacy{
+    margin-top: 176px;
+}
+
+.privacy__title{
+    margin-bottom: 80px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 80px;
+line-height: 90%;
+letter-spacing: -0.03em;
+color: var(--accent);
+}
+
+.privacy__item{
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    
+}
+
+.privacy__item--left{
+    width: 35%;
+    margin-right: 136px;
+    display: flex;
+
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: -0.03em;
+color: #001343;
+}
+
+.privacy__item--right{
+    width: 62%;
+}
+
+.privacy__item-text{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: -0.01em;
+color: var(--accent);
+}

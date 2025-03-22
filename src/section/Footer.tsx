@@ -43,7 +43,7 @@ const Footer = () => {
                 <p className="footer__text">
                     &copy; ООО“Global borders” 2025
                 </p>
-                <NavLink className="footer__privacy" to='/'>
+                <NavLink className="footer__privacy" to='/policy'>
                 {t("footer.privacy")}
                 </NavLink>
             </div>
